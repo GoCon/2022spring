@@ -45,3 +45,8 @@ googleAnalytics = "UA-127197700-1"
 
 [taxonomies]
   tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
