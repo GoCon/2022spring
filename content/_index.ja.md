@@ -54,7 +54,18 @@ Go Conferenceは半年に1回行われるプログラミング言語Goに関す�
 
 {{% partners categories="gold,silver,bronze,green,special thanks" %}}
 # スポンサー
+
 {{% /partners %}}
+
+<div style="text-align: center; margin-bottom: 20px;">
+
+## スポンサー希望の企業様へ
+スポンサーシッププランをご参照ください
+
+{{% button-link label="See Sponsership plans"
+                url="https://drive.google.com/file/d/14ShYTQB7DrSiyLxsBaFxa-snwS4jW1Im/view?usp=sharing"
+                icon="link" %}}
+</div>
 
 <!-- ... -->
 
