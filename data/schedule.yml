@@ -1,5 +1,5 @@
 - day: '2021-04-24'
-  start: '09:00'
+  start: '10:00'
   rooms:
     - room: track-a
       slots:
@@ -11,7 +11,71 @@
           talk: a2-c
         - slot: a3-c
           talk: a3-c
+        - slot: a-rest-1
+          talk: break
+        - slot: a4-l
+          talk: a4-l
+        - slot: a5-s
+          talk: a5-s
+        - slot: a-lunch
+          talk: lunch
+        - slot: a6-l
+          talk: a6-l
+        - slot: a7-s
+          talk: a7-s
+        - slot: a-rest-2
+          talk: break
+        - slot: a8-s
+          talk: a8-s
+        - slot: a9-s
+          talk: a9-s
+        - slot: a10-s
+          talk: a10-s
+        - slot: a-rest-3
+          talk: break
+        - slot: a11-l
+          talk: a11-l
+        - slot: a12-s
+          talk: a12-s
+        - slot: a-rest-4
+          talk: break
+        - slot: a-lt
+          talk: a-lt
+        - slot: closing
+          talk: closing
     - room: track-b
       slots:
+        - slot: b-rest-1
+          talk: break
+        - slot: b4-l
+          talk: b4-l
+        - slot: b5-s
+          talk: b5-s
+        - slot: b-lunch
+          talk: lunch
+        - slot: b6-l
+          talk: b6-l
+        - slot: b7-s
+          talk: b7-s
+        - slot: b-rest-2
+          talk: break
+        - slot: b8-s
+          talk: b8-s
+        - slot: b9-s
+          talk: b9-s
+        - slot: b10-s
+          talk: b10-s
+        - slot: b-rest-3
+          talk: break
+        - slot: b11-l
+          talk: b11-l
+        - slot: b12-s
+          talk: b12-s
+        - slot: b-rest-4
+          talk: break
     - room: remo
       slots:
+        - slot: r-handson
+          talk: handson
+        - slot: r-party
+          talk: party

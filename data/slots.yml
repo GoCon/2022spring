@@ -5,20 +5,212 @@
     start: 1
     end: 2
 - key: a1-c
+  start: '10:10'
+  duration: 20
+  row:
+    start: 2
+    end: 4
+- key: a2-c
   start: '10:30'
   duration: 20
   row:
-    start: 3
-    end: 5
-- key: a2-c
+    start: 4
+    end: 6
+- key: a3-c
   start: '10:50'
   duration: 20
   row:
-    start: 5
-    end: 7
-- key: a3-c
+    start: 6
+    end: 8
+- key: a-rest-1
   start: '11:10'
+  duration: 10
+  row:
+    start: 8
+    end: 9
+- key: b-rest-1
+  start: '11:10'
+  duration: 10
+  row:
+    start: 8
+    end: 9
+- key: a4-l
+  start: '11:20'
+  duration: 40
+  row:
+    start: 9
+    end: 13
+- key: b4-l
+  start: '11:20'
+  duration: 40
+  row:
+    start: 9
+    end: 13
+- key: a5-s
+  start: '12:00'
   duration: 20
   row:
-    start: 7
-    end: 9
+    start: 13
+    end: 15
+- key: b5-s
+  start: '12:00'
+  duration: 20
+  row:
+    start: 13
+    end: 15
+- key: a-lunch
+  start: '12:20'
+  duration: 70
+  row:
+    start: 15
+    end: 17
+- key: b-lunch
+  start: '12:20'
+  duration: 70
+  row:
+    start: 15
+    end: 17
+- key: r-handson
+  start: '13:00'
+  duration: 140
+  row:
+    start: 16
+    end: 28
+- key: a6-l
+  start: '13:30'
+  duration: 40
+  row:
+    start: 17
+    end: 21
+- key: b6-l
+  start: '13:30'
+  duration: 40
+  row:
+    start: 17
+    end: 21
+- key: a7-s
+  start: '14:10'
+  duration: 20
+  row:
+    start: 21
+    end: 23
+- key: b7-s
+  start: '14:10'
+  duration: 20
+  row:
+    start: 21
+    end: 23
+- key: a-rest-2
+  start: '14:30'
+  duration: 10
+  row:
+    start: 23
+    end: 24
+- key: b-rest-2
+  start: '14:30'
+  duration: 10
+  row:
+    start: 23
+    end: 24
+- key: a8-s
+  start: '14:40'
+  duration: 20
+  row:
+    start: 24
+    end: 26
+- key: b8-s
+  start: '14:40'
+  duration: 20
+  row:
+    start: 24
+    end: 26
+- key: a9-s
+  start: '15:00'
+  duration: 20
+  row:
+    start: 26
+    end: 28
+- key: b9-s
+  start: '15:00'
+  duration: 20
+  row:
+    start: 26
+    end: 28
+- key: a10-s
+  start: '15:20'
+  duration: 20
+  row:
+    start: 28
+    end: 30
+- key: b10-s
+  start: '15:20'
+  duration: 20
+  row:
+    start: 28
+    end: 30
+- key: a-rest-3
+  start: '15:40'
+  duration: 10
+  row:
+    start: 30
+    end: 31
+- key: b-rest-3
+  start: '15:40'
+  duration: 10
+  row:
+    start: 30
+    end: 31
+- key: a11-l
+  start: '16:00'
+  duration: 40
+  row:
+    start: 31
+    end: 35
+- key: b11-l
+  start: '16:00'
+  duration: 40
+  row:
+    start: 31
+    end: 35
+- key: a12-s
+  start: '16:40'
+  duration: 20
+  row:
+    start: 35
+    end: 37
+- key: b12-s
+  start: '16:40'
+  duration: 20
+  row:
+    start: 35
+    end: 37
+- key: a-rest-4
+  start: '17:00'
+  duration: 10
+  row:
+    start: 37
+    end: 38
+- key: b-rest-4
+  start: '17:00'
+  duration: 10
+  row:
+    start: 37
+    end: 38
+- key: a-lt
+  start: '17:10'
+  duration: 50
+  row:
+    start: 38
+    end: 43
+- key: closing
+  start: '18:00'
+  duration: 10
+  row:
+    start: 43
+    end: 44
+- key: r-party
+  start: '18:10'
+  duration: 60
+  row:
+    start: 44
+    end: 45
