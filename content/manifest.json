@@ -1,6 +1,6 @@
 {
-  "name": "Go Conference 2019 Autumn",
-  "short_name": "GoCon19",
+  "name": "Go Conference 2021 Spring",
+  "short_name": "GoCon21s",
   "icons": [
     { "src": "/images/logos/logo48.png", "sizes": "48x48", "type": "image/png" },
     { "src": "/images/logos/logo72.png", "sizes": "72x72", "type": "image/png" },
