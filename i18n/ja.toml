@@ -10,7 +10,7 @@ other = ""
 ########
 
 [home_tickets_action]
-other = "チケットを購入"
+other = "チケットを入手"
 
 [home_tickets_soldout]
 other = "売り切れ"

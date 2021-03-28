@@ -10,7 +10,7 @@ other = ""
 ########
 
 [home_tickets_action]
-other = "Buy Ticket"
+other = "Get Ticket"
 
 [home_tickets_soldout]
 other = "Sold Out"
