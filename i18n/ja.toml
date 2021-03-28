@@ -1,0 +1,74 @@
+##########
+# Header #
+##########
+
+[language_switch]
+other = ""
+
+########
+# Home #
+########
+
+[home_tickets_action]
+other = "チケットを購入"
+
+[home_tickets_soldout]
+other = "売り切れ"
+
+[home_tickets_close]
+other = "準備中"
+
+[home_location_direction]
+other = "検索"
+
+##########
+# Footer #
+##########
+
+[footer_share]
+other = "シェア"
+
+[facebook_share_label]
+other = ""
+
+[twitter_share_text]
+other = "Go Conference 2019 Autumnに参加しましょう！ #gocon"
+
+[twitter_share_label]
+other = "Twitterでシェアする"
+
+[footer_follow_blog]
+other = " "
+
+[footer_follow_blog_blog]
+other = "ブログ"
+
+[footer_follow_us]
+other = "#gocon"
+
+[footer_about]
+other = "About"
+
+[footer_previous_edition]
+other = "過去の開催"
+
+[footer_become_partners]
+other = "スポンサー"
+
+[footer_become_partners_label]
+other = "スポンサーのお申込み"
+
+[footer_coc]
+other = "行動指針"
+
+################
+# Subscription #
+################
+[newsletter]
+other = "ニュースレター"
+
+[subscribe_notice]
+other = "お知らせを通知する"
+
+[subscribe_action]
+other = "通知する"

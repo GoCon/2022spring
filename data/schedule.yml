@@ -1,0 +1,17 @@
+- day: '2021-04-24'
+  start: '09:00'
+  rooms:
+    - room: track-a
+      slots:
+        - slot: opening
+          talk: opening
+        - slot: a1-c
+          talk: a1-c
+        - slot: a2-c
+          talk: a2-c
+        - slot: a3-c
+          talk: a3-c
+    - room: track-b
+      slots:
+    - room: remo
+      slots:

@@ -1,0 +1,9 @@
+- key: track-a
+  label: Track A
+  description: YouTube Live
+- key: track-b
+  label: Track B
+  description: YouTube Live
+- key: remo
+  label: Remo
+  description: Remo

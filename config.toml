@@ -1,0 +1,47 @@
+baseURL = "http://gocon.jp/"
+languageCode = "ja"
+title = "Go Conference 2021 Spring"
+theme = "devfest-theme-hugo"
+
+enableEmoji = true
+enableRobotsTXT = true
+enableMissingTranslationPlaceholders = true
+
+googleAnalytics = "UA-127197700-1"
+
+[params]
+    title = "Go Conference 2021 Spring"
+    date = "2021-04-24"
+    description = "Go Conference is a half-annual conference of programming language Go in Tokyo."
+    images = ["/images/social-share.jpg"]
+    email = "info@gocon.jp"
+    keywords = "golang, gocon"
+    copyright = "Go Conference"
+    cfpUrl = "https://www.papercall.io/gocon-tokyo-2021-spring"
+    subscriptionUrl = ""
+    appleTouchIcon = "/apple-touch-icon.png"
+    favicon32 = "/favicon-32x32.png"
+    favicon16 = "/favicon-16x16.png"
+    manifest = "/manifest.json"
+    safariPinnedTab = "/safari-pinned-tab.svg"
+    themeColor="#00ADD8"
+
+[params.logos]
+    jumbo = "/images/logos/logo_text.png"
+    header = "/images/logos/logo_text.png"
+    footer = "/images/logos/logo.png"
+
+[languages]
+[languages.en]
+    weight = 1
+    languageName = "en"
+
+[languages.ja]
+    weight = 2 
+    languageName = "ja"
+
+[languages.ja.params]
+    description = "Go Conferenceは半年に1回行われるプログラミング言語Goに関するカンファレンスです。"
+
+[taxonomies]
+  tag = "tags"

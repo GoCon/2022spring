@@ -1,0 +1,207 @@
+.partners-group.partner-wi-fi ul li {
+  height: var(--partner-platinum-height);
+  flex-basis: 320px;
+}
+
+.partners-group.partner-scholarship ul li, .partners-group.partner-party ul li, .partners-group.partner-special.thanks ul li {
+  height: var(--partner-gold-height);
+  flex-basis: 200px;
+}
+
+.partners-group.partner-wi-fi .fancy {
+  font-size: 1.5em;
+  color: var(--color-platium);
+
+  span:before, span:after {
+    border-bottom: 1px solid currentColor;
+    border-top: 1px solid currentColor;
+  }
+}
+
+.partners-group.partner-scholarship .fancy {
+  font-size: 1.33em;
+  color: var(--color-gold);
+
+  span:before, span:after {
+    top: 20%;
+    border-bottom: 1px solid currentColor;
+  }
+}
+
+.partners-group.partner-party .fancy {
+  font-size: 1.33em;
+  color: var(--color-gold);
+
+  span:before, span:after {
+    top: 20%;
+    border-bottom: 1px solid currentColor;
+  }
+}
+.talk .complexity:before {
+    content: "Level : ";
+}
+
+.partners-group.partner-special.thanks .fancy {
+  font-size: 1.33em;
+  color: var(--color-gold);
+
+  span:before, span:after {
+    top: 20%;
+    border-bottom: 1px solid currentColor;
+  }
+}
+
+.talk .type:after {
+    font-weight: 100;
+    content: "";
+}
+
+.page.speakers .hero .description .talks .talk {
+	border: none;
+}
+
+.section.sessions ul.talks a .info .tags,
+.page.sessions .talk header .tags,
+.section.schedule .session>a .session-info .tags,
+.page.speakers .hero .description .talks .talk .tags {
+    width: 55px;
+    text-align: center;
+	color: var(--primary-txt);
+	background-color: var(--primary);
+	padding: var(--space-1);
+	border-radius: var(--space-2);
+	border-color: var(--primary);
+}
+
+
+.page.speakers .hero .description .talks .talk > h3 {
+	font-size: 1.25em;
+}
+
+.page.speakers .hero .description .talks .talk > h3:hover, h3:focus {
+	text-decoration: underline;
+}
+
+.section.schedule .session>a h4 {
+    padding-left: var(--space-2);
+    padding-right: var(--space-2);
+    padding-top: var(--space-1);
+    padding-bottom: var(--space-1);
+}
+
+.section.schedule .session>a .session-info {
+    margin: auto 0 0 auto;
+    padding: 4px;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
+    display: grid;
+}
+
+.section.schedule .session>a .session-info .tags {
+    grid-column:2;
+    grid-row:1;
+    padding-top: 4px;
+}
+
+.section.schedule .session>a .session-info .complexity {
+    width: 30px;
+    height: 30px;
+    grid-column:1;
+    grid-row:1;
+    padding-top: 5px;
+}
+
+.section.schedule .session>a .session-info .complexity > svg {
+    width: 30px;
+    height: 30px;
+}
+
+.section.schedule .session.inner{
+    background-color: var(--color-hero);
+    transform: scale(0.9,0.9);
+}
+
+.section.schedule .session>a .speakers {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.section.schedule .session>a .partner-img {
+    display: block;
+    height: 100%;
+    width: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-origin: content-box;
+    margin: 0 auto;
+    text-indent:-9999px;
+}
+
+.session.format-organize {
+    background-color: #b5e3ef;
+}
+
+.session.format-organize h4 {
+    text-shadow: 2px 1px 1px #fff;
+    color: var(--base-text);
+    font-size: 1.5rem;
+    margin: auto;
+}
+
+.session.allroom {
+    grid-column: 2/-1 !important;
+    z-index: 1 !important;
+}
+
+.session.behind h4 {
+    margin: 0 auto;
+    padding-top: 10px !important;
+}
+
+.slot {
+    display: grid !important;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.slot .slot-start {
+    grid-row: 1;
+    font-size: 1em;
+    position: unset;
+}
+
+.slot .slot-end {
+    grid-row: 2;
+    margin-top:auto;
+}
+
+.section.schedule main>section.schedule .day .slot {
+    background-color: transparent;
+}
+
+@media screen and (max-width:640px) {
+    .section.schedule .session>a .partner-img {
+        width:auto;
+        height:auto;
+        text-indent:0;
+        background-image:none !important;
+        margin-left: 1rem;
+    }
+
+    .slot .slot-start {
+        display: none;
+    }
+    
+    .slot .slot-end {
+        display: none;
+    }
+
+    .section.schedule .session.inner{
+        transform: scale(1.0,1.0);
+    }
+}
+
+.bio a, a:visited {
+    color: inherit;
+    text-decoration: underline;
+}

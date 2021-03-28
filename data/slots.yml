@@ -1,0 +1,24 @@
+- key: opening
+  start: '10:00'
+  duration: 10
+  row:
+    start: 1
+    end: 2
+- key: a1-c
+  start: '10:30'
+  duration: 20
+  row:
+    start: 3
+    end: 5
+- key: a2-c
+  start: '10:50'
+  duration: 20
+  row:
+    start: 5
+    end: 7
+- key: a3-c
+  start: '11:10'
+  duration: 20
+  row:
+    start: 7
+    end: 9

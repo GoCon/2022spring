@@ -1,0 +1,19 @@
+- key: long_session
+  name: 'Long Session (40 min)'
+  id: long_session
+- key: short_session
+  name: 'Short Session (20 min)'
+  id: short_session
+- key: lt_session
+  name: 'LT (5 min)'
+  id: lt_session
+- key: registration
+  name: 'Registration'
+  id: registration
+- key: Sponsor Session
+  name: 'Sponsor Session'
+  id: sponsor_session
+- key: handson
+  name: 'Handson'
+  id: handson
+
