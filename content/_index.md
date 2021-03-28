@@ -8,9 +8,9 @@ menu:
 ---
 
 
-{{% jumbo img="" imgLabel="Go Conference 2021 Autumn" %}}
+{{% jumbo img="" imgLabel="Go Conference 2021 Spring" %}}
 
-## October 28th, 2019
+## Mar 24th, 2021
 ### Online
 
 {{% /jumbo %}}
