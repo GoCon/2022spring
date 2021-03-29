@@ -1,6 +1,6 @@
 ---
 key: sushant_bhadkamkar
-name: Ryoya Sekino
+name: Sushant Bhadkamkar
 id: sushant_bhadkamkar
 company: Lyft
 feature: false

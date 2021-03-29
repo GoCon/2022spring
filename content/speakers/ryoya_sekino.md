@@ -4,7 +4,7 @@ name: Ryoya Sekino
 id: ryoya_sekino
 company: UPSIDER, inc.
 feature: false
-photoURL: /images/speakers/speaker-ryoya_sekino.jpg
+photoURL: /images/speakers/speaker-ryoya_sekino.png
 socials:
 - icon: twitter
   link: 'https://twitter.com/sekino_pii'

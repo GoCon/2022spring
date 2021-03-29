@@ -1,6 +1,6 @@
 ---
 key: handson
-title: 未定
+title: 調整中 
 id: handson
 language: Japanese
 format: conference

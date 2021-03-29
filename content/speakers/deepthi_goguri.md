@@ -4,7 +4,7 @@ name: Deepthi Goguri
 id: deepthi_goguri
 company: Intone Networks Inc
 feature: false
-photoURL: /images/speakers/speaker-deepthi_goguri.png
+photoURL: /images/speakers/speaker-deepthi_goguri.jpg
 socials:
 - icon: twitter
   link: 'https://twitter.com/dbanuggets'

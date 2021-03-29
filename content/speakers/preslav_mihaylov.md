@@ -1,6 +1,6 @@
 ---
 key: preslav_mihaylov
-name: mtskhs
+name: Preslav Mihaylov
 id: preslav_mihaylov
 company: Uber
 feature: false

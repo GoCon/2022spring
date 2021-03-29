@@ -4,7 +4,7 @@ name: Yamashou
 id: yamashou
 company: Appify Technologies
 feature: false
-photoURL: /images/speakers/speaker-yaegashi_takeshi.jpg
+photoURL: /images/speakers/speaker-yamashou.jpg
 socials:
 - icon: twitter
   link: 'https://twitter.com/Yamashou0314'

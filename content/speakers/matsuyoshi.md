@@ -3,7 +3,7 @@ key: matsuyoshi
 name: matsuyoshi
 id: matsuyoshi
 feature: false
-photoURL: /images/speakers/speaker-matsuyoshi.jpg
+photoURL: /images/speakers/speaker-matsuyoshi.png
 socials:
 - icon: twitter
   link: 'https://twitter.com/matsuyoshi30'
