@@ -42,7 +42,7 @@ Go Conference is a half-annual conference of programming language Go in Tokyo.
            starts="2021-03-29"
            ends="2021-04-24"
            price="0 JPY"
-           url="https://gocon.connpass.com/event/xxxx/">}}</li>
+           url="https://gocon.connpass.com/event/208896/">}}</li>
 </ul>
 
 {{% /home-tickets %}}
