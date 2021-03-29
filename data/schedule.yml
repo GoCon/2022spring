@@ -39,8 +39,22 @@
           talk: a12-s
         - slot: a-rest-4
           talk: break
-        - slot: a-lt
-          talk: a-lt
+        - slot: lt1
+          talk: lt1
+        - slot: lt2
+          talk: lt2
+        - slot: lt3
+          talk: lt3
+        - slot: lt4
+          talk: lt4
+        - slot: lt5
+          talk: lt5
+        - slot: lt6
+          talk: lt6
+        - slot: lt7
+          talk: lt7
+        - slot: lt8
+          talk: lt8
         - slot: closing
           talk: closing
     - room: track-b

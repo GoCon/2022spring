@@ -196,21 +196,63 @@
   row:
     start: 37
     end: 38
-- key: a-lt
-  start: '17:10'
-  duration: 50
+- key: lt1
+  start: '17:30'
+  duration: 5
   row:
     start: 38
-    end: 43
+    end: 40
+- key: lt2
+  start: '17:35'
+  duration: 5
+  row:
+    start: 40
+    end: 42
+- key: lt3
+  start: '17:40'
+  duration: 5
+  row:
+    start: 42
+    end: 44
+- key: lt4
+  start: '17:45'
+  duration: 5
+  row:
+    start: 44
+    end: 46
+- key: lt5
+  start: '17:50'
+  duration: 5
+  row:
+    start: 46
+    end: 48
+- key: lt6
+  start: '17:55'
+  duration: 5
+  row:
+    start: 48
+    end: 50
+- key: lt7
+  start: '18:00'
+  duration: 5
+  row:
+    start: 50
+    end: 52
+- key: lt8
+  start: '18:05'
+  duration: 5
+  row:
+    start: 52
+    end: 54
 - key: closing
   start: '18:00'
   duration: 10
   row:
-    start: 43
-    end: 44
+    start: 54
+    end: 55
 - key: r-party
   start: '18:10'
   duration: 60
   row:
-    start: 44
-    end: 45
+    start: 55
+    end: 56

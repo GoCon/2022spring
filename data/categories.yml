@@ -61,6 +61,27 @@
 - key: B12-S
   name: "B12-S"
   id: b12-s
-- key: LT
-  name: "LT"
-  id: lt
+- key: LT1
+  name: "LT1"
+  id: lt1
+- key: LT2
+  name: "LT2"
+  id: lt2
+- key: LT3
+  name: "LT3"
+  id: lt3
+- key: LT4
+  name: "LT4"
+  id: lt4
+- key: LT5
+  name: "LT5"
+  id: lt5
+- key: LT6
+  name: "LT6"
+  id: lt6
+- key: LT7
+  name: "LT7"
+  id: lt7
+- key: LT8
+  name: "LT8"
+  id: lt8
