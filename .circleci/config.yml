@@ -13,8 +13,7 @@ jobs:
       - run:
           name: Build Hugo Website
           command: hugo -v
-# 最初のリリースまで自動化は止めておく
-#      - deploy:
-#          name: Deploy Website to Firebase Hosting
-#          branch: main
-#          command: firebase deploy --token=$FIREBASE_DEPLOY_TOKEN --project $FIREBASE_PROJECT_ID
+      - deploy:
+          name: Deploy Website to Firebase Hosting
+          branch: main
+          command: firebase deploy --token=$FIREBASE_DEPLOY_TOKEN --project $FIREBASE_PROJECT_ID
