@@ -1,12 +1,12 @@
 ---
-key: a11-l
+key: a10-l
 title: Thread-Safety in Go - An Overlooked Concern
-id: a11-l
+id: a10-l
 format: conference
 talkType: long_session
 level: intermediate
 tags:
-  - A11-L
+  - A10-L
 speakers:
   - preslav_mihaylov
 videoId: null

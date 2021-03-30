@@ -1,12 +1,12 @@
 ---
-key: a12-s
+key: a3-l
 title: 調整中
-id: a12-s
+id: a3-l
 format: conference
-talkType: short_session
+talkType: long_session
 level: all
 tags:
-  - A12-S
+  - A3-L
 speakers:
   - xxxxx
 videoId: null

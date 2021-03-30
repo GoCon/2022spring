@@ -1,12 +1,12 @@
 ---
-key: a5-s
+key: a4-s
 title: Going places...during an outage
-id: a5-s
+id: a4-s
 format: conference
 talkType: short_session
 level: all
 tags:
-  - A5-S
+  - A4-S
 speakers:
   - sushant_bhadkamkar
 videoId: null

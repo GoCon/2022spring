@@ -1,12 +1,12 @@
 ---
-key: a3-c
+key: a12-c
 title: スポンサーセッション
-id: a3-c
+id: a12-c
 format: conference
 talkType: sponsor_session
 level: all
 tags:
-  - A3-C
+  - A12-C
 partner: xxx
 videoId: null
 presentation: null

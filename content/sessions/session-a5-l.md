@@ -1,12 +1,12 @@
 ---
-key: a6-l
+key: a5-l
 title: Go言語低レイヤー入門 Hello world が画面に表示されるまで
-id: a6-l
+id: a5-l
 format: conference
 talkType: long_session
 level: intermediate
 tags:
-  - A6-L
+  - A5-L
 speakers:
   - dqneo
 videoId: null

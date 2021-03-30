@@ -1,12 +1,12 @@
 ---
-key: b6-l
+key: b5-l
 title: Goの構造体とタグを極める
-id: b6-l
+id: b5-l
 format: conference
 talkType: long_session
 level: advanced
 tags:
-  - B6-L
+  - B5-L
 speakers:
   - yoshiki_shibukawa
 videoId: null

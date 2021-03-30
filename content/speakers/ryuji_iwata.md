@@ -4,7 +4,7 @@ name: Ryuji Iwata
 id: ryuji_iwata
 company: ""
 feature: false
-photoURL: /images/speakers/speaker-ryuji_iwata.jpg
+photoURL: /images/speakers/speaker-ryuji_iwata.png
 socials:
 - icon: twitter
   link: https://twitter.com/qt_luigi

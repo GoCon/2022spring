@@ -1,12 +1,12 @@
 ---
-key: b4-l
+key: b3-l
 title: ホットリロードツールの作り方
-id: b4-l
+id: b3-l
 format: conference
 talkType: long_session
 level: all
 tags:
-  - B4-L
+  - B3-L
 speakers:
   - makki_d
 videoId: null

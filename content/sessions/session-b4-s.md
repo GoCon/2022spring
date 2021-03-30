@@ -1,12 +1,12 @@
 ---
-key: b5-s
+key: b4-s
 title: 'cobra-cmder: Goの言語機能を活用したシンプルなCLIツール構成法'
-id: b5-s
+id: b4-s
 format: conference
 talkType: short_session
 level: beginner
 tags:
-  - B5-S
+  - B4-S
 speakers:
   - yaegashi_takeshi
 videoId: null

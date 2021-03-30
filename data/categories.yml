@@ -4,18 +4,18 @@
 - key: A2-C
   name: "A2-C"
   id: a2-c
-- key: A3-C
-  name: "A3-C"
-  id: a3-c
-- key: A4-L
-  name: "A4-L"
-  id: a4-l
-- key: A5-S
-  name: "A5-S"
-  id: a5-s
-- key: A6-L
-  name: "A6-L"
-  id: a6-l
+- key: A3-L
+  name: "A3-L"
+  id: a3-l
+- key: A4-S
+  name: "A4-S"
+  id: a4-s
+- key: A5-L
+  name: "A5-L"
+  id: a5-l
+- key: A6-S
+  name: "A6-S"
+  id: a6-s
 - key: A7-S
   name: "A7-S"
   id: a7-s
@@ -25,24 +25,30 @@
 - key: A9-S
   name: "A9-S"
   id: a9-s
-- key: A10-S
-  name: "A10-S"
-  id: a10-s
-- key: A11-L
-  name: "A11-L"
-  id: a11-l
-- key: A12-S
-  name: "A12-S"
-  id: a12-s
-- key: B4-L
-  name: "B4-L"
-  id: b4-l
-- key: B5-S
-  name: "B5-S"
-  id: b5-s
-- key: B6-L
-  name: "B6-L"
-  id: b6-l
+- key: A10-L
+  name: "A10-L"
+  id: a10-l
+- key: A11-S
+  name: "A11-S"
+  id: a11-s
+- key: A12-C
+  name: "A12-C"
+  id: a12-c
+- key: A13-C
+  name: "A13-C"
+  id: a13-c
+- key: B3-L
+  name: "B3-L"
+  id: b3-l
+- key: B4-S
+  name: "B4-S"
+  id: b4-s
+- key: B5-L
+  name: "B5-L"
+  id: b5-l
+- key: B6-S
+  name: "B6-S"
+  id: b6-s
 - key: B7-S
   name: "B7-S"
   id: b7-s
@@ -52,15 +58,12 @@
 - key: B9-S
   name: "B9-S"
   id: b9-s
-- key: B10-S
-  name: "B10-S"
-  id: b10-s
-- key: B11-L
-  name: "B11-L"
-  id: b11-l
-- key: B12-S
-  name: "B12-S"
-  id: b12-s
+- key: B10-L
+  name: "B10-L"
+  id: b10-l
+- key: B11-S
+  name: "B11-S"
+  id: b11-s
 - key: LT1
   name: "LT1"
   id: lt1

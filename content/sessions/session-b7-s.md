@@ -1,36 +1,36 @@
 ---
 key: b7-s
-title: Dive into Go Protocol Buffers API v2 with the new reflection features
+title: Go をセキュアに書き進めるための「ガードレール」を整備しよう
 id: b7-s
 format: conference
 talkType: short_session
-level: all
+level: intermediate
 tags:
   - B7-S
 speakers:
-  - ryoya_sekino
+  - takashi_yoneuchi
 videoId: null
 presentation: null
 draft: false
 ---
-Protocol Buffers API v2が2020年にリリースされました。v2では、生成されたコードの分割やツールなど開発者のインターフェースに関わる変更に加えて、リフレションのサポートが提供されるようになりました。
-新たに追加されたリフレション機能では、Goのビルトインのreflectを使うように、Protocol Bufferのメッセージへの操作・参照を可能にしてくれました。
-このトークでは、v2がリリースされた背景やその他の変更点も触れつつ、このリフレション機能に焦点をあてて、サンプルコードを持ちたりソースを追いかけながら紹介していきたいと思います。
+セキュリティはいつでも開発者の不安のタネです。「うちの入社1年目の若手開発者はセキュアな Go コードを書けているのか」「彼/彼女のメンターはちゃんとセキュリティ上の問題を発見できているのか」というのは、マネージャ層から見ても悩みのタネでしょう。
+しかし、よくある Go コードのセキュリティ上の問題や、一度人力で見つけた脆弱なコードパターンを CI 中で検出してやれたらどうでしょうか。きっと開発者も、チームのマネージャーも、もっと安心してプロダクトを前に進められるはずです。本発表ではあなたやあなたのチームを助けてくれる、Go コードのための「ガードレール」を整備するための方法をお伝えします。
 
 ---
-# Goal of the talk
-- Let the audience know what was changed in Go protocol buffers API v2 with that purpose.
-- Let the audience have the actual image of what came to be available by the reflection feature of API v2, which is the flagship feature of this update, so that they can use the feature in their development
+## 背景
 
-# Current plan of the agenda
-**1.  Introduction**  : About myself and the overview of the talk
+Go に限らず「セキュアなコードに書く」 というのは難しいものです。「他の人にセキュアなコードを書いてもらう」というのは更に難しいものです。
+このような課題意識のもと、近年は Go コードのセキュリティチェックのために利用できるツールが盛んに開発されています。
 
-**2. What's Protocol Buffers and gRPC** : Very rough summary for the audience who is not very familiar with Protocol Buffers and gRPC. I guess I cannot provide the detailed information due to the limit of the time.
+その一例が [gosec](https://github.com/securego/gosec) という、Go コードの簡易的なセキュリティスキャンを行うためのツールです。gosec による簡易スキャンを CI パイプラインの中に適切に組み込まれることで、開発者は初歩的なセキュリティ上の問題を開発早期に発見できるようになります。
+また、[go-ruleguard](https://github.com/quasilyte/go-ruleguard) を始めとした、Go コードに対する自組織固有の lint ルールを適用するためのツールチェインの開発も進められています。このようなツールを用いて危険なコードパターンを lint ルールとして蓄積していくことで、自組織のコードベースを更に強固なものにしていくことができます。
 
-**3. Why was the v2 released?** : Simply explain what was the problem in v1.
+これらのツールはいわば Go 開発者を守る「ガードレール」とも呼べるものです。手元で利用すれば自分がセキュアな Go コードを書くための助けになることでしょう。また、CI パイプラインの中に組み込めば組織の Go コードの問題を早期発見するための支えになること請け合いです。
 
-**4. What was the remarkable changes on v2?** : I will summarize the important changes on the API, focuses on the reflection.
+## 本発表の概要
 
-**5. Dive into reflection**: This would be the most important agenda in my talk. I will explain what is actually available using the sample application or code and picking up a few actual source code of the "protobuf-go" library.
+本発表では、gosec や go-ruleguard といった「ガードレール」たちを、その動作を支える  `go/analysis` や `go/ast` の簡単な説明とともに紹介します。これにより聴衆は、セキュアなコードを書き進めるための補助となるツールの存在と、その用法・原理を知ることができます。
 
-**6. Closing**: Just share the summary with the one slide.
+それに加えて、本発表ではそれらのツールを CI 中で実運用する上で課題となる「問題の誤検知」への対応方法として、[reviewdog](https://github.com/reviewdog/reviewdog) を用いたアプローチを提案します。これにより本発表の聴衆は、Go コードのセキュリティを組織的に・継続的に維持していくための方法を学ぶことができます。
+
+さらに、これらの説明の中で用いられるツールや CI の設定例は全て GitHub 上に公開されています([公開物の一覧はこちら](https://github.com/orgs/security-aware-repo-examples/packages))。本発表を通して得た背景知識と、これらの設定例は、聴衆が実際に「ガードレール」を設置していく作業の支えになることでしょう。

@@ -1,12 +1,12 @@
 ---
-key: b11-l
+key: b10-l
 title: Build Your Kubernetes Operator with the Right Tool!
-id: b11-l
+id: b10-l
 format: conference
 talkType: long_session
 level: all
 tags:
-  - B11-L
+  - B10-L
 speakers:
   - rafal_leszko
 videoId: null
