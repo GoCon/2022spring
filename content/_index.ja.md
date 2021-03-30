@@ -52,7 +52,7 @@ Go Conferenceは半年に1回行われるプログラミング言語Goに関す�
 {{% /home-tickets %}}
 
 
-{{% partners categories="gold,silver,bronze,green,special thanks" %}}
+{{% partners categories="gold,silver,bronze" %}}
 # スポンサー
 
 {{% /partners %}}
