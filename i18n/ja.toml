@@ -72,3 +72,19 @@ other = "お知らせを通知する"
 
 [subscribe_action]
 other = "通知する"
+
+###########
+# Partner #
+###########
+
+[partner_category_gold]
+other = "Goルド"
+
+[partner_category_silver]
+other = "シルバー"
+
+[partner_category_bronze]
+other = "ブロンズ"
+
+[partner_category_green]
+other = "グリーン"

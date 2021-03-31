@@ -1,54 +1,23 @@
-.partners-group.partner-wi-fi ul li {
+.partners-group.partner-gold ul li {
   height: var(--partner-platinum-height);
   flex-basis: 320px;
 }
 
-.partners-group.partner-scholarship ul li, .partners-group.partner-party ul li, .partners-group.partner-special.thanks ul li {
+.partners-group.partner-silver ul li {
   height: var(--partner-gold-height);
   flex-basis: 200px;
 }
 
-.partners-group.partner-wi-fi .fancy {
-  font-size: 1.5em;
-  color: var(--color-platium);
-
-  span:before, span:after {
-    border-bottom: 1px solid currentColor;
-    border-top: 1px solid currentColor;
-  }
+.partners-group ul li div.partner {
+  pointer-events: none;
 }
 
-.partners-group.partner-scholarship .fancy {
-  font-size: 1.33em;
-  color: var(--color-gold);
-
-  span:before, span:after {
-    top: 20%;
-    border-bottom: 1px solid currentColor;
-  }
+.partners-group .fancy span {
+  text-transform: none;
 }
 
-.partners-group.partner-party .fancy {
-  font-size: 1.33em;
-  color: var(--color-gold);
-
-  span:before, span:after {
-    top: 20%;
-    border-bottom: 1px solid currentColor;
-  }
-}
 .talk .complexity:before {
     content: "Level : ";
-}
-
-.partners-group.partner-special.thanks .fancy {
-  font-size: 1.33em;
-  color: var(--color-gold);
-
-  span:before, span:after {
-    top: 20%;
-    border-bottom: 1px solid currentColor;
-  }
 }
 
 .talk .type:after {

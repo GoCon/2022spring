@@ -70,3 +70,19 @@ other = "No spam, only the latest news and updates!"
 
 [subscribe_action]
 other = "Subscribe"
+
+###########
+# Partner #
+###########
+
+[partner_category_gold]
+other = '"Go"ld'
+
+[partner_category_silver]
+other = "Silver"
+
+[partner_category_bronze]
+other = "Bronze"
+
+[partner_category_green]
+other = "Green"
