@@ -1,19 +1,27 @@
-version: 2
+version: 2.1
+
 jobs:
-  build:
-    branches:
-      only:
-        - main
+  deploy:
     docker:
       - image: tenntenn/docker-hugo-firebase:latest
     steps:
       - checkout
-        # install git submodules for managing third-party dependencies
-      - run: git submodule sync && git submodule update --init
+      - run:
+          name: Install third-party dependencies
+          command: git submodule sync && git submodule update --init
       - run:
           name: Build Hugo Website
           command: hugo -v
-      - deploy:
+      - run:
           name: Deploy Website to Firebase Hosting
-          branch: main
           command: firebase deploy --token=$FIREBASE_DEPLOY_TOKEN --project $FIREBASE_PROJECT_ID
+
+workflows:
+  version: 2
+
+  build-deploy:
+    jobs:
+      - deploy:
+          filters:
+            branches:
+              only: main
