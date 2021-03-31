@@ -1,9 +1,10 @@
 version: 2.1
 
 jobs:
-  deploy:
+  build:
     docker:
       - image: tenntenn/docker-hugo-firebase:latest
+    working_directory: ~/my-app
     steps:
       - checkout
       - run:
@@ -12,6 +13,18 @@ jobs:
       - run:
           name: Build Hugo Website
           command: hugo -v
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+
+  deploy:
+    docker:
+      - image: tenntenn/docker-hugo-firebase:latest
+    working_directory: ~/my-app
+    steps:
+      - attach_workspace:
+          at: .
       - run:
           name: Deploy Website to Firebase Hosting
           command: firebase deploy --token=$FIREBASE_DEPLOY_TOKEN --project $FIREBASE_PROJECT_ID
@@ -21,7 +34,10 @@ workflows:
 
   build-deploy:
     jobs:
+      - build
       - deploy:
+          requires:
+            - build
           filters:
             branches:
               only: main
