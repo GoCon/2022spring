@@ -7,7 +7,7 @@ talkType: sponsor_session
 level: all
 tags:
   - A12-C
-partner: xxx
+partner: mediado
 videoId: null
 presentation: null
 draft: false

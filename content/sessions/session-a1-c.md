@@ -7,7 +7,7 @@ talkType: sponsor_session
 level: all
 tags:
   - A1-C
-partner: xxx
+partner: wantedly
 videoId: null
 presentation: null
 draft: false

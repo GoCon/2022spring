@@ -7,7 +7,7 @@ talkType: sponsor_session
 level: all
 tags:
   - A13-C
-partner: xxx
+partner: dena
 videoId: null
 presentation: null
 draft: false

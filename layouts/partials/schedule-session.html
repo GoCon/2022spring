@@ -1,9 +1,9 @@
 {{ if ne .Params.TalkType "sponsor_session"}}
-{{ if eq .Params.format "organize"}}
-<a {{ if .Params.link}}href="{{ .Params.link }}"{{end}}>
-{{else}}
-<a href="{{ .Permalink }}">
-{{end}}
+	{{ if eq .Params.format "organize"}}
+		<a {{ if .Params.link}}href="{{ .Params.link }}"{{end}}>
+	{{else}}
+		<a href="{{ .Permalink }}">
+	{{end}}
 	<h4 title="{{ .Title }}">
 		{{ .Title }}
 	</h4>
