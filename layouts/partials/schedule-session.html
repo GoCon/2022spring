@@ -21,7 +21,6 @@
     <li class="speaker">
       <div class="speaker-img" style="background-image: url({{ .Params.photoURL }});"></div>
       <strong class="speaker-name">{{ .Params.name }}</strong>
-<!--      <div class="speaker-company">{{ .Params.company }}</div>-->
     </li>
     {{ end }}
   </ul>
@@ -65,6 +64,14 @@
 
   <hr>
 
+  {{ if .Params.speakerName }}
+  <ul class="speakers single">
+    <li class="speaker">
+      <strong class="speaker-name">{{ .Params.speakerName }}</strong>
+    </li>
+  </ul>
+  {{ end }}
+
   <div class="partner-img" style="background-image: url({{ $partner.Params.logo }});">
     <strong class="partner-name">{{ $partner.Params.title }}</strong>
     </div>
@@ -73,9 +80,9 @@
     <div class="session-info">
       <div class="tags">
         {{ range .Params.tags }}
-        {{ range first 1 (where $.Site.Data.categories "key" .) }}
-        <span>{{ .name }}</span>
-        {{ end }}
+          {{ range first 1 (where $.Site.Data.categories "key" .) }}
+          <span>{{ .name }}</span>
+          {{ end }}
         {{ end }}
       </div>
   </div>

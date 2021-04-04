@@ -8,8 +8,7 @@ level: all
 tags:
   - A2-C
 partner: kanmu
-speakers:
-  - Yu Tanaka
+speakerName: Yu Tanaka
 videoId: null
 presentation: null
 draft: false
