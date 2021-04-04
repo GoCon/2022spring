@@ -90,7 +90,7 @@
 }
 
 .section.schedule .session.inner{
-    background-color: var(--color-hero);
+    background-color: #ffffff;
     transform: scale(0.9,0.9);
 }
 
@@ -112,6 +112,10 @@
 
 .section.schedule .session>a.officehour .partner-img {
     margin: 0.5rem auto;
+}
+
+.section.schedule main>section.schedule .day .room.odd {
+    background-color: var(--color-hero);
 }
 
 .session.format-organize {
