@@ -88,3 +88,9 @@
 - key: LT8
   name: "LT8"
   id: lt8
+- key: HO1
+  name: "HO1"
+  id: ho1
+- key: HO2
+  name: "HO2"
+  id: ho2

@@ -93,7 +93,13 @@
           talk: break
     - room: remo
       slots:
-        - slot: r-handson
-          talk: handson
+        - slot: handson_officehour
+          talk: handson_officehour
+        - slot: officehour
+          talk: officehour
+        - slot: handson1
+          talk: handson1
+        - slot: handson2
+          talk: handson2
         - slot: r-party
           talk: party

@@ -64,12 +64,30 @@
   row:
     start: 14
     end: 16
-- key: r-handson
+- key: handson_officehour
   start: '12:40'
   duration: 140
   row:
     start: 15
     end: 27
+- key: officehour
+  start: '12:40'
+  duration: 140
+  row:
+    start: 16
+    end: 22
+- key: handson1
+  start: '12:40'
+  duration: 140
+  row:
+    start: 22
+    end: 24
+- key: handson2
+  start: '12:40'
+  duration: 140
+  row:
+    start: 24
+    end: 26
 - key: a5-l
   start: '13:10'
   duration: 40

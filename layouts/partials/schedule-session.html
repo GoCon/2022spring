@@ -1,74 +1,85 @@
 {{ if ne .Params.TalkType "sponsor_session"}}
-	{{ if eq .Params.format "organize"}}
-		<a {{ if .Params.link}}href="{{ .Params.link }}"{{end}}>
-	{{else}}
-		<a href="{{ .Permalink }}">
-	{{end}}
-	<h4 title="{{ .Title }}">
-		{{ .Title }}
-	</h4>
+  {{ if eq .Params.format "organize" }}
+    <a {{ if .Params.link}}href="{{ .Params.link }}"{{end}}>
+  {{ else if eq .Params.format "handson" }}
+    {{ $firstSpeakerPage := index (where $.Site.RegularPages "Params.key" "eq" (index .Params.speakers 0)) 0 }}
+    <a href="{{ $firstSpeakerPage.Permalink }}">
+  {{ else if eq .Params.format "officehour" }}
+    <a class="officehour">
+  {{ else }}
+    <a href="{{ .Permalink }}">
+  {{ end }}
+  <h4 title="{{ .Title }}">
+    {{ .Title }}
+  </h4>
 
-    {{if ne .Params.format "organize"}}<hr>{{end}}
+  {{if ne .Params.format "organize"}}<hr>{{end}}
 
-	{{ if .Params.speakers }}
-	<ul class="speakers {{ if eq 1 (len .Params.speakers) }}single{{ else }}multi{{ end }}">
-		{{ range where $.Site.RegularPages "Params.key" "in" .Params.speakers }}
-		<li class="speaker">
-			<div class="speaker-img" style="background-image: url({{ .Params.photoURL }});"></div>
-			<strong class="speaker-name">{{ .Params.name }}</strong>
-<!--			<div class="speaker-company">{{ .Params.company }}</div>-->
-		</li>
-		{{ end }}
-	</ul>
-	{{ end }}
+  {{ if .Params.speakers }}
+  <ul class="speakers {{ if eq 1 (len .Params.speakers) }}single{{ else }}multi{{ end }}">
+    {{ range where $.Site.RegularPages "Params.key" "in" .Params.speakers }}
+    <li class="speaker">
+      <div class="speaker-img" style="background-image: url({{ .Params.photoURL }});"></div>
+      <strong class="speaker-name">{{ .Params.name }}</strong>
+<!--      <div class="speaker-company">{{ .Params.company }}</div>-->
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
 
-    {{ if and .Params.level .Params.tags }}
-    <div class="session-info">
-    	{{ if .Params.level }}
-    	<div class="complexity" title="{{ .Params.level }}">
-    		<svg><use xlink:href="#level-{{ .Params.level }}"></use></svg>
-    	</div>
-    	{{ end }}
-
-        {{ if .Params.tags }}
-	    <div class="tags">
-	        {{ range .Params.tags }}
-	        {{ range first 1 (where $.Site.Data.categories "key" .) }}
-	        <span>{{ .name }}</span>
-	        {{ end }}
-	        {{ end }}
-	    </div>
-    	{{ end }}
+  {{ if eq .Params.format "officehour" }}
+    {{ range where (where $.Site.AllPages "Params.category" "in" "gold,silver,bronze,green") "Params.key" "in" .Params.partners }}
+    <div class="partner-img" style="background-image: url({{ .Params.logo }});">
+      <strong class="partner-name">{{ .Params.title }}</strong>
     </div>
-    {{end}}
+    {{ end }}
+  {{ end }}
+
+  {{ if and .Params.level .Params.tags }}
+  <div class="session-info">
+    {{ if .Params.level }}
+    <div class="complexity" title="{{ .Params.level }}">
+      <svg><use xlink:href="#level-{{ .Params.level }}"></use></svg>
+    </div>
+    {{ end }}
+
+    {{ if .Params.tags }}
+    <div class="tags">
+      {{ range .Params.tags }}
+        {{ range first 1 (where $.Site.Data.categories "key" .) }}
+        <span>{{ .name }}</span>
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+  {{end}}
 </a>
 {{else}}
-{{$partner := index (where (where .Site.Pages "Params.category" "in" "wi-fi,party,scholarship,coffee,water,treat,battery,tofu on fire") ".Params.key" .Params.partner) 0}}
+{{$partner := index (where (where .Site.Pages "Params.category" "in" "gold,silver,bronze,green") ".Params.key" .Params.partner) 0}}
 
 <a href="{{ $partner.Permalink }}">
-	<h4 title="{{ .Title }}">
-		{{ .Title }}
-	</h4>
+  <h4 title="{{ .Title }}">
+    {{ .Title }}
+  </h4>
 
-	<hr>
+  <hr>
 
-
-	<div class="partner-img" style="background-image: url({{ $partner.Params.logo }});">
-		<strong class="partner-name">{{ $partner.Params.title }}</strong>
+  <div class="partner-img" style="background-image: url({{ $partner.Params.logo }});">
+    <strong class="partner-name">{{ $partner.Params.title }}</strong>
     </div>
 
-	{{ if .Params.tags }}
+  {{ if .Params.tags }}
     <div class="session-info">
-    	<div class="tags">
-    		{{ range .Params.tags }}
-    		{{ range first 1 (where $.Site.Data.categories "key" .) }}
-    		<span>{{ .name }}</span>
-    		{{ end }}
-    		{{ end }}
-    	</div>
-	</div>
-	{{ end }}
-
+      <div class="tags">
+        {{ range .Params.tags }}
+        {{ range first 1 (where $.Site.Data.categories "key" .) }}
+        <span>{{ .name }}</span>
+        {{ end }}
+        {{ end }}
+      </div>
+  </div>
+  {{ end }}
 </a>
 
 {{end}}
