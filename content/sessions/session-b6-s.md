@@ -13,24 +13,20 @@ videoId: null
 presentation: null
 draft: false
 ---
-Protocol Buffers API v2が2020年にリリースされました。v2では、生成されたコードの分割やツールなど開発者のインターフェースに関わる変更に加えて、リフレションのサポートが提供されるようになりました。
-新たに追加されたリフレション機能では、Goのビルトインのreflectを使うように、Protocol Bufferのメッセージへの操作・参照を可能にしてくれました。
-このトークでは、v2がリリースされた背景やその他の変更点も触れつつ、このリフレション機能に焦点をあてて、サンプルコードを持ちたりソースを追いかけながら紹介していきたいと思います。
+Protocol Buffers API v2が2020年にリリースされました。v2では、コード生成のライブラリなど開発者のインターフェースに関わる変更に加えて、Reflectionのサポートが提供されるようになりました。このReflection機能は、GoのビルトインのReflectionのように、Protocol Buffersのメッセージを動的に操作・参照することを可能にしてくれます。このトークでは、v2がリリースされた背景や変更点にも触れつつ、このReflection機能に焦点をあてて、サンプルコードを用いたりソースを追いかけながら使い方を紹介していきたいと思います。
 
 ---
-# Goal of the talk
-- Let the audience know what was changed in Go protocol buffers API v2 with that purpose.
-- Let the audience have the actual image of what came to be available by the reflection feature of API v2, which is the flagship feature of this update, so that they can use the feature in their development
-
-# Current plan of the agenda
-**1.  Introduction**  : About myself and the overview of the talk
-
-**2. What's Protocol Buffers and gRPC** : Very rough summary for the audience who is not very familiar with Protocol Buffers and gRPC. I guess I cannot provide the detailed information due to the limit of the time.
-
-**3. Why was the v2 released?** : Simply explain what was the problem in v1.
-
-**4. What was the remarkable changes on v2?** : I will summarize the important changes on the API, focuses on the reflection.
-
-**5. Dive into reflection**: This would be the most important agenda in my talk. I will explain what is actually available using the sample application or code and picking up a few actual source code of the "protobuf-go" library.
-
-**6. Closing**: Just share the summary with the one slide.
+# 得られること
+- Protocol Buffers API v2がリリースされた背景と大きな変更点
+- protoreflectの機能を使うことで何ができるか、実際にどのように使えばいいのか
+# 主な対象者
+- Protocol Buffers(gRPC含む)を使っている方
+- Protocol Buffers API v2でなにができるようになったのか、とりあえず知っておきたい方
+- Protocol Buffers(gRPC含む)に対して、動的なメッセージ操作・参照をしてみたい方
+- protoreflectを多少触ってみたけど、まだよくわかっていない方
+# 主なアジェンダ
+- Why was the API v2 released?
+- What was the remarkable changes on v2?
+- Dive into protoreflect
+  メインのアジェンダでは、実際のユースケースを想定したコードを用いて、protoreflectの具体的な使い方を説明します。その中で、内部実装やライブラリの全体像についても触れたいと思います。
+  また、Protocol Buffersをそもそも触ったことがない方にも向けて、最低限ですが、そもそもProtocol Buffersがどんなものであるかも説明したいと思います。

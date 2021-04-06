@@ -13,7 +13,7 @@ videoId: null
 presentation: null
 draft: false
 ---
-Azure REST API や Microsoft Graph API といった Microsoft クラウドサービスの API 向けの Go SDK のアーキテクチャ、開発体制、コード生成戦略、最新動向について紹介します。現在開発進行中の新バージョンや Terraform のような周辺ツールとの関係についても触れます。o
+Azure REST API や Microsoft Graph API といった Microsoft クラウドサービスの API 向けの Go SDK のアーキテクチャ、開発体制、コード生成戦略、最新動向について紹介します。現在開発進行中の新バージョンや Terraform のような周辺ツールとの関係についても触れます。
 
 ---
 主に次のプロジェクトで進行中の出来事について説明します。

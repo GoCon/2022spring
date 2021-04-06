@@ -16,16 +16,19 @@ draft: false
 How about saving yourself from natural traps? How about saving yourself from faulty assumptions and loopholes in details? Fear not! Let's delve deeper into the most simplistic and fun language, i.e. Go with care!
 
 ---
-GO is one of the simplistic, neat and effective language but it has few gotchas. These gotchas run the gamut from minor syntactic annoyances to psychological behaviour. By sharing the invaluable references - this talk will give the taste of various gotchas which will henceforth save Go programmer's time and wasted effort. 
+Go is one of the simplistic, neat and effective language but it has few gotchas. These gotchas run the gamut from minor syntactic annoyances to psychological behaviour. By sharing the invaluable references - this talk will give the taste of various gotchas which will henceforth save Go programmer's time and wasted effort.
 From beginner to expert level, everyone is warmly welcomed since the examples shared will cover a breadth of opportunities to learn from.
- Terraform のような周辺ツールとの関係についても触れます。
 
-主に次のプロジェクトで進行中の出来事について説明します。
+Some of the examples of gotchas could be:-
 
-- <https://github.com/Azure/azure-sdk-for-go>
-- <https://github.com/Azure/autorest.go>
-- <https://github.com/Azure/go-autorest>
-- <https://github.com/hashicorp/terraform-provider-azurerm>
-- <https://github.com/hashicorp/terraform-provider-azuread>
-- <https://github.com/yaegashi/msgraph.go>
-- <https://github.com/yaegashi/terraform-provider-msgraph>
+### Beginner-friendly
+* Unused imports
+* Sending to a closed channel causes a panic
+* Missing Comma In Multi-Line Slice/Array/Map Literals
+
+### Intermediate-level
+* Read and Write Operation Reordering
+* Deferred Function Call Argument Evaluation
+* "nil" Interfaces and "nil" Interfaces Values
+
+These are just a handful of examples, which I'm including in my CFP but definitely will seek feedback/guidance before presenting at Go conference Tokyo! :)
