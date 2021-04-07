@@ -7,7 +7,7 @@ talkType: short_session
 level: beginner
 tags:
   - B4-S
-speakerscomder:
+speakers:
   - yaegashi_takeshi
 videoId: null
 presentation: null
@@ -20,8 +20,3 @@ draft: false
 - <https://github.com/yaegashi/contest.go>
 - <https://github.com/yaegashi/azbill>
 - <https://github.com/yaegashi/customazed>
-
----
-次の記事をベースにGoの初心者レベルでもCLIが作れるようになる内容で講演します。
-
-- [cobra-cmder で Go の CLI を簡単に作る](https://qiita.com/yaegashi/items/9acc1d22bcc247542a4e)
