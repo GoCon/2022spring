@@ -25,11 +25,9 @@ fmt.Print("hello world\n") この hello world がターミナルに表示され�
 * 自作Goコンパイラの始め方
 
 ---
-* Hello worldは意外と奥が深い
-* 低レイヤへの降り方その１: 上から下へ降りていく (コードリーディング)
-* 低レイヤへの降り方その２: 下から観察する (strace)
-* 低レイヤへの降り方その３: 動いてる途中の状態を見る (gdb)
-* syscall.Syscall を読んで見る
-* 手書きで syscall を叩いてみる (GNU assembler編)
-* 手書きで syscall を叩いてみる (Go asm編)
-* 以上の知識を総合して、hello world を自力でコンパイルしてみよう
+* 最小のプログラムはどう動いてるのか
+* Go言語とruntime
+* Go言語とシステムコール
+* Hello world のシステムコールを見てみよう (strace, gdb, コードリーディング)
+* Goアセンブリの読み方
+* Hello world を低レイヤー版で書き直す (ライブコーディング)
