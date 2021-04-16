@@ -13,8 +13,10 @@ partners:
 - kanmu
 - mediado
 - wantedly
-- dena
 - mercari
+- kaminashi
+- bengoshi
+- mobilitytechnologies
 videoId: null
 presentation: null
 draft: false

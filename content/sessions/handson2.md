@@ -1,6 +1,6 @@
 ---
 key: handson2
-title: 実況！Gopher あみぐるみ (仮)
+title: 実況！Gopher あみぐるみ
 id: handson2
 language: Japanese
 format: handson
