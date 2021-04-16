@@ -1,5 +1,5 @@
 ---
-key: kaminachi
+key: kaminashi
 title: 株式会社カミナシ
 category: silver
 order: 1
