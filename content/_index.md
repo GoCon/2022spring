@@ -15,7 +15,7 @@ menu:
 
 {{% /jumbo %}}
 
-{{% home-info what="Participants:200,Parallel Tracks:2" class="primary" %}}
+{{% home-info what="Parallel Tracks:2" class="primary" %}}
 ## What is Go Conference?
 
 Go Conference is a half-annual conference of programming language Go in Tokyo.

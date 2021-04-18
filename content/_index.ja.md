@@ -18,7 +18,7 @@ menu:
 
 {{% /jumbo %}}
 
-{{% home-info what="参加者:200,トラック:2" class="primary" %}}
+{{% home-info what="トラック:2" class="primary" %}}
 ## Go Conferenceとは？
 
 Go Conferenceは半年に1回行われるプログラミング言語Goに関するカンファレンスです。
