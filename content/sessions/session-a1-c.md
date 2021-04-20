@@ -1,6 +1,6 @@
 ---
 key: a1-c
-title: スポンサーセッション
+title: Wantedly における Custom Controller
 id: a1-c
 format: conference
 talkType: sponsor_session
