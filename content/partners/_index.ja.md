@@ -14,4 +14,6 @@ draft: false
 
 <!-- Parteners list -->
 
-{{% partners categories="gold,silver,bronze" %}}
+{{% partners categories="gold,silver,bronze,green" %}}
+
+{{% /partners %}}
