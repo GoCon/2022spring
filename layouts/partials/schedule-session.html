@@ -5,7 +5,7 @@
     {{ $firstSpeakerPage := index (where $.Site.RegularPages "Params.key" "eq" (index .Params.speakers 0)) 0 }}
     <a href="{{ $firstSpeakerPage.Permalink }}">
   {{ else if eq .Params.format "officehour" }}
-    <a class="officehour">
+    <a href="{{ .Site.Data.links.remo_connpass }}" target="_blank" class="officehour">
   {{ else }}
     <a href="{{ .Permalink }}">
   {{ end }}

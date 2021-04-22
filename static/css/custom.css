@@ -58,10 +58,6 @@
     padding-bottom: var(--space-1);
 }
 
-.section.schedule .session>a.officehour {
-    pointer-events: none;
-}
-
 .section.schedule .session>a .session-info {
     margin: auto 0 0 auto;
     padding: 4px;

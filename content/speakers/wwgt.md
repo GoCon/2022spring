@@ -13,3 +13,5 @@ socials:
   name: website
 ---
 Women Who Go Tokyo は、サンフランシスコ発祥の女性とジェンダーマイノリティの人々があつまる Go 言語のコミュニティである Women Who Go の東京支部です。
+
+[ハンズオン参加登録はこちら](https://gocon.connpass.com/event/209271/)
