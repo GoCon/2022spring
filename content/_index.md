@@ -32,29 +32,35 @@ Go Conference is a half-annual conference of programming language Go in Tokyo.
 {{< button-link label="See all speakers"
                 url="./speakers"
                 icon="right" >}}
+
+{{% button-link label="Ask the speakers"
+url="https://app.sli.do/event/xchxcoals"
+icon="right" %}}
+
 {{% /home-speakers %}}
+
+
 
 {{% home-tickets %}}
 # Registration
 
 <ul>
-<li>{{<ticket name="Free Ticket"
+<li>{{<ticket name="Sessions"
            starts="2021-03-29"
            ends="2021-04-24"
            price="0 JPY"
-           url="https://gocon.connpass.com/event/208896/">}}</li>
+           url="https://gocon.connpass.com/event/208896/">}}
+</li>
+
+<li>{{<ticket name="Party & Hands-on"
+           starts="2021-03-29"
+           ends="2021-04-24"
+           price="0 JPY"
+           url="https://gocon.connpass.com/event/209271/">}}
+</li>
 </ul>
 
 {{% /home-tickets %}}
-
-{{% home-speakers %}}
-## Featured Speakers
-
-{{< button-link label="See all speakers"
-                url="./speakers"
-                icon="right" >}}
-
-{{% /home-speakers %}}
 
 {{% partners categories="gold,silver,bronze,green" %}}
 # Partners
