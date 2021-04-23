@@ -32,7 +32,6 @@
 
 	<article id="day_{{$day.day}}" class="day"
 	         style="--rooms: {{ len .rooms }}; --end: {{ $maxEnd }};">
-
 		<h2>{{- partial "date-long.html" (dict "time" .day "lang" $lang) }}</h2>
 
         {{ $start_done := (dict "__dummy" "true")}}
@@ -75,10 +74,12 @@
 		<!-- Room {{ $room.room }} -->
 		<div class="room {{ if not (modBool $index 2)}}odd{{end}}" style="--room: {{ $index }};">
 			<h3>
+				<a href="{{ .url }}">
 				{{ .label }}
 				{{ if .description }}
 				<small>{{ .description }}</small>
 				{{ end }}
+				</a>
 			</h3>
 		</div>
 
