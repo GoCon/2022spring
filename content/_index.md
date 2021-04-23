@@ -34,7 +34,7 @@ Go Conference is a half-annual conference of programming language Go in Tokyo.
                 icon="right" >}}
 
 {{% button-link label="Ask the speakers"
-url="https://app.sli.do/event/xchxcoals"
+url="https://app.sli.do/event/xchxcoal/"
 icon="right" %}}
 
 {{% /home-speakers %}}

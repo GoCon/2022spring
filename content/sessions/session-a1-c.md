@@ -1,6 +1,6 @@
 ---
 key: a1-c
-title: Wantedly における Custom Controller
+title: Kubernetes から学んだ Go の設計論
 id: a1-c
 format: conference
 talkType: sponsor_session
