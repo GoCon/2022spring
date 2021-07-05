@@ -2,9 +2,9 @@
 <a class="partner"
    href="{{ .URL }}"
    title="{{ .Title }}"
-   style="background-image: url({{ .Params.logo }});">{{ .Title }}</a>
+   style="background-image: url({{ .Site.BaseURL }}{{ .Params.logo }});">{{ .Title }}</a>
 {{- else -}}
 <div class="partner"
    title="{{ .Title }}"
-   style="background-image: url({{ .Params.logo }});">{{ .Title }}</a>
+   style="background-image: url({{ .Site.BaseURL }}{{ .Params.logo }});">{{ .Title }}</a>
 {{- end -}}
