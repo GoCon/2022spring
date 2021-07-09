@@ -29,6 +29,7 @@ Go Conferenceは半年に1回行われるプログラミング言語Goに関す�
 <!-- ... -->
 <!-- ... -->
 
+<!--
 {{% home-speakers %}}
 ## スピーカー
 
@@ -41,6 +42,7 @@ url="https://app.sli.do/event/xchxcoal/"
 icon="right" %}}
 
 {{% /home-speakers %}}
+-->
 
 {{% home-tickets %}}
 # 参加登録
