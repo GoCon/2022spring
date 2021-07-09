@@ -11,7 +11,7 @@ googleAnalytics = "UA-127197700-1"
 
 [params]
     title = "Go Conference 2021 Autumn"
-    date = "2021-04-24"
+    date = "2021-11-13"
     description = "Go Conference is a half-annual conference of programming language Go in Tokyo."
     images = ["/images/social-share.jpg"]
     email = "info@gocon.jp"
