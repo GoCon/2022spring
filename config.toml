@@ -1,6 +1,6 @@
 baseURL = "http://gocon.jp/"
 languageCode = "ja"
-title = "Go Conference 2021 Spring"
+title = "Go Conference 2021 Autumn"
 theme = "devfest-theme-hugo"
 
 enableEmoji = true
@@ -10,14 +10,14 @@ enableMissingTranslationPlaceholders = true
 googleAnalytics = "UA-127197700-1"
 
 [params]
-    title = "Go Conference 2021 Spring"
+    title = "Go Conference 2021 Autumn"
     date = "2021-04-24"
     description = "Go Conference is a half-annual conference of programming language Go in Tokyo."
     images = ["/images/social-share.jpg"]
     email = "info@gocon.jp"
     keywords = "golang, gocon"
     copyright = "Go Conference"
-    cfpUrl = "https://www.papercall.io/gocon-tokyo-2021-spring"
+    cfpUrl = "https://www.papercall.io/gocon-tokyo-2021-autumn"
     subscriptionUrl = ""
     appleTouchIcon = "/apple-touch-icon.png"
     favicon32 = "/favicon-32x32.png"

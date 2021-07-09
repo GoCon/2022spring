@@ -7,7 +7,7 @@ menu:
 
 ---
 
-{{% jumbo img="" imgLabel="Go Conference 2021 Spring" %}}
+{{% jumbo img="" imgLabel="Go Conference 2021 Autumn" %}}
 
 ## 2021年04月24日(土) 
 ### オンライン

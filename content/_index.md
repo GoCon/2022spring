@@ -8,7 +8,7 @@ menu:
 ---
 
 
-{{% jumbo img="" imgLabel="Go Conference 2021 Spring" %}}
+{{% jumbo img="" imgLabel="Go Conference 2021 Autumn" %}}
 
 ## April 24th, 2021
 ### Online
