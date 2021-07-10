@@ -1,22 +1,19 @@
+# CircleCIのビルドを止める権限がなかったので
+# ひとまずエラーが出ない最小の設定に変更した。
+# CircleCIのビルドを停止したらこのファイルは削除してよい。
+
 version: 2.1
 
 jobs:
-  build:
+  noop:
     docker:
-      - image: tenntenn/docker-hugo-firebase:latest
-    working_directory: ~/my-app
+      - image: busybox
     steps:
-      - checkout
-      - run:
-          name: Install third-party dependencies
-          command: git submodule sync && git submodule update --init
-      - run:
-          name: Build Hugo Website
-          command: hugo -v
+      - run: echo ok
 
 workflows:
   version: 2
 
   build:
     jobs:
-      - build
+      - noop
