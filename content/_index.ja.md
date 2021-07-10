@@ -7,9 +7,9 @@ menu:
 
 ---
 
-{{% jumbo img="" imgLabel="Go Conference 2021 Spring" %}}
+{{% jumbo img="" imgLabel="Go Conference 2021 Autumn" %}}
 
-## 2021年04月24日(土) 
+## 2021年11月13日(土) 
 ### オンライン
 
 <!--connpassへのリンクを貼る
@@ -18,7 +18,7 @@ menu:
 
 {{% /jumbo %}}
 
-{{% home-info what="トラック:2" class="primary" %}}
+{{% home-info %}}
 ## Go Conferenceとは？
 
 Go Conferenceは半年に1回行われるプログラミング言語Goに関するカンファレンスです。
@@ -29,6 +29,7 @@ Go Conferenceは半年に1回行われるプログラミング言語Goに関す�
 <!-- ... -->
 <!-- ... -->
 
+<!--
 {{% home-speakers %}}
 ## スピーカー
 
@@ -41,32 +42,29 @@ url="https://app.sli.do/event/xchxcoal/"
 icon="right" %}}
 
 {{% /home-speakers %}}
+-->
 
 {{% home-tickets %}}
 # 参加登録
 
 <ul>
 <li>{{<ticket name="セッション"
-           starts="2021-03-29"
-           ends="2021-04-24"
+           starts="2021-10-01"
+           ends="2021-11-23"
            price="無料"
-           url="https://gocon.connpass.com/event/208896/">}}</li>
-
-<li>{{<ticket name="懇親会 & ハンズオン"
-           starts="2021-03-29"
-           ends="2021-04-24"
-           price="無料"
-           url="https://gocon.connpass.com/event/209271/">}}
+           url="https://gocon.connpass.com/event/213865/">}}</li>
 </li>
 </ul>
 
 {{% /home-tickets %}}
 
 
+<!--
 {{% partners categories="gold,silver,bronze,green" %}}
 # スポンサー
 
 {{% /partners %}}
+-->
 
 <div style="text-align: center; margin-bottom: 20px;">
 
@@ -74,7 +72,7 @@ icon="right" %}}
 スポンサーシッププランをご参照ください
 
 {{% button-link label="See Sponsership plans"
-                url="https://drive.google.com/file/d/14ShYTQB7DrSiyLxsBaFxa-snwS4jW1Im/view?usp=sharing"
+                url="https://drive.google.com/file/d/1TVTPtHXOSvABu8OjtAZZVVGn1uhQN8oo/view"
                 icon="link" %}}
 </div>
 

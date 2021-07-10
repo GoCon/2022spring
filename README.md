@@ -1,6 +1,6 @@
-# Go Conference 2021 Spring
+# Go Conference 2021 Autumn
 
-[![CircleCI](https://circleci.com/gh/GoCon/2021-Spring.svg?style=svg)](https://app.circleci.com/pipelines/github/GoCon/2021-Spring?branch=main)
+[![CircleCI](https://circleci.com/gh/GoCon/2021-Autumn.svg?style=svg)](https://app.circleci.com/pipelines/github/GoCon/2021-Autumn?branch=main)
 
 ## 必要なもの
 
