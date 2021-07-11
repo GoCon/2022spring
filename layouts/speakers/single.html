@@ -3,7 +3,7 @@
 <div class="hero">
 
 	<header>
-		<div class="speaker-img" style="background-image: url({{ .Page.Params.photoURL }});"></div>
+		<div class="speaker-img" style="background-image: url({{ .Site.BaseURL }}{{ .Page.Params.photoURL }});"></div>
 		<div>
 			<h1>{{ .Page.Params.name }}</h1>
 

@@ -19,7 +19,7 @@
   <ul class="speakers {{ if eq 1 (len .Params.speakers) }}single{{ else }}multi{{ end }}">
     {{ range where $.Site.RegularPages "Params.key" "in" .Params.speakers }}
     <li class="speaker">
-      <div class="speaker-img" style="background-image: url({{ .Params.photoURL }});"></div>
+      <div class="speaker-img" style="background-image: url({{ .Site.BaseURL }}{{ .Params.photoURL }});"></div>
       <strong class="speaker-name">{{ .Params.name }}</strong>
     </li>
     {{ end }}
@@ -28,7 +28,7 @@
 
   {{ if eq .Params.format "officehour" }}
     {{ range where (where $.Site.AllPages "Params.category" "in" "gold,silver,bronze,green") "Params.key" "in" .Params.partners }}
-    <div class="partner-img" style="background-image: url({{ .Params.logo }});">
+    <div class="partner-img" style="background-image: url({{ .Site.BaseURL }}{{ .Params.logo }});">
       <strong class="partner-name">{{ .Params.title }}</strong>
     </div>
     {{ end }}
@@ -72,7 +72,7 @@
   </ul>
   {{ end }}
 
-  <div class="partner-img" style="background-image: url({{ $partner.Params.logo }});">
+  <div class="partner-img" style="background-image: url({{ .Site.BaseURL }}{{ $partner.Params.logo }});">
     <strong class="partner-name">{{ $partner.Params.title }}</strong>
     </div>
 
