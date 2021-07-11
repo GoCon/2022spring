@@ -21,6 +21,12 @@ other = "準備中"
 [home_location_direction]
 other = "検索"
 
+[home_cfp_header]
+other = "トーク募集中！"
+
+[home_cfp_action]
+other = "申し込む"
+
 ##########
 # Footer #
 ##########

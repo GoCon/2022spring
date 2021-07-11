@@ -1,0 +1,18 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+
+<section class="cfp">
+  <div>
+    <h1>{{- i18n "home_cfp_header" -}}</h1>
+    <div class="cfp-box">
+      <div>
+        {{ $lang := $.Page.Language.Lang }}
+        {{ partial "date-short.html" (dict "time" (.Get "starts") "lang" $lang) }}
+        -
+        {{ partial "date-short.html" (dict "time" (.Get "ends") "lang" $lang) }}
+      </div>
+      <a href="{{ .Get "url" }}" class="btn primary" rel="noreferrer" target="_blank">
+        {{- i18n "home_cfp_action" -}}
+      </a>
+    </div>
+  </div>
+</section>
