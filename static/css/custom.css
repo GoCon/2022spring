@@ -188,3 +188,21 @@
     color: inherit;
     text-decoration: underline;
 }
+
+.cfp {
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cfp-box {
+    margin: var(--space-4);
+    padding: 2rem var(--space-3);
+    border: thin solid var(--darken-1);
+    box-shadow: var(--space-1) var(--space-1) var(--space-2) var(--darken-2);
+}
+
+.cfp .btn {
+    margin: var(--space-4);
+}

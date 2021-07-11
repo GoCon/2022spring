@@ -21,6 +21,12 @@ other = "Not available"
 [home_location_direction]
 other = "Direction"
 
+[home_cfp_header]
+other = "Call for Papers!"
+
+[home_cfp_action]
+other = "Submit"
+
 ##########
 # Footer #
 ##########

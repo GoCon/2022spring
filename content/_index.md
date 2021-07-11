@@ -26,6 +26,10 @@ Go Conference is a half-annual conference of programming language Go in Tokyo.
 <!-- ... -->
 <!-- ... -->
 
+{{<cfp starts="2021-06-12"
+       ends="2021-08-31"
+       url="https://www.papercall.io/gocon-tokyo-2021-autumn">}}
+
 <!--
 {{% home-speakers %}}
 ## Speakers
