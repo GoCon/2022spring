@@ -1,4 +1,4 @@
-baseURL = "https://gocon.github.io/2021autumn/"
+baseURL = "https://gocon.jp/2021autumn/"
 canonifyURLs = true
 languageCode = "ja"
 title = "Go Conference 2021 Autumn"
