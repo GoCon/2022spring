@@ -12,3 +12,8 @@ content:
       - nameKey: footer_coc
         url: https://golang.org/conduct
         newTab: true
+  - title: footer_past_confs
+    links:
+      - name: 2021 Spring
+        url: https://gocon.jp/2021spring
+        newTab: true

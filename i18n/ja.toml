@@ -67,6 +67,9 @@ other = "スポンサーのお申込み"
 [footer_coc]
 other = "行動指針"
 
+[footer_past_confs]
+other = "Past Conferences"
+
 ################
 # Subscription #
 ################
