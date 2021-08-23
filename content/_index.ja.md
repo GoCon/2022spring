@@ -7,7 +7,7 @@ menu:
 
 ---
 
-{{% jumbo img="" imgLabel="Go Conference 2021 Autumn" %}}
+{{% jumbo img="" imgLabel="Go Conference 2022 Spring" %}}
 
 ## 2021年11月13日(土) 
 ### オンライン
@@ -29,9 +29,9 @@ Go Conferenceは半年に1回行われるプログラミング言語Goに関す�
 <!-- ... -->
 <!-- ... -->
 
-{{<cfp starts="2021-06-12"
-       ends="2021-08-31"
-       url="https://www.papercall.io/gocon-tokyo-2021-autumn">}}
+{{<cfp starts="2000-01-01"
+       ends="2000-01-01"
+       url="https://www.papercall.io/gocon-tokyo-2022-spring">}}
 
 <!--
 {{% home-speakers %}}
@@ -53,10 +53,10 @@ icon="right" %}}
 
 <ul>
 <li>{{<ticket name="セッション"
-           starts="2021-10-01"
-           ends="2021-11-23"
+           starts="2000-01-01"
+           ends="2000-01-01"
            price="無料"
-           url="https://gocon.connpass.com/event/213865/">}}</li>
+           url="https://gocon.connpass.com/event/212162/">}}</li>
 </li>
 </ul>
 

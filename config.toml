@@ -1,7 +1,7 @@
-baseURL = "https://gocon.jp/2021autumn/"
+baseURL = "https://gocon.jp/2022spring/"
 canonifyURLs = true
 languageCode = "ja"
-title = "Go Conference 2021 Autumn"
+title = "Go Conference 2022 Spring"
 theme = "devfest-theme-hugo"
 
 enableEmoji = true
@@ -11,21 +11,21 @@ enableMissingTranslationPlaceholders = true
 googleAnalytics = "UA-127197700-1"
 
 [params]
-    title = "Go Conference 2021 Autumn"
-    date = "2021-11-13"
+    title = "Go Conference 2022 Spring"
+    date = "2022-04-23"
     description = "Go Conference is a half-annual conference of programming language Go in Tokyo."
     images = ["/images/social-share.jpg"]
     email = "info@gocon.jp"
     keywords = "golang, gocon"
     copyright = "Go Conference"
-    cfpUrl = "https://www.papercall.io/gocon-tokyo-2021-autumn"
+    cfpUrl = "https://www.papercall.io/gocon-tokyo-2022-spring"
     subscriptionUrl = ""
     appleTouchIcon = "/apple-touch-icon.png"
     favicon32 = "/favicon-32x32.png"
     favicon16 = "/favicon-16x16.png"
     manifest = "/manifest.json"
     safariPinnedTab = "/safari-pinned-tab.svg"
-    themeColor="#00ADD8"
+    themeColor="#d75c7e"
 
 [params.logos]
     jumbo = "/images/logos/logo_text.png"
