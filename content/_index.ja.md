@@ -9,7 +9,7 @@ menu:
 
 {{% jumbo img="" imgLabel="Go Conference 2022 Spring" %}}
 
-## 2021年11月13日(土) 
+## 2022年4月23日(土) 
 ### オンライン
 
 <!--connpassへのリンクを貼る
