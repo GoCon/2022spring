@@ -1,3 +1,15 @@
+.jumbo .inner-wrapper .inner {
+    color: #000;
+}
+
+.jumbo #jumbo-overlay.show {
+  opacity: 0;
+}
+
+.jumbo .scroll-down {
+  color: #000;
+}
+
 .partners-group.partner-gold ul li {
   height: var(--partner-platinum-height);
   flex-basis: 320px;

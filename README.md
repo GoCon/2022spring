@@ -1,6 +1,6 @@
-# Go Conference 2021 Autumn
+# Go Conference 2022 Spring
 
-![GitHub Actions](https://github.com/GoCon/2021Autumn/actions/workflows/ci.yml/badge.svg?branch=main)
+![GitHub Actions](https://github.com/GoCon/2022spring/actions/workflows/ci.yml/badge.svg?branch=main)
 
 ## 必要なもの
 

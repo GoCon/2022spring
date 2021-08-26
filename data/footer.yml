@@ -14,6 +14,9 @@ content:
         newTab: true
   - title: footer_past_confs
     links:
+      - name: 2021 Autumn
+        url: https://gocon.jp/2021autumn
+        newTab: true
       - name: 2021 Spring
         url: https://gocon.jp/2021spring
         newTab: true
