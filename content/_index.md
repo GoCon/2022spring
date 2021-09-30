@@ -18,7 +18,7 @@ menu:
 {{% home-info class="primary" %}}
 ## What is Go Conference?
 
-Go Conference is a half-annual conference of programming language Go in Tokyo.
+Go Conference is a half-annual conference of programming language Go.
 
 {{% /home-info %}}
 
@@ -26,9 +26,9 @@ Go Conference is a half-annual conference of programming language Go in Tokyo.
 <!-- ... -->
 <!-- ... -->
 
-{{<cfp starts="2000-01-01"
-       ends="2000-01-01"
-       url="https://www.papercall.io/gocon-tokyo-2022-spring">}}
+{{<cfp starts="2021-10-04"
+       ends="2021-12-06"
+       url="https://www.papercall.io/gocon-2022-spring">}}
 
 <!--
 {{% home-speakers %}}
@@ -51,8 +51,8 @@ icon="right" %}}
 
 <ul>
 <li>{{<ticket name="Sessions"
-           starts="2000-01-01"
-           ends="2000-01-01"
+           starts="2022-03-01"
+           ends="2022-04-23"
            price="0 JPY"
            url="https://gocon.connpass.com/event/212162/">}}
 </li>
@@ -66,6 +66,7 @@ icon="right" %}}
 {{% /partners %}}
 -->
 
+<!--
 <div style="text-align: center; margin-bottom: 20px;">
 
 ## For partners
@@ -75,6 +76,8 @@ If your company wants to sponsor, show the following slides:
                 url="https://drive.google.com/file/d/1TVTPtHXOSvABu8OjtAZZVVGn1uhQN8oo/view"
                 icon="link" %}}
 </div>
+-->
+
 <!-- ... -->
 
 <!-- ... -->
