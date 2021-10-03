@@ -18,7 +18,7 @@ menu:
 
 {{% /jumbo %}}
 
-{{% home-info %}}
+{{% home-info class="primary" %}}
 ## Go Conferenceとは？
 
 Go Conferenceは半年に1回行われるプログラミング言語Goに関するカンファレンスです。
@@ -29,9 +29,9 @@ Go Conferenceは半年に1回行われるプログラミング言語Goに関す�
 <!-- ... -->
 <!-- ... -->
 
-{{<cfp starts="2000-01-01"
-       ends="2000-01-01"
-       url="https://www.papercall.io/gocon-tokyo-2022-spring">}}
+{{<cfp starts="2021-10-04"
+       ends="2021-12-06"
+       url="https://www.papercall.io/gocon-2022-spring">}}
 
 <!--
 {{% home-speakers %}}
@@ -53,8 +53,8 @@ icon="right" %}}
 
 <ul>
 <li>{{<ticket name="セッション"
-           starts="2000-01-01"
-           ends="2000-01-01"
+           starts="2022-03-01"
+           ends="2022-04-23"
            price="無料"
            url="https://gocon.connpass.com/event/212162/">}}</li>
 </li>
@@ -70,6 +70,7 @@ icon="right" %}}
 {{% /partners %}}
 -->
 
+<!--
 <div style="text-align: center; margin-bottom: 20px;">
 
 ## スポンサー希望の企業様へ
@@ -79,6 +80,7 @@ icon="right" %}}
                 url="https://drive.google.com/file/d/1TVTPtHXOSvABu8OjtAZZVVGn1uhQN8oo/view"
                 icon="link" %}}
 </div>
+-->
 
 <!-- ... -->
 
