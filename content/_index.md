@@ -66,17 +66,15 @@ icon="right" %}}
 {{% /partners %}}
 -->
 
-<!--
 <div style="text-align: center; margin-bottom: 20px;">
 
 ## For partners
 If your company wants to sponsor, show the following slides:
 
-{{% button-link label="See Sponsership plans"
-                url="https://drive.google.com/file/d/1TVTPtHXOSvABu8OjtAZZVVGn1uhQN8oo/view"
+{{% button-link label="See Sponsorship plans"
+                url="https://drive.google.com/file/d/1mRSVLny6WQTl0DvRvXuOm3Nlathlu_Wi/view?usp=sharing"
                 icon="link" %}}
 </div>
--->
 
 <!-- ... -->
 
