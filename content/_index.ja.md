@@ -70,17 +70,15 @@ icon="right" %}}
 {{% /partners %}}
 -->
 
-<!--
 <div style="text-align: center; margin-bottom: 20px;">
 
 ## スポンサー希望の企業様へ
 スポンサーシッププランをご参照ください
 
-{{% button-link label="See Sponsership plans"
-                url="https://drive.google.com/file/d/1TVTPtHXOSvABu8OjtAZZVVGn1uhQN8oo/view"
+{{% button-link label="See Sponsorship plans"
+                url="https://drive.google.com/file/d/1mRSVLny6WQTl0DvRvXuOm3Nlathlu_Wi/view?usp=sharing"
                 icon="link" %}}
 </div>
--->
 
 <!-- ... -->
 
