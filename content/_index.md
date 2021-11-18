@@ -76,6 +76,21 @@ If your company wants to sponsor, show the following slides:
                 icon="link" %}}
 </div>
 
+<div style="text-align: center; margin-bottom: 20px;">
+
+You can subscribe to our mailing list for the latest information about our sponsorship plans.
+
+To subscribe, please visit <u>[this URL](https://groups.google.com/a/gocon.jp/g/news)</u>.
+
+If you have any questions about the Sponsorship Plan, please contact us using the form at the link below.
+
+{{% button-link label="Contact us"
+                url="https://docs.google.com/forms/d/e/1FAIpQLSfnREi6RD203lYXjXNU5GotQl7Qu2OBmhNxbNRJWhj1KSDQEw/viewform?usp=pp_url"
+                icon="link" %}}
+
+</div>
+
+
 <!-- ... -->
 
 <!-- ... -->
