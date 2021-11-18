@@ -73,11 +73,27 @@ icon="right" %}}
 <div style="text-align: center; margin-bottom: 20px;">
 
 ## スポンサー希望の企業様へ
-スポンサーシッププランをご参照ください
 
-{{% button-link label="See Sponsorship plans"
+スポンサーシッププランは下記リンクより参照いただけます
+
+{{% button-link label="スポンサーシッププランを見る"
                 url="https://drive.google.com/file/d/1mRSVLny6WQTl0DvRvXuOm3Nlathlu_Wi/view?usp=sharing"
                 icon="link" %}}
+
+</div>
+
+<div style="text-align: center; margin-bottom: 20px;">
+
+スポンサーシッププランについての最新情報をメーリングリストにて配信しています
+
+メーリングリストは、 <u>[こちらのリンク](https://groups.google.com/a/gocon.jp/g/news)</u> よりご購読いただけます
+
+スポンサーシッププランについてご質問等ございましたら、下記リンクのフォームよりお問い合わせください
+
+{{% button-link label="お問い合わせはこちら"
+                url="https://docs.google.com/forms/d/e/1FAIpQLSfnREi6RD203lYXjXNU5GotQl7Qu2OBmhNxbNRJWhj1KSDQEw/viewform?usp=pp_url"
+                icon="link" %}}
+
 </div>
 
 <!-- ... -->

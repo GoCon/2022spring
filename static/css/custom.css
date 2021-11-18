@@ -218,3 +218,7 @@
 .cfp .btn {
     margin: var(--space-4);
 }
+
+a:hover {
+    opacity: 0.7;
+}
