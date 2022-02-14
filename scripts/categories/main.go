@@ -26,7 +26,7 @@ func createCategory(c []*Category) {
 	if err != nil {
 		panic(err)
 	}
-	f, err := os.OpenFile(filepath.Join(dirPath, "categories.yml"), os.O_WRONLY|os.O_CREATE, os.ModePerm)
+	f, err := os.OpenFile(filepath.Join(dirPath, "categories.yml"), os.O_WRONLY|os.O_CREATE|os.O_TRUNC, os.ModePerm)
 	if err != nil {
 		panic(err)
 	}
