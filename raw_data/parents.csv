@@ -1,4 +1,1 @@
-key,label,description,url
-track-a,Track A,,
-track-b,Track B,,
-remo,Remo,,
+key,title,category,order,logo,description
