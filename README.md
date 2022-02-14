@@ -18,3 +18,11 @@ $ git submodule update
 ```sh
 $ hugo server
 ```
+
+## データ素材のダウンロード
+
+下記のコマンドで[マスタデータのスプレッドシート](https://docs.google.com/spreadsheets/d/1cxTGkIUIQ7UCfFmXJXOl0shwGLKcJxo03gOwVZ7l1A8/edit#gid=1791874699)の内容を`./raw_data`フォルダにダウンロードします
+
+```
+make download
+```
