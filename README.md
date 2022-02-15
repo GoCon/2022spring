@@ -26,3 +26,13 @@ $ hugo server
 ```
 make download
 ```
+
+## CSVデータ素材のyamlへの変換
+
+`scripts`配下のコードで`raw_data`配下のcsvファイルをyamlに変換し、`data`ディレクトリに配置します。
+
+makeファイルに記載したコマンドで一括変換します。
+
+```
+make generate-yml
+```
