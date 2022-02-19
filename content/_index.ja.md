@@ -4,7 +4,6 @@ title: ホーム
 menu:
   main:
     weight: -1
-
 ---
 
 {{% jumbo img="" imgLabel="Go Conference 2022 Spring" %}}
@@ -25,13 +24,11 @@ Go Conferenceは半年に1回行われるプログラミング言語Goに関す�
 
 {{% /home-info %}}
 
-<!-- ... -->
-<!-- ... -->
-<!-- ... -->
-
+<!--
 {{<cfp starts="2021-10-04"
        ends="2021-12-06"
        url="https://www.papercall.io/gocon-2022-spring">}}
+-->
 
 <!--
 {{% home-speakers %}}
@@ -95,7 +92,3 @@ icon="right" %}}
                 icon="link" %}}
 
 </div>
-
-<!-- ... -->
-
-<!-- ... -->
