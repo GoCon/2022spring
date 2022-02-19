@@ -4,9 +4,7 @@ title: Home
 menu:
   main:
     weight: -1
-
 ---
-
 
 {{% jumbo img="" imgLabel="Go Conference 2022 Spring" %}}
 
@@ -22,13 +20,11 @@ Go Conference is a half-annual conference of programming language Go.
 
 {{% /home-info %}}
 
-<!-- ... -->
-<!-- ... -->
-<!-- ... -->
-
+<!--
 {{<cfp starts="2021-10-04"
        ends="2021-12-06"
        url="https://www.papercall.io/gocon-2022-spring">}}
+-->
 
 <!--
 {{% home-speakers %}}
@@ -89,8 +85,3 @@ If you have any questions about the Sponsorship Plan, please contact us using th
                 icon="link" %}}
 
 </div>
-
-
-<!-- ... -->
-
-<!-- ... -->
