@@ -1,19 +1,21 @@
 - key: long_session
-  name: 'Long Session (40 min)'
+  name: Long Session (40 minutes)
   id: long_session
 - key: short_session
-  name: 'Short Session (20 min)'
+  name: Short Session (20 minutes)
   id: short_session
 - key: lt_session
-  name: 'LT (5 min)'
+  name: Lightning Talk (5 minutes)
   id: lt_session
 - key: registration
-  name: 'Registration'
+  name: Registration
   id: registration
-- key: Sponsor Session
-  name: 'Sponsor Session'
+- key: sponsor_session
+  name: Sponsor Session
   id: sponsor_session
 - key: handson
-  name: 'Handson'
+  name: Handson
   id: handson
-
+- key: challenge_session
+  name: Challenge Session (20 minutes)
+  id: challenge_session

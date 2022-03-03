@@ -86,6 +86,9 @@ other = "通知する"
 # Partner #
 ###########
 
+[partner_category_platinum]
+other = "プラチナGoルド"
+
 [partner_category_gold]
 other = "Goルド"
 

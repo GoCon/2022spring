@@ -1,0 +1,8 @@
+key,name,id
+long_session,Long Session (40 minutes),long_session
+short_session,Short Session (20 minutes),short_session
+lt_session,Lightning Talk (5 minutes),lt_session
+registration,Registration,registration
+sponsor_session,Sponsor Session,sponsor_session
+handson,Handson,handson
+challenge_session,Challenge Session (20 minutes),challenge_session
