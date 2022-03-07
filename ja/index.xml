@@ -6,5 +6,59 @@
     <description>Recent content in ホーム on Go Conference 2022 Spring</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://gocon.jp/2022spring/ja/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>オフィスアワー</title>
+      <link>https://gocon.jp/2022spring/ja/sessions/_officehour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/sessions/_officehour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>オープニング</title>
+      <link>https://gocon.jp/2022spring/ja/sessions/opening/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/sessions/opening/</guid>
+      <description>オープニングトークです。</description>
+    </item>
+    
+    <item>
+      <title>クロージング</title>
+      <link>https://gocon.jp/2022spring/ja/sessions/closing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/sessions/closing/</guid>
+      <description>クロージングトークです。</description>
+    </item>
+    
+    <item>
+      <title>ランチ休憩</title>
+      <link>https://gocon.jp/2022spring/ja/sessions/_lunch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/sessions/_lunch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>休憩</title>
+      <link>https://gocon.jp/2022spring/ja/sessions/_break/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/sessions/_break/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>懇親会</title>
+      <link>https://gocon.jp/2022spring/ja/sessions/_after-party/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/sessions/_after-party/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

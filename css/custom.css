@@ -10,15 +10,50 @@
   color: #000;
 }
 
-.partners-group.partner-gold ul li {
+.partners-group.partner-platinum ul li {
   height: var(--partner-platinum-height);
-  flex-basis: 320px;
+  flex-basis: 500px;
+}
+
+.partners-group.partner-platinum .fancy {
+  font-size: 1.5em;
+  color: var(--color-platium);
+}
+
+.partners-group.partner-platinum .fancy span:before,
+.partners-group.partner-platinum .fancy span:after {
+  border-bottom: 1px solid currentColor;
+  border-top: 1px solid currentColor;
+}
+
+.partners-group ul li, .partners-group.partner-gold ul li {
+  flex-basis:auto;
+}
+
+.partners-group.partner-platinum ul li {
+  width: 480px;
+  height: 270px;
+}
+
+.partners-group.partner-gold ul li {
+  width: 320px;
+  height: 180px;
 }
 
 .partners-group.partner-silver ul li {
-  height: var(--partner-gold-height);
-  flex-basis: 200px;
+  width: 265px;
+  height: 144px;
 }
+
+.partners-group.partner-bronze ul li {
+  width: 160px;
+  height: 90px;
+}
+
+.partners-group.partner-free ul li {
+  height: auto;
+}
+
 
 .partners-group ul li div.partner {
   pointer-events: none;
@@ -26,6 +61,10 @@
 
 .partners-group .fancy span {
   text-transform: none;
+}
+
+.partners-group .partner {
+    padding: 0;
 }
 
 .talk .complexity:before {
@@ -127,7 +166,7 @@
 }
 
 .session.format-organize {
-    background-color: #b5e3ef;
+    background-color: #f8eaee;
 }
 
 .session.format-organize h4 {
@@ -186,7 +225,7 @@
     .slot .slot-start {
         display: none;
     }
-    
+
     .slot .slot-end {
         display: none;
     }
