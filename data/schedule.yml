@@ -1,0 +1,103 @@
+- day: "2022-04-23"
+  start: "10:00"
+  rooms:
+  - room: track-a
+    slots:
+    - slot: opening
+      talk: opening
+    - slot: a1-c
+      talk: a1-c
+    - slot: a2-c
+      talk: a2-c
+    - slot: a-break-1
+      talk: break
+    - slot: a3-l
+      talk: a3-l
+    - slot: a4-s
+      talk: a4-s
+    - slot: a-lunch
+      talk: lunch
+    - slot: b-lunch
+      talk: lunch
+    - slot: a5-c
+      talk: a5-c
+    - slot: a6-c
+      talk: a6-c
+    - slot: a-break-2
+      talk: break
+    - slot: a7-l
+      talk: a7-l
+    - slot: a8-s
+      talk: a8-s
+    - slot: a-break-3
+      talk: break
+    - slot: a9-s
+      talk: a9-s
+    - slot: a10-s
+      talk: a10-s
+    - slot: a11-s
+      talk: a11-s
+    - slot: a-break-4
+      talk: break
+    - slot: a12-s
+      talk: a12-s
+    - slot: a13-s
+      talk: a13-s
+    - slot: a14-s
+      talk: a14-s
+    - slot: a-break-5
+      talk: break
+    - slot: lt1
+      talk: lt1
+    - slot: lt2
+      talk: lt2
+    - slot: lt3
+      talk: lt3
+    - slot: lt4
+      talk: lt4
+    - slot: lt5
+      talk: lt5
+    - slot: lt6
+      talk: lt6
+    - slot: lt7
+      talk: lt7
+    - slot: lt8
+      talk: lt8
+    - slot: closing
+      talk: closing
+  - room: track-b
+    slots:
+    - slot: b-break-1
+      talk: break
+    - slot: b3-l
+      talk: b3-l
+    - slot: b4-s
+      talk: b4-s
+    - slot: b-break-2
+      talk: break
+    - slot: b7-l
+      talk: b7-l
+    - slot: b8-s
+      talk: b8-s
+    - slot: b-break-3
+      talk: break
+    - slot: b9-s
+      talk: b9-s
+    - slot: b10-s
+      talk: b10-s
+    - slot: b11-s
+      talk: b11-s
+    - slot: b-break-4
+      talk: break
+    - slot: b12-s
+      talk: b12-s
+    - slot: b13-s
+      talk: b13-s
+    - slot: b14-s
+      talk: b14-s
+    - slot: b-break-5
+      talk: break
+  - room: remo
+    slots:
+    - slot: after-party
+      talk: after-party

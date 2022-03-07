@@ -8,7 +8,7 @@ menu:
 
 {{% jumbo img="" imgLabel="Go Conference 2022 Spring" %}}
 
-## 2022年4月23日(土) 
+## 2022年4月23日(土)
 ### オンライン
 
 <!--connpassへのリンクを貼る
@@ -60,12 +60,10 @@ icon="right" %}}
 {{% /home-tickets %}}
 
 
-<!--
-{{% partners categories="gold,silver,bronze,green" %}}
+{{% partners categories="platinum,gold,silver,bronze" %}}
 # スポンサー
 
 {{% /partners %}}
--->
 
 <div style="text-align: center; margin-bottom: 20px;">
 

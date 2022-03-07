@@ -24,11 +24,13 @@
 	<div class="info">
         {{- if .Params.level }}<div class="complexity">{{ .Params.level }}</div>{{ end -}}
         {{- if .Params.talkType }}<div class="type type-{{ anchorize .Params.talkType }}">{{ $tn }}</div> {{ end -}}
+		<!--
 		<div style="margin-top: 10px"><a href="https://app.sli.do/event/xchxcoal/" target="_blank" rel="noopener noreferrer">Ask the speakers</a></div>
+		-->
 
 		<div class="detail">
 			<ul class="speakers">
-				{{ range where .Site.RegularPages "Params.key" "in" .Params.speakers }}
+				{{ range where ( where .Site.RegularPages "Section" "speakers" ) "Params.key" "in" .Params.speakers }}
 				<li>
 					<a class="visually-hidden" aria-hidden="true" href="/speakers/{{ .Params.key }}">{{ .Params.name }}</a>
 					<a class="speaker" href="/speakers/{{ .Params.key }}">

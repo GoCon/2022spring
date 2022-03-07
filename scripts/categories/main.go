@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"io"
 	"os"
 	"path/filepath"
@@ -16,6 +17,8 @@ type Category struct {
 	ID   string `csv:"id"`
 }
 
+const fileName = "categories"
+
 func createCategory(c []*Category) {
 	wd, err := os.Getwd()
 	if err != nil {
@@ -26,7 +29,7 @@ func createCategory(c []*Category) {
 	if err != nil {
 		panic(err)
 	}
-	f, err := os.OpenFile(filepath.Join(dirPath, "categories.yml"), os.O_WRONLY|os.O_CREATE|os.O_TRUNC, os.ModePerm)
+	f, err := os.OpenFile(filepath.Join(dirPath, fmt.Sprintf("%s.yml", fileName)), os.O_WRONLY|os.O_CREATE|os.O_TRUNC, os.ModePerm)
 	if err != nil {
 		panic(err)
 	}
@@ -46,14 +49,14 @@ func createCategory(c []*Category) {
 }
 
 func main() {
-	f, err := os.Open("./raw_data/categories.csv")
+	f, err := os.Open(fmt.Sprintf("./raw_data/%s.csv", fileName))
 	if err != nil {
 		panic(err)
 	}
 	defer f.Close()
 
 	var categories []*Category
-	if err := gocsv.UnmarshalFile(f, &categories); err != nil { // Load clients from file
+	if err := gocsv.UnmarshalFile(f, &categories); err != nil {
 		panic(err)
 	}
 	createCategory(categories)

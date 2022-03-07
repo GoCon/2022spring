@@ -1,4 +1,9 @@
-{{- if eq .Params.category "gold" -}}
+{{- if eq .Params.category "platinum" -}}
+<a class="partner"
+   href="{{ .URL }}"
+   title="{{ .Title }}"
+   style="background-image: url({{ .Site.BaseURL }}{{ .Params.logo }});">{{ .Title }}</a>
+{{- else if eq .Params.category "gold" -}}
 <a class="partner"
    href="{{ .URL }}"
    title="{{ .Title }}"

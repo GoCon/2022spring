@@ -27,7 +27,7 @@
   {{ end }}
 
   {{ if eq .Params.format "officehour" }}
-    {{ range where (where $.Site.AllPages "Params.category" "in" "gold,silver,bronze,green") "Params.key" "in" .Params.partners }}
+    {{ range where (where $.Site.AllPages "Params.category" "in" "platinum,gold,silver,bronze,free") "Params.key" "in" .Params.partners }}
     <div class="partner-img" style="background-image: url({{ .Site.BaseURL }}{{ .Params.logo }});">
       <strong class="partner-name">{{ .Params.title }}</strong>
     </div>
@@ -55,7 +55,7 @@
   {{end}}
 </a>
 {{else}}
-{{$partner := index (where (where .Site.Pages "Params.category" "in" "gold,silver,bronze,green") ".Params.key" .Params.partner) 0}}
+{{$partner := index (where (where .Site.Pages "Params.category" "in" "platinum,gold,silver,bronze,free") ".Params.key" .Params.partner) 0}}
 
 <a href="{{ $partner.Permalink }}">
   <h4 title="{{ .Title }}">

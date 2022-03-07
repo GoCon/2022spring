@@ -1,1 +1,82 @@
-key,id,name,company,twitter,url
+key,id,name,company,twitter,site,bio
+luccafort,luccafort,luccafort,"Money Forward, Inc.",luccafort,https://luccafort.hatenablog.com/,"TL;DR
+Hi there 👋
+i'm backend engineer and tech-pr, i live in Kyoto, Japan.
+i love Ruby, Golang, PHP and TypeScript!
+i manage kyoto.go, that is local community of golang, if you have interest, come on join us!"
+sivchari,sivchari,sivchari,,sivchari,https://github.com/sivchari,"Hello ✋, I'm sivchari. I am a university student and I am studying French at university.
+I love Go and Software Architecture, Design concept.
+I wanna make Go community more better !
+Let's enjoy Gopher life."
+riita10069,riita10069,Ryota Yamada,Tokyo Institute of Technology,riita10069,https://riita10069.github.io/aboutme/,"## Affiliation
+
+Tokyo Institute of Technology
+bachelor's Information and Communications Engineering., 2018
+
+Co-Chair of Volare
+member of CloudNativeDays
+member of Kubernetes
+
+## Publication
+
+CNDT2021
+mercari.go#17
+kubenews#39
+Merpay Tech Openness Month
+mixi Degital Entertainment LT
+
+https://speakerdeck.com/riita10069
+
+"
+yoheimuta,yoheimuta,yoheimuta,パラレル株式会社,yoheimuta,https://yoheimuta.medium.com,"Goは [protolint](https://github.com/yoheimuta/protolint) などの自作ツールを通じて日常的に書いてます。Contribution 待ってます 😁 
+業務では Go 製の OSS に PR を送ったり、以前は自社製プロダクトにも使ってました。主にバックエンドを中心に、システムを自分たちの制御下に置くために必要な仕事を担当してます。"
+kazuhisa_takei,kazuhisa_takei,Kazuhisa TAKEI,Rytr. Inc.,,https://mmap.dev/,"- モンスターストライクというスマホゲームのサービス開始時にサーバサイドをほぼ一人で開発構築をした
+- モンスターストライクのおかげで padrino という ruby のweb application framework の世界最大事例をつくってしまった
+- モンスターストライクのマルチプレイサーバを0から1ヶ月で用意した
+- Vline Linux というlinux distiibution の開発メインメンバーの一人でもあったことがあった
+- 現在はスマホゲーム開発をしている
+"
+makki_d,makki_d,"Daisuke Makiuchi (MakKi, makki_d)",KLab Inc.,makki_d,https://github.com/makiuchi-d,KLab株式会社 エンジニアリングマネージャー
+rennnosuke_rk,rennnosuke_rk,Ren Kanai,Eureka.inc,rennnosuke_rk,https://github.com/rennnosuke,"software engineer: @eureka_inc
+- GitHub: http://github.com/rennnosuke
+- Blog: https://rennnosukesann.hatenablog.com"
+jespinog,jespinog,Jesús Espino,Mattermost Inc.,jespinog,https://github.com/jespino/,"I'm an Open Source and software development enthusiast. I love writing code and contribute to Open Source project, and I have the privilege of being one of the starters or contributors in some interesting Open Source projects like Taiga, Penpot, Mattermost or Focalboard. I'm a big fan of learning new things, specially programming languages. I love Rust, Go, Python and Clojure, and love to deep dive into technical details.
+
+Currently I'm working mainly in Go and Typescript in Mattermost, and I keep trying to contribute to open source project whenever I can."
+uji_rb,uji_rb,uji,,uji_rb,,
+glassmonekey,glassmonekey,glassmonkey (Shunsuke Nagano),"BASE, inc",glassmonekey,,"Go歴は1年半ぐらいです。業務では他にもPHP, Python, vue (TypeScript)を書いています。趣味はFlutterでのアプリ開発です。"
+convto,convto,convto,株式会社Kyash,convto,https://convto.hatenablog.com/,低レイヤや暗号関連の技術に興味があります
+_pongzu,_pongzu,pongzu,Kanmu Inc,_pongzu,,"# Hi, I am pongzu, working at Kanmu as software engineer
+
+
+"
+ryushi,ryushi,taichi,電通国際情報サービス,ryushi,https://tech.isid.co.jp/,"電通国際情報サービス（ISID）で働くソフトウェアエンジニアです。
+
+ISIDにおけるソフトウェアの生産性と品質を両輪で向上するべく、様々な活動をしています。
+
+* 現代的な構成管理ツール（JiraやGitHub）の利用促進
+* テックブログの運営
+
+個人的な活動は、[さにあらず](https://blog.satotaichi.info/) にて記録しています。
+
+自分が普段使いするために作った[vscode-textlint](https://marketplace.visualstudio.com/items?itemName=taichi.vscode-textlint)は便利なので是非使ってみてください。"
+nsega,nsega,Naoki Sega,"Mercari, Inc.",nsega,https://nsega.medium.com/,"Software Engineer. I have mainly developed the service with GCP, Go, and Kubernetes. I will challenge new things I have never experienced to create good products based on the technology(cloud-native app, microservices). I am eager to keep trying the new challenge and more responsibility because I can contribute more to grow good products. My hobby is scuba diving. My favorite motto is ""Do or do not, there is no 'try.'"", the master Yoda quote."
+rytswd,rytswd,Ryota Sawada,UPSIDER,rytswd,,"Ryota is the CTO of UPSIDER, Inc., a startup providing B2B payment services for businesses mainly in Japan. He has been focused on developing the company's payment processing system and  platform. He has built the platform embracing Kubernetes, Argo, Istio, and other Cloud Native technology to provide stable and resilient payment services.
+Prior to UPSIDER, Inc., he worked for several years as system support and software engineer in one of the world’s largest financial services companies. He has experience in handling and developing critical financial systems, as well as managing tightly regulated operations.
+"
+yyoshiki41,yyoshiki41,Yoshiki Nakagawa,LayerX Inc.,yyoshiki41,https://github.com/yyoshiki41,
+saicologic,saicologic,Satoru Mikami,株式会社Voicy,saicologic,,"Webのバックエンド開発18年。今まで動的型付けRuby/Python/PHPを使った開発をしていましたが、2020年からGo言語を使った開発をメインにしています。
+"
+hgsgtk,hgsgtk,Kazuki Higashiguchi,,hgsgtk,https://speakerdeck.com/hgsgtk,
+sago35tk,sago35tk,sago35,,sago35tk,https://github.com/sago35,仕事でも趣味でも Go 書いてる組込ソフトエンジニア。ここ最近は TinyGo プロジェクトの中の人として活動しています。
+lestrrat,lestrrat,Daisuke Maki,Mercari Inc,lestrrat,,牧大輔(lestrrat) - [peco](https://github.com/peco/peco) の開発責任者。Go/Perl/Cプログラマであり、登壇や執筆をこなす傍らパンを焼いている。元[YAPC::Asia Tokyo](http://yapcasia.org)主催、元[builderscon](https://builderscon.io)主催。3児の父。[株式会社メルカリ](https://about.mercari.com)所属。
+yuji_shimada,yuji_shimada,Yuji Shimada,"QualiArts, Inc.",,,バックエンドエンジニアとしてゲーム開発に携わっています。
+hikyaru_suzuki,hikyaru_suzuki,鈴木 光,株式会社QualiArts,hikyaru_suzuki,https://github.com/hikyaru-suzuki,株式会社サイバーエージェントに新卒入社し、その子会社である株式会社QualiArtsでゲーム開発のバックエンドエンジニアとして働いています。普段はゲームを開発行っていますが、既存プロジェクトの改善、共通システムの管理、社内サービスの開発、共有ツールの構築・運用など幅広くエンジニアリングをしています。
+8kka,8kka,8kka,株式会社QualiArts,,,
+awakot_56,awakot_56,Toshiki Kawamura,株式会社Voicy,awakot_56,,
+yebis0942,yebis0942,yebis0942,,yebis0942,,
+__syumai,__syumai,syumai,"BaseMachina, Inc.",__syumai,https://syum.ai,"Go Language Specification輪読会主催。Go経験3年程度のWebプログラマです。
+Go言語の現在の仕様や、今後の仕様について興味を持っています。
+普段はTypeScript、Reactを使ったフロントエンドの開発も行っています。"
+budougumi0617,budougumi0617,Yoichiro Shimizu,"BASE, inc.",budougumi0617,https://budougumi0617.github.io/,Backend engineer in Japanese. I love Go and Oyster.
+mururururu,mururururu,Yuki Ito,"Kanmu, Inc.",mururururu,,"- CTO at Kanmu, Inc"

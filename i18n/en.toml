@@ -83,6 +83,9 @@ other = "Subscribe"
 # Partner #
 ###########
 
+[partner_category_platinum]
+other = 'platinum"Go"ld'
+
 [partner_category_gold]
 other = '"Go"ld'
 
