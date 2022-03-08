@@ -212,7 +212,7 @@ section.schedule .room {
 }
 
 .section.schedule .room h3 {
-    height: 4.5em
+    height: 4.5em;
 }
 
 .section.schedule main>section.schedule .day {
