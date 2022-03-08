@@ -207,6 +207,18 @@
     background-color: transparent;
 }
 
+section.schedule .room {
+    text-align: center;
+}
+
+.section.schedule .room h3 {
+    height: 4.5em;
+}
+
+.section.schedule main>section.schedule .day {
+    grid-template-rows: 6em repeat(calc(var(--end) - 1),var(--base-grid-height,6em));
+}
+
 @media (max-width: 59.99em) {
     .section.schedule main>section.schedule .day .slot {
         display: none !important;
