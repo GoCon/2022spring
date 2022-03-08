@@ -74,12 +74,14 @@
 		<!-- Room {{ $room.room }} -->
 		<div class="room {{ if not (modBool $index 2)}}odd{{end}}" style="--room: {{ $index }};">
 			<h3>
-				<a href="{{ .url }}">
-				{{ .label }}
-				{{ if .description }}
-				<small>{{ .description }}</small>
+				<div>
+					{{ .label }}
+				</div>
+				{{ if .sponsor }}
+					<div>
+						<small><b>sponsored by {{ .sponsor }}</b></small>
+					</div>
 				{{ end }}
-				</a>
 			</h3>
 		</div>
 

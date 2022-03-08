@@ -1,12 +1,12 @@
 - key: track-a
   label: Track A
-  description: Remo - Track A
+  sponsor: 店舗スタッフDXサービス「STAFF START」
   url: ""
 - key: track-b
   label: Track B
-  description: Remo - Track B
+  sponsor: ビットキー
   url: ""
 - key: remo
   label: Remo
-  description: Remo
+  sponsor: ""
   url: ""

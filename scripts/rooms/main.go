@@ -12,10 +12,10 @@ import (
 )
 
 type Room struct {
-	Key         string `csv:"key"`
-	Label       string `csv:"label"`
-	Description string `csv:"description"`
-	URL         string `csv:"url"`
+	Key     string `csv:"key"`
+	Label   string `csv:"label"`
+	Sponsor string `csv:"sponsor"`
+	URL     string `csv:"url"`
 }
 
 const fileName = "rooms"
