@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2022spring/speakers/8kka/</guid>
-      <description></description>
+      <description>株式会社QualiArtsでバックエンドエンジニアとして働いています。 所属プロジェクトのゲームAPIやインフラ構築をメインに開発を行いつつ、その他複数のプロジェクトや社内ツールのインフラ管理も行っています。</description>
     </item>
     
     <item>
@@ -39,7 +39,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2022spring/speakers/awakot_56/</guid>
-      <description></description>
+      <description>株式会社Voicyに所属するエンジニアです。 音声サービスの裏側をバックエンドからインフラまで幅広く開発をした後に、今はSREを担当しています。 Go言語が好きです！</description>
     </item>
     
     <item>
@@ -227,7 +227,7 @@ ISIDにおけるソフトウェアの生産性と品質を両輪で向上する�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2022spring/speakers/uji_rb/</guid>
-      <description></description>
+      <description>神戸のエンジニアです。業務ではRuby・TypeScriptを触っています。最近Solidityを勉強し始めました。Kyoto.goの共同運営をしてます。</description>
     </item>
     
     <item>
@@ -236,7 +236,8 @@ ISIDにおけるソフトウェアの生産性と品質を両輪で向上する�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2022spring/speakers/yebis0942/</guid>
-      <description></description>
+      <description>趣味でGoを触っています。好きな型はRune、好きなデザインパターンはCompositeパターンです。
+Kyoto.goの共同運営メンバーで、たまにLTをしたりしています。</description>
     </item>
     
     <item>
@@ -263,7 +264,8 @@ ISIDにおけるソフトウェアの生産性と品質を両輪で向上する�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2022spring/speakers/yyoshiki41/</guid>
-      <description></description>
+      <description>Senior Software Engineer at LayerX Inc.
+SaaS開発のバックエンドからフロントエンドまでを担当しています。 よくラジオやポッドキャストを聴いてます。</description>
     </item>
     
   </channel>
