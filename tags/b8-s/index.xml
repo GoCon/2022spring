@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>B8-S on Go Conference 2022 Spring</title>
+    <link>https://gocon.jp/2022spring/tags/b8-s/</link>
+    <description>Recent content in B8-S on Go Conference 2022 Spring</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://gocon.jp/2022spring/tags/b8-s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>「自動コード生成ツール」を20分で作れるようになろう</title>
+      <link>https://gocon.jp/2022spring/sessions/b8-s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/sessions/b8-s/</guid>
+      <description>皆さんは、普段からGo言語でコードを書いていると思います。 「いつも同じようなプログラムだから自動生成したいな」と感じることはありませんか？
+例えば、
+ 単にCRUDするだけのコード if err != nil 的なエラーハンドリング natsやKafkaからドメインイベントを取ってくるworker 副作用のないメソッドのユニットテスト  のようなものです。
+スキーマ定義のみでCRUDするAPIを生成するジェネレータを作成したので、 コード生成をしたことない人向けに紹介したいと思います。
+Keyword: ast, roche, jeniffer, cobra, afero</description>
+    </item>
+    
+  </channel>
+</rss>

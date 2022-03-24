@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A7-L on Go Conference 2022 Spring</title>
+    <link>https://gocon.jp/2022spring/tags/a7-l/</link>
+    <description>Recent content in A7-L on Go Conference 2022 Spring</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://gocon.jp/2022spring/tags/a7-l/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>高速で統一的な自動生成ツールをprotocプラグインとして実装した話</title>
+      <link>https://gocon.jp/2022spring/sessions/a7-l/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/sessions/a7-l/</guid>
+      <description>Go言語には総称型が実装されていないためコードを自動生成して賄うことが多いです。
+ここで自動生成のソースをGo言語自体とした場合、よくある手法としてreflectパッケージによる生成が行われますが、ソースが多いと実効速度がネックとなってしまいます。 また、StructTagを活用したオプション設定は便利ですが、文字列による設定なのでタイプミスも発生します。
+そこでProtocolBuffersをソースとする自動生成ツールをprotocプラグインとして実装することで、オプションを型安全にしつつ実行速度を大幅に向上させることに成功しました。 今回はこのprotocプラグインを紹介します。</description>
+    </item>
+    
+  </channel>
+</rss>

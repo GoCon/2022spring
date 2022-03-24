@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LT8 on Go Conference 2022 Spring</title>
+    <link>https://gocon.jp/2022spring/tags/lt8/</link>
+    <description>Recent content in LT8 on Go Conference 2022 Spring</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://gocon.jp/2022spring/tags/lt8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go言語仕様輪読会の開催を通じた振り返り</title>
+      <link>https://gocon.jp/2022spring/sessions/lt8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/sessions/lt8/</guid>
+      <description>Go Language Specification輪読会と言う、Goの言語仕様を読む勉強会を1年半に渡って開催し、2021年12月についに仕様の最後まで読み終えることが出来ました。 この1年半までの間の活動や、メンバーによるGoの言語仕様への貢献、勉強会に伴って開発したツールの紹介を行います。 また、開催を続けるにあたって、うまくいったこと、あまりうまくいかなかったことについてお話しします。 リモート主体のコミュニティ活動の一例として参考にしていただければと思います。</description>
+    </item>
+    
+  </channel>
+</rss>

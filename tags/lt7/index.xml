@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LT7 on Go Conference 2022 Spring</title>
+    <link>https://gocon.jp/2022spring/tags/lt7/</link>
+    <description>Recent content in LT7 on Go Conference 2022 Spring</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://gocon.jp/2022spring/tags/lt7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go runtime の歩き方</title>
+      <link>https://gocon.jp/2022spring/sessions/lt7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/sessions/lt7/</guid>
+      <description>ある程度 Go での開発経験をつむと、 goroutine や channel の動作原理を知るために Go の runtime パッケージのソースを読みたいことがあると思います。
+しかし Go の runtime は plan9 ベースのアセンブリでの実装があったり、他ではあまり見かけない compiler directive を使用していたり、 所見だと built in 関数の名称がわからなかったり、前知識なしにコードが追いづらいです。
+そこでこれらの解説や objdump で built in 関数を追う手法を紹介し、 runtime パッケージを読むための前提知識をまとめます。</description>
+    </item>
+    
+  </channel>
+</rss>
