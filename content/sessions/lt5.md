@@ -5,7 +5,8 @@ id: awakot_56
 format: conference
 talkType: lt_session
 level: Intermediate
-tags: []
+tags:
+- LT5
 speakers:
 - awakot_56
 partner: null

@@ -5,7 +5,8 @@ id: v-standard
 format: conference
 talkType: sponsor_session
 level: ""
-tags: []
+tags:
+- A5-C
 speakers: []
 partner: v-standard
 videoId: null

@@ -5,7 +5,8 @@ id: riita10069
 format: conference
 talkType: short_session
 level: Beginner
-tags: []
+tags:
+- B8-S
 speakers:
 - riita10069
 partner: null

@@ -5,7 +5,8 @@ id: sivchari
 format: conference
 talkType: short_session
 level: Intermediate
-tags: []
+tags:
+- A8-S
 speakers:
 - sivchari
 partner: null

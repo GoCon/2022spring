@@ -5,7 +5,8 @@ id: convto
 format: conference
 talkType: lt_session
 level: Intermediate
-tags: []
+tags:
+- LT7
 speakers:
 - convto
 partner: null

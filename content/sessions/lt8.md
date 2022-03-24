@@ -5,7 +5,8 @@ id: __syumai
 format: conference
 talkType: lt_session
 level: All
-tags: []
+tags:
+- LT8
 speakers:
 - __syumai
 partner: null

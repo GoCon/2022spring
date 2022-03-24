@@ -5,7 +5,8 @@ id: ryushi
 format: conference
 talkType: long_session
 level: Intermediate
-tags: []
+tags:
+- B7-L
 speakers:
 - ryushi
 partner: null

@@ -5,7 +5,8 @@ id: glassmonekey
 format: conference
 talkType: lt_session
 level: All
-tags: []
+tags:
+- LT2
 speakers:
 - glassmonekey
 partner: null

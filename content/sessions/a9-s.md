@@ -5,7 +5,8 @@ id: yyoshiki41
 format: conference
 talkType: short_session
 level: All
-tags: []
+tags:
+- A9-S
 speakers:
 - yyoshiki41
 partner: null
