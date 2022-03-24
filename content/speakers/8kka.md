@@ -6,3 +6,5 @@ company: 株式会社QualiArts
 photoURL: /images/speakers/8kka.png
 socials: []
 ---
+株式会社QualiArtsでバックエンドエンジニアとして働いています。
+所属プロジェクトのゲームAPIやインフラ構築をメインに開発を行いつつ、その他複数のプロジェクトや社内ツールのインフラ管理も行っています。

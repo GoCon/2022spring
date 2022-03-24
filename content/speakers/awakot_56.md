@@ -9,3 +9,6 @@ socials:
   link: https://twitter.com/awakot_56
   name: awakot_56
 ---
+株式会社Voicyに所属するエンジニアです。
+音声サービスの裏側をバックエンドからインフラまで幅広く開発をした後に、今はSREを担当しています。
+Go言語が好きです！
