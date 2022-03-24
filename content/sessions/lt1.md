@@ -5,7 +5,8 @@ id: yuji_shimada
 format: conference
 talkType: lt_session
 level: Beginner
-tags: []
+tags:
+- LT1
 speakers:
 - yuji_shimada
 partner: null

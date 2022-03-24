@@ -5,7 +5,8 @@ id: _pongzu
 format: conference
 talkType: lt_session
 level: Intermediate
-tags: []
+tags:
+- LT3
 speakers:
 - _pongzu
 partner: null

@@ -5,7 +5,8 @@ id: lestrrat
 format: conference
 talkType: short_session
 level: Intermediate
-tags: []
+tags:
+- B9-S
 speakers:
 - lestrrat
 partner: null

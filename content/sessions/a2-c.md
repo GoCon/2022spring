@@ -5,7 +5,8 @@ id: yappli
 format: conference
 talkType: sponsor_session
 level: ""
-tags: []
+tags:
+- A2-C
 speakers: []
 partner: yappli
 videoId: null

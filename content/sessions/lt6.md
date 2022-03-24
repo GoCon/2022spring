@@ -5,7 +5,8 @@ id: yebis0942
 format: conference
 talkType: lt_session
 level: All
-tags: []
+tags:
+- LT6
 speakers:
 - yebis0942
 partner: null

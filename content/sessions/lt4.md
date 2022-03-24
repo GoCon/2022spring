@@ -5,7 +5,8 @@ id: 8kka
 format: conference
 talkType: lt_session
 level: All
-tags: []
+tags:
+- LT4
 speakers:
 - 8kka
 partner: null

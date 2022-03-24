@@ -5,7 +5,8 @@ id: uji_rb
 format: conference
 talkType: short_session
 level: All
-tags: []
+tags:
+- A4-S
 speakers:
 - uji_rb
 partner: null

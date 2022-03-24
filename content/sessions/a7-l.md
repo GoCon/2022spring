@@ -5,7 +5,8 @@ id: hikyaru_suzuki
 format: conference
 talkType: long_session
 level: Intermediate
-tags: []
+tags:
+- A7-L
 speakers:
 - hikyaru_suzuki
 partner: null

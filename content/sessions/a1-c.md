@@ -5,7 +5,8 @@ id: bitkey
 format: conference
 talkType: sponsor_session
 level: ""
-tags: []
+tags:
+- A1-C
 speakers: []
 partner: bitkey
 videoId: null

@@ -5,7 +5,8 @@ id: cluster
 format: conference
 talkType: sponsor_session
 level: ""
-tags: []
+tags:
+- A6-C
 speakers: []
 partner: cluster
 videoId: null

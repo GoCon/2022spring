@@ -5,7 +5,8 @@ id: kazuhisa_takei
 format: conference
 talkType: short_session
 level: Advanced
-tags: []
+tags:
+- B4-S
 speakers:
 - kazuhisa_takei
 partner: null

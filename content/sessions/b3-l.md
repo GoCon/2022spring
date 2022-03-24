@@ -5,7 +5,8 @@ id: yoheimuta
 format: conference
 talkType: long_session
 level: All
-tags: []
+tags:
+- B3-L
 speakers:
 - yoheimuta
 partner: null

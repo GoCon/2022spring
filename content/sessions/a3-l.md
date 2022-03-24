@@ -5,7 +5,8 @@ id: jespinog
 format: conference
 talkType: long_session
 level: Intermediate
-tags: []
+tags:
+- A3-L
 speakers:
 - jespinog
 partner: null
