@@ -12,3 +12,7 @@ socials:
   link: https://github.com/yyoshiki41
   name: https://github.com/yyoshiki41
 ---
+Senior Software Engineer at LayerX Inc.
+
+SaaS開発のバックエンドからフロントエンドまでを担当しています。
+よくラジオやポッドキャストを聴いてます。
