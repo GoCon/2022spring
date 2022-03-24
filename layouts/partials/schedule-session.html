@@ -45,9 +45,7 @@
     {{ if .Params.tags }}
     <div class="tags">
       {{ range .Params.tags }}
-        {{ range first 1 (where $.Site.Data.categories "key" .) }}
-        <span>{{ .name }}</span>
-        {{ end }}
+        <span>{{ . }}</span>
       {{ end }}
     </div>
     {{ end }}
@@ -80,9 +78,7 @@
     <div class="session-info">
       <div class="tags">
         {{ range .Params.tags }}
-          {{ range first 1 (where $.Site.Data.categories "key" .) }}
-          <span>{{ .name }}</span>
-          {{ end }}
+          <span>{{ . }}</span>
         {{ end }}
       </div>
   </div>
