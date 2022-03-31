@@ -67,6 +67,7 @@ icon="right" %}}
 
 <div style="text-align: center; margin-bottom: 20px;">
 
+<!--
 ## スポンサー希望の企業様へ
 
 スポンサーシッププランは下記リンクより参照いただけます
@@ -90,3 +91,4 @@ icon="right" %}}
                 icon="link" %}}
 
 </div>
+-->
