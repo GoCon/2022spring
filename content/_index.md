@@ -62,6 +62,7 @@ icon="right" %}}
 
 <div style="text-align: center; margin-bottom: 20px;">
 
+<!--
 ## For partners
 If your company wants to sponsor, show the following slides:
 
@@ -83,3 +84,4 @@ If you have any questions about the Sponsorship Plan, please contact us using th
                 icon="link" %}}
 
 </div>
+-->
