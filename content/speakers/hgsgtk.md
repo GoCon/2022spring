@@ -2,13 +2,14 @@
 key: hgsgtk
 id: hgsgtk
 name: Kazuki Higashiguchi
-company: ""
+company: Autify, Inc.
 photoURL: /images/speakers/hgsgtk.jpg
 socials:
 - icon: twitter
   link: https://twitter.com/hgsgtk
   name: hgsgtk
 - icon: link
-  link: https://speakerdeck.com/hgsgtk
-  name: https://speakerdeck.com/hgsgtk
+  link: https://portfolio-hgsgtk.vercel.app/
+  name: https://portfolio-hgsgtk.vercel.app/
 ---
+Backend Engineer at Autify. I enjoy crafting effective test automation experiences and specialize in the back-end area and mainly develop in Go and Ruby language in my current position. 
