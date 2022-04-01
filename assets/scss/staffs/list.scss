@@ -1,0 +1,11 @@
+main .staffs {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: auto;
+  max-width: 96rem;
+}
+
+h1, h2 {
+  text-align: center;
+}

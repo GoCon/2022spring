@@ -9,6 +9,7 @@ download:
 	wget -O ./raw_data/formats.csv 'https://docs.google.com/spreadsheets/d/1cxTGkIUIQ7UCfFmXJXOl0shwGLKcJxo03gOwVZ7l1A8/export?format=csv&id=1cxTGkIUIQ7UCfFmXJXOl0shwGLKcJxo03gOwVZ7l1A8&gid=563335428'
 	wget -O ./raw_data/sessions.csv 'https://docs.google.com/spreadsheets/d/1cxTGkIUIQ7UCfFmXJXOl0shwGLKcJxo03gOwVZ7l1A8/export?format=csv&id=1cxTGkIUIQ7UCfFmXJXOl0shwGLKcJxo03gOwVZ7l1A8&gid=1529309388'
 	wget -O ./raw_data/speakers.csv 'https://docs.google.com/spreadsheets/d/1cxTGkIUIQ7UCfFmXJXOl0shwGLKcJxo03gOwVZ7l1A8/export?format=csv&id=1cxTGkIUIQ7UCfFmXJXOl0shwGLKcJxo03gOwVZ7l1A8&gid=1791874699'
+	wget -O ./raw_data/staffs.csv 'https://docs.google.com/spreadsheets/d/1cxTGkIUIQ7UCfFmXJXOl0shwGLKcJxo03gOwVZ7l1A8/export?format=csv&id=1cxTGkIUIQ7UCfFmXJXOl0shwGLKcJxo03gOwVZ7l1A8&gid=746503531'
 
 generate-yml:
 	go run ./scripts/categories/main.go
@@ -19,3 +20,4 @@ generate-yml:
 	go run ./scripts/rooms/main.go
 	go run ./scripts/schedule/main.go
 	go run ./scripts/sessions/main.go
+	go run ./scripts/staffs/main.go
