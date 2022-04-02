@@ -6,5 +6,5 @@ menu:
 
 draft: false
 ---
-{{% hero %}}
-{{% /hero %}}
+{{% title %}}
+{{% /title %}}

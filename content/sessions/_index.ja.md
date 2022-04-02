@@ -8,5 +8,5 @@ talkType: "nop"
 draft: false
 ---
 
-{{% hero %}}
-{{% /hero %}}
+{{% title %}}
+{{% /title %}}

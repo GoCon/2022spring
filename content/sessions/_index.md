@@ -5,8 +5,8 @@ menu:
     weight: 30
 
 talkType: "nop"
-draft: false    
+draft: false
 ---
 
-{{% hero %}}
-{{% /hero %}}
+{{% title %}}
+{{% /title %}}

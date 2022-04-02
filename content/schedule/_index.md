@@ -5,5 +5,5 @@ menu:
     weight: 10
 horizontal: false
 ---
-{{% hero %}}
-{{% /hero %}}
+{{% title %}}
+{{% /title %}}
