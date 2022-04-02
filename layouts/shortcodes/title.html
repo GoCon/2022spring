@@ -1,0 +1,12 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<div class="title">
+	<div class="wrapper">
+		<h1>{{ .Page.Title }}</h1>
+	</div>
+	{{- if in .Page.RelPermalink "partners" -}}
+	  <div class="gopher"></div>
+	{{ end }}
+	<div class="description">
+		{{ .Inner }}
+	</div>
+</div>
