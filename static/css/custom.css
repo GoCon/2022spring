@@ -65,6 +65,14 @@ body>main>section.primary {
 }
 
 /***
+ * each pages
+ */
+
+body.page {
+  margin-top: 40px;
+}
+
+/***
  * partners
  */
 
