@@ -1,0 +1,22 @@
+<div class="staff">
+	<div class="container">
+		{{ if .Params.photoURL }}
+			<div class="avatar-container">
+				<img class="avatar" src="{{ .Site.BaseURL }}{{ .Params.photoURL }}">
+			</div>
+		{{ end }}
+		<div class="info">
+			<div class="name">{{ .Params.name }}</div>
+			<div class="organization">{{ .Params.organization }}</div>
+			<ul class="socials">
+				{{ range .Page.Params.socials }}
+					<li>
+						<a class="social-icon" href="{{ .link }}" rel="noreferrer" target="_blank">
+							{{ partial "icon.html" .icon }}
+						</a>
+					</li>
+				{{ end }}
+			</ul>
+		</div>
+	</div>
+</div>
