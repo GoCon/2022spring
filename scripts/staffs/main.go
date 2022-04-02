@@ -12,8 +12,6 @@ import (
 	"gopkg.in/yaml.v2"
 )
 
-const GitHubURLPrefix = "https://github.com/"
-
 type Staff struct {
 	Key          string `csv:"key"`
 	Name         string `csv:"name"`
