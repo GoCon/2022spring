@@ -1,0 +1,46 @@
+.main-visual {
+  width: 100%;
+  height: 880px;
+  background-image: url('/2022spring/images/home/main-visual/background.png');
+  background-position: center;
+  background-size: cover;
+
+  .content.desktop {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  
+    .main-text {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      overflow-x: hidden;
+
+      img.main {
+        position: absolute;
+        top: 64px;
+        width: 640px;
+        height: 760px;
+      }
+
+      img.text {
+        position: absolute;
+        top: 105px;
+        width: 1124px;
+        height: 425px;
+      }
+    }
+
+    img.cloud-bottom {
+      position: absolute;
+      left: 0;
+      top: 753px;
+      width: 467px;
+      height: 147px;
+    }
+  }
+}

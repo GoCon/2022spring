@@ -6,18 +6,10 @@ menu:
     weight: -1
 ---
 
-{{% jumbo img="" imgLabel="Go Conference 2022 Spring" %}}
-
-## 2022年4月23日(土)
-### オンライン
-
-<!--connpassへのリンクを貼る
-<a class="btn primary" href="https://gocon.connpass.com/event/148602/" target="_blank"><svg class="icon icon-cfp"><use xlink:href="#ticket"></use></svg>カンファレンスチケット</a> <a class="btn primary" href="https://gocon.connpass.com/event/149447/" target="_blank"><svg class="icon icon-cfp"><use xlink:href="#ticket"></use></svg>懇親会チケット</a>
--->
-
-{{% /jumbo %}}
+{{% main-visual %}}
 
 {{% home-info class="primary" %}}
+
 ## Go Conferenceとは？
 
 Go Conferenceは半年に1回行われるプログラミング言語Goに関するカンファレンスです。

@@ -6,14 +6,10 @@ menu:
     weight: -1
 ---
 
-{{% jumbo img="" imgLabel="Go Conference 2022 Spring" %}}
-
-## April 23rd, 2022
-### Online
-
-{{% /jumbo %}}
+{{% main-visual %}}
 
 {{% home-info class="primary" %}}
+
 ## What is Go Conference?
 
 Go Conference is a half-annual conference of programming language Go.
