@@ -1,3 +1,13 @@
+body {
+    margin: 0;
+}
+
+body header {
+    color: #000;
+    background-color: transparent;
+    box-shadow: none;
+}
+
 .jumbo .inner-wrapper .inner {
     color: #000;
 }
