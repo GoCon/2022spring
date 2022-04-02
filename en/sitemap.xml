@@ -58,6 +58,24 @@
   </url><url>
     <loc>https://gocon.jp/2022spring/speakers/yyoshiki41/</loc>
   </url><url>
+    <loc>https://gocon.jp/2022spring/staffs/luccafort/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2022spring/staffs/masahikoito/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2022spring/staffs/ryujiiwata/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2022spring/staffs/sadah/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2022spring/staffs/senoue/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2022spring/staffs/syumai/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2022spring/staffs/tenntenn/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2022spring/staffs/yagipy/</loc>
+  </url><url>
+    <loc>https://gocon.jp/2022spring/staffs/ymotongpoo/</loc>
+  </url><url>
     <loc>https://gocon.jp/2022spring/tags/a1-c/</loc>
   </url><url>
     <loc>https://gocon.jp/2022spring/tags/a10-s/</loc>
@@ -304,6 +322,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://gocon.jp/2022spring/speakers/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2022spring/staffs/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2022spring/ja/staffs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2022spring/staffs/"
                 />
   </url><url>
     <loc>https://gocon.jp/2022spring/tags/</loc>

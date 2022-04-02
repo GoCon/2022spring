@@ -1,0 +1,58 @@
+.staff {
+  width: 50%;
+  --base-space: calc(var(--space-3) * 2);
+  margin-bottom: calc(var(--base-space) * 2);
+  padding-left: var(--base-space);
+  padding-right: var(--base-space); }
+  @media (max-width: 52rem) {
+    .staff {
+      width: 100%; } }
+  @media (min-width: 72rem) {
+    .staff {
+      width: 33%; } }
+  .staff .container {
+    height: 100%;
+    padding: var(--space-4);
+    border: thin solid var(--darken-1);
+    box-shadow: var(--space-1) var(--space-1) var(--space-2) var(--darken-2);
+    border-radius: var(--space-2);
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .staff .container .avatar-container {
+      text-align: center; }
+      .staff .container .avatar-container .avatar {
+        width: 7rem;
+        height: auto;
+        border-radius: 100%;
+        aspect-ratio: 1; }
+    .staff .container .info {
+      flex-grow: 1;
+      text-align: center; }
+      .staff .container .info .name {
+        margin: var(--space-3);
+        font-weight: 600; }
+      .staff .container .info .organization {
+        margin: var(--space-3);
+        font-size: 80%;
+        color: var(--darken-3); }
+      .staff .container .info .socials {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: var(--space-3);
+        padding: 0;
+        gap: var(--space-3);
+        justify-content: center; }
+        .staff .container .info .socials .social-icon {
+          width: 1em;
+          display: inline-flex; }
+
+main .staffs {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 96rem; }
+
+h1, h2 {
+  text-align: center; }

@@ -50,6 +50,18 @@
                 href="https://gocon.jp/2022spring/ja/sessions/closing/"
                 />
   </url><url>
+    <loc>https://gocon.jp/2022spring/ja/staffs/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2022spring/staffs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2022spring/ja/staffs/"
+                />
+  </url><url>
     <loc>https://gocon.jp/2022spring/ja/speakers/</loc>
     <xhtml:link
                 rel="alternate"
