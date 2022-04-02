@@ -1,9 +1,5 @@
 .main-visual {
   width: 100%;
-  height: 880px;
-  background-image: url('/2022spring/images/home/main-visual/background.png');
-  background-position: center;
-  background-size: cover;
 
   .content.desktop {
     position: relative;
@@ -11,6 +7,10 @@
     height: 100%;
     display: flex;
     justify-content: center;
+    height: 880px;
+    background-image: url('/2022spring/images/home/main-visual/desktop/background.png');
+    background-position: center;
+    background-size: cover;
   
     .main-text {
       position: relative;
@@ -41,6 +41,50 @@
       top: 753px;
       width: 467px;
       height: 147px;
+    }
+  }
+
+  .content.mobile {
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    height: 128vw;
+    background-image: url('/2022spring/images/home/main-visual/mobile/main-visual.png');
+    background-position: center;
+    background-size: cover;
+
+    img.cloud-top {
+      position: absolute;
+      right: 0;
+      top: -40px;
+      width: 30vw;
+      height: 8.64vw;
+    }
+
+    img.cloud-bottom {
+      position: absolute;
+      left: 0;
+      bottom: -20px;
+      width: 42vw;
+      height: 17.1vw;
+    }
+  }
+}
+
+/* desktop */
+@media (min-width: 1140px) {
+  .main-visual {
+    .content.mobile {
+      display: none;
+    }
+  }
+}
+
+/* mobile */
+@media (max-width: 1139px) {
+  .main-visual {
+    .content.desktop {
+      display: none;
     }
   }
 }
