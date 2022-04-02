@@ -1,0 +1,56 @@
+header {
+  div.top-content {
+    div.logo-text {
+      width: 276px;
+      height: 48px;
+      background-image: url('/2022spring/images/logos/logo_text.svg');
+      background-repeat: no-repeat;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    div.navigation {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}
+
+
+@media screen and (max-width:1140px) {
+  header {
+    div.top-content {
+      svg.icon {
+        position: absolute;
+        right: 20px;
+        transform: translateY(10px);
+      }
+      div.logo-text {
+        display: none;
+      }
+      div.navigation {
+        position: relative;
+        width: 100%;
+        right: auto;
+        nav {
+          padding-top: 40px !important;
+          background-color: var(--text-pink) !important;
+          color: white;
+          text-align: center;
+        }
+        label {
+          position: absolute;
+          width: 100vw;
+          border: none !important;
+          transform: translateY(-10px);
+        }
+      }
+      body>header .top-content {
+        max-width: 100vw;
+        width: 100vw;
+      }
+    }
+  }
+}
+
