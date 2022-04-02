@@ -68,7 +68,7 @@ body>main>section.primary {
  * each pages
  */
 
-.page {
+body.page {
   margin-top: 40px;
 }
 
