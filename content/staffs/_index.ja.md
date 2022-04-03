@@ -1,5 +1,5 @@
 ---
-title: スタッフ
+title: Staffs
 menu:
   main:
     weight: 100

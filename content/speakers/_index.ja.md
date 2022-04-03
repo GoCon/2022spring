@@ -1,5 +1,5 @@
 ---
-title: スピーカー
+title: Speakers
 menu:
   main:
     weight: 40
