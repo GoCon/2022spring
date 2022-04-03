@@ -1,5 +1,5 @@
 ---
-title: スポンサー
+title: Partners
 menu:
   main:
     weight: 20
