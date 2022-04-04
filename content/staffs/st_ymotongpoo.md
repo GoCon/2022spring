@@ -1,8 +1,8 @@
 ---
-key: ymotongpoo
+key: st_ymotongpoo
 name: ymotongpoo
 organization: Google
-photoURL: /images/staffs/ymotongpoo.png
+photoURL: /images/staffs/st_ymotongpoo.png
 socials:
 - icon: twitter
   link: https://twitter.com/ymotongpoo

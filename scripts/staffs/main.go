@@ -54,6 +54,8 @@ func createStaff(ss []*Staff) {
 
 	dirPath := filepath.Join(wd, "content/staffs")
 	for _, s := range ss {
+		s.Key = fmt.Sprintf("st_%s", s.Key) // key名にprefixを付ける
+
 		if s.Twitter != "" {
 			s.Socials = append(s.Socials, Social{
 				Icon: "twitter",
