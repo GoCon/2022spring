@@ -1,8 +1,8 @@
 ---
-key: syumai
+key: st_syumai
 name: syumai
 organization: BaseMachina, Inc.
-photoURL: /images/staffs/syumai.png
+photoURL: /images/staffs/st_syumai.png
 socials:
 - icon: twitter
   link: https://twitter.com/__syumai

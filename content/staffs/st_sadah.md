@@ -1,8 +1,8 @@
 ---
-key: sadah
+key: st_sadah
 name: sadah
 organization: Mercoin, Inc.
-photoURL: /images/staffs/sadah.png
+photoURL: /images/staffs/st_sadah.png
 socials:
 - icon: twitter
   link: https://twitter.com/sada_h

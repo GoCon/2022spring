@@ -1,8 +1,8 @@
 ---
-key: yagipy
+key: st_yagipy
 name: yagipy
 organization: からくり株式会社
-photoURL: /images/staffs/yagipy.png
+photoURL: /images/staffs/st_yagipy.png
 socials:
 - icon: twitter
   link: https://twitter.com/yagipy_

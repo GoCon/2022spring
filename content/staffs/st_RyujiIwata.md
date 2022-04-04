@@ -1,8 +1,8 @@
 ---
-key: RyujiIwata
+key: st_RyujiIwata
 name: Ryuji Iwata
 organization: Okayama.go
-photoURL: /images/staffs/RyujiIwata.png
+photoURL: /images/staffs/st_RyujiIwata.png
 socials:
 - icon: twitter
   link: https://twitter.com/qt_luigi

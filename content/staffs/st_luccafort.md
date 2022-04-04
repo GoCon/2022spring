@@ -1,8 +1,8 @@
 ---
-key: luccafort
+key: st_luccafort
 name: luccafort
 organization: 株式会社マネーフォワード
-photoURL: /images/staffs/luccafort.png
+photoURL: /images/staffs/st_luccafort.png
 socials:
 - icon: twitter
   link: https://twitter.com/luccafort
