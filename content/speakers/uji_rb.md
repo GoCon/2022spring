@@ -2,7 +2,7 @@
 key: uji_rb
 id: uji_rb
 name: uji
-company: ""
+company: Money Forward, Inc.
 photoURL: /images/speakers/uji_rb.png
 socials:
 - icon: twitter

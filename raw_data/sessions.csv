@@ -83,11 +83,20 @@ lt4,LT4,大規模ゲーム開発におけるContext活用パターン,8kka,confe
 Contextを活用することで、DBアクセス頻度を少なくしたり、レスポンスサイズを小さくする工夫ができたため、その実装手法を共有します。"
 lt5,LT5,GoとKubernetesを用いたバッチ開発のすすめ,awakot_56,conference,Lightning Talk (5 minutes),lt_session,Intermediate,awakot_56,,false,,,"私の所属する会社では、多くのGoを採用する企業も同じように、APIなどのアプリケーションはほぼ全てGo言語で書かれており、Kubernetes上で管理されています。 
 そのため定期的に実行するバッチに関しても同じようにGoとKubernetesで管理したい！と思うようになり、元々Javaで書かれていたバッチの多くをGo言語で書くようになりました。その経験の中で得たGo言語でバッチを開発してKuberntes上で動かす手法やTipsを共有いたします。"
-lt6,LT6,"Gopher, Chrome, Automation in 5min",yebis0942,conference,Lightning Talk (5 minutes),lt_session,All,yebis0942,,false,,,"みなさんウェブブラウザ自動化してますか？どんなライブラリを使ってますか？Go言語には有力なGoogle Chromeの自動化ライブラリがいくつもあることをご存知ですか？
+lt6,LT6,"Gopher, Chrome, Automation in 5min",yebis0942,conference,Lightning Talk (5 minutes),lt_session,All,yebis0942,,false,,,"Go言語コミュニティには複数のGoogle Chromeの自動化ライブラリが存在しており、いずれも活発に開発が進められてきました。
 
-このトークでは、APIデザインに着目してそれぞれライブラリの差異と工夫を紹介します。
+このトークでは、
 
-この紹介を通して、「とりあえずシュッとスクレイピングしたいからstar数が多そうなやつで」という感じでわりと雑に流されがち（な気がする）ライブラリ選定の指針を示し、あわせてブラウザ自動化という広く知られたトピックを題材にして「Goらしい」APIデザインの理解を深める一助となることを目指します。"
+- https://github.com/chromedp/chromedp
+- https://github.com/mafredri/cdp
+- https://github.com/go-rod/rod
+
+という3つの有力なライブラリを取り上げ、それぞれのAPIデザインの違いを紹介します。それを通して、
+
+- 自分のニーズに合ったChrome自動化ライブラリを選ぶ指針が得られる
+- ブラウザ自動化という広く知られたトピックを通して「Goらしい」APIデザインの理解が深まる
+
+ということをゴールとします。"
 lt8,LT8,Go言語仕様輪読会の開催を通じた振り返り,__syumai,conference,Lightning Talk (5 minutes),lt_session,All,__syumai,,false,,,"Go Language Specification輪読会と言う、Goの言語仕様を読む勉強会を1年半に渡って開催し、2021年12月についに仕様の最後まで読み終えることが出来ました。
 この1年半までの間の活動や、メンバーによるGoの言語仕様への貢献、勉強会に伴って開発したツールの紹介を行います。
 また、開催を続けるにあたって、うまくいったこと、あまりうまくいかなかったことについてお話しします。
