@@ -1,9 +1,10 @@
-<header>
+<header id="header">
 	<div class="top-content">
 
 		<div class="logo-text">
 			<a href="{{"/" | relLangURL}}">
-				<div class="logo-text" alt="logo {{ .Site.Title }}"></div>
+				<div class="logo-text" id="logo-text" alt="logo {{ .Site.Title }}"></div>
+				<div class="logo-text--white logo--disable"  id="logo-text--white" alt="logo {{ .Site.Title }}"></div>
 			</a>
 		</div>
 
@@ -15,7 +16,7 @@
 			{{ partial "icon.html" "close" }}
 		</label>
 		<nav>
-			<ul class="menu">
+			<ul class="menu" id="navigation-menu">
 				{{- $currentPage := . -}}
 				{{ range .Site.Menus.main }}
 				<li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" >

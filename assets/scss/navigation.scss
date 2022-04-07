@@ -1,13 +1,26 @@
 header {
+  height: 128px;
   div.top-content {
     div.logo-text {
+      background-image: url('/2022spring/images/logos/logo_text.png');
       width: 276px;
       height: 48px;
-      background-image: url('/2022spring/images/logos/logo_text.svg');
       background-repeat: no-repeat;
       position: absolute;
       left: 0;
       top: 0;
+    }
+    div.logo-text--white {
+      background-image: url('/2022spring/images/logos/logo_text_white.png');
+      width: 276px;
+      height: 48px;
+      background-repeat: no-repeat;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    div.logo--disable {
+      display: none;
     }
     div.navigation {
       position: absolute;
@@ -15,6 +28,15 @@ header {
       top: 0;
     }
   }
+  nav {
+    ul.menu--white {
+      color: white;
+    }
+  }
+}
+
+header.header--white {
+  background: linear-gradient(to bottom, var(--text-pink), rgba(255, 255, 255, 0));
 }
 
 
