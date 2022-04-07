@@ -12,9 +12,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2022spring/sessions/lt6/</guid>
-      <description>みなさんウェブブラウザ自動化してますか？どんなライブラリを使ってますか？Go言語には有力なGoogle Chromeの自動化ライブラリがいくつもあることをご存知ですか？
-このトークでは、APIデザインに着目してそれぞれライブラリの差異と工夫を紹介します。
-この紹介を通して、「とりあえずシュッとスクレイピングしたいからstar数が多そうなやつで」という感じでわりと雑に流されがち（な気がする）ライブラリ選定の指針を示し、あわせてブラウザ自動化という広く知られたトピックを題材にして「Goらしい」APIデザインの理解を深める一助となることを目指します。</description>
+      <description>Go言語コミュニティには複数のGoogle Chromeの自動化ライブラリが存在しており、いずれも活発に開発が進められてきました。
+このトークでは、
+ https://github.com/chromedp/chromedp https://github.com/mafredri/cdp https://github.com/go-rod/rod  という3つの有力なライブラリを取り上げ、それぞれのAPIデザインの違いを紹介します。それを通して、
+ 自分のニーズに合ったChrome自動化ライブラリを選ぶ指針が得られる ブラウザ自動化という広く知られたトピックを通して「Goらしい」APIデザインの理解が深まる  ということをゴールとします。</description>
     </item>
     
   </channel>
