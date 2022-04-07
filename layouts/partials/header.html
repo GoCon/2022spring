@@ -11,9 +11,15 @@
 
 		<div class="navigation">
 		<input type="checkbox" id="menu-burger" class="visually-hidden" aria-label="Menu"/>
+		<div class="logo-sp-container">
+			<a href="{{"/" | relLangURL}}">
+				<div class="logo-text logo--white" alt="logo {{ .Site.Title }}"></div>
+			</a>
+		</div>
 		<label class="menu" for="menu-burger">
-			{{ partial "icon.html" "menu" }}
-			{{ partial "icon.html" "close" }}
+			<img src="/images/header/menu_black.png" class="menu-button menu--black">
+			<img src="/images/header/menu_white.png" class="menu-button menu--white">
+			<img src="/images/header/close_white.png" class="close-button">
 		</label>
 		<nav>
 			<ul class="menu" id="navigation-menu">

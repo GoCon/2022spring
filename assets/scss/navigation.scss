@@ -1,37 +1,89 @@
+#header {
+  /* 背景のグラデーション */
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity var(--animation);
+    background: linear-gradient(to bottom, var(--text-pink), rgba(255, 255, 255, 0));
+  }
+  &.header--white {
+    &::before {
+      opacity: 1;
+    }
+  }
+
+  /* ヘッダ全体 */
+  .top-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    max-width: none;
+    z-index: 10;
+
+    .logo-text-container, .navigation .logo-sp-container {
+      .logo-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 1;
+        transition: opacity var(--animation);
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      .logo--black {
+        background-image: url('/2022spring/images/logos/logo_text.png');
+      }
+      .logo--white {
+        background-image: url('/2022spring/images/logos/logo_text_white.png');
+      }
+      .logo--disable {
+        opacity: 0;
+      }
+    }
+  }
+  
+  .navigation {
+    .logo-sp-container {
+      display: none;
+    }
+  }
+
+  nav {
+    ul {
+      &.menu--white {
+        color: white;
+      }
+      li {
+        opacity: 1;
+        border-radius: 0%;
+        a {
+          text-transform: none;
+          font-weight: 500;
+          transition: color var(--animation);
+        }
+      }
+    }
+  }
+}
+
 @media screen and (min-width:1140px) {
   #header {
     height: 128px;
 
-    /* 背景のグラデーション */
-    &::before {
-      content: "";
-      position: absolute;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      opacity: 0;
-      transition: opacity var(--animation);
-      background: linear-gradient(to bottom, var(--text-pink), rgba(255, 255, 255, 0));
-    }
-    &.header--white {
-      &::before {
-        opacity: 1;
-      }
-    }
-
     /* ヘッダ全体 */
     .top-content {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      margin: 0;
-      justify-content: space-between;
-      align-items: center;
-      max-width: none;
-      z-index: 10;
       padding: 4px 16px;
 
       .logo-text-container {
@@ -39,52 +91,26 @@
         width: 233px;
         height: 40px;
         margin-top: 5px;
-        .logo-text {
-          position: absolute;
-          top: 0;
-          left: 0;
-          opacity: 1;
-          transition: opacity var(--animation);
-          width: 100%;
-          height: 100%;
-          background-size: contain;
-          background-repeat: no-repeat;
-        }
-        .logo--black {
-          background-image: url('/2022spring/images/logos/logo_text.png');
-        }
-        .logo--white {
-          background-image: url('/2022spring/images/logos/logo_text_white.png');
-        }
-        .logo--disable {
-          opacity: 0;
-        }
       }
     }
 
     nav {
       ul {
         &.menu--white {
-          color: white;
           li.active {
             border-bottom-color: white;
           }
         }
         li {
-          opacity: 1;
-          border-radius: 0%;
           border-bottom-width: 3px;
           transition: border-bottom-color var(--animation);
           &.active {
             border-bottom-color: black;
           }
           a {
-            text-transform: none;
-            font-weight: 500;
             font-size: 20px;
             line-height: 20px;
             padding: 9px 16px;
-            transition: color var(--animation);
           }
         }
       }
@@ -93,36 +119,122 @@
 }
 
 @media screen and (max-width:1139px) {
-  header {
-    div.top-content {
-      svg.icon {
+  #header {
+    height: 72px;
+
+    /* ヘッダ全体 */
+    .top-content {
+      .logo-text-container, .navigation .logo-sp-container {
         position: absolute;
-        right: 20px;
-        transform: translateY(10px);
+        top: 16px;
+        left: 14px;
+        width: 140px;
+        height: 24px;
       }
-      div.logo-text {
-        display: none;
-      }
-      div.navigation {
+
+      .navigation {
         position: relative;
         width: 100%;
         right: auto;
+        z-index: 1;
+
+        label.menu {
+          position: absolute;
+          top: 14px;
+          right: 14px;
+          width: 30px;
+          height: 30px;
+          opacity: 1;
+          outline-offset: 0;
+
+          img {
+            position: absolute;
+            &.menu-button {
+              top: 0;
+              right: -4px;
+              width: 30px;
+              height: 20px;
+              display: block;
+              transition: opacity var(--animation);
+              &.menu--black {
+                opacity: 1;
+              }
+              &.menu--white {
+                opacity: 0;
+              }
+            }
+            &.close-button {
+              top: 0;
+              right: 0;
+              width: 23px;
+              height: 23px;
+              display: none;
+            }
+          }
+        }
+
+        input[type=checkbox]:checked ~ label {
+          img {
+            &.menu-button {
+              display: none;
+            }
+            &.close-button {
+              display: block;
+            }
+          }
+        }
+
+        input[type=checkbox]:checked ~ .logo-sp-container {
+          display: block;
+        }
+
         nav {
-          padding-top: 40px !important;
+          padding-top: 40px;
+          padding-bottom: 20px;
           background-color: var(--text-pink) !important;
           color: white;
           text-align: center;
-        }
-        label {
-          position: absolute;
-          width: 100vw;
-          border: none !important;
-          transform: translateY(-10px);
+          ul {
+            li {
+              &.active {
+                border-bottom: none;
+                a {
+                  border-bottom-style: solid;
+                  border-bottom-color: white;
+                  border-bottom-width: 3px;
+                }
+              }
+              a {
+                font-size: 20px;
+                line-height: 32px;
+                padding: 9px 16px;
+              }
+            }
+          }
         }
       }
       body>header .top-content {
         max-width: 100vw;
         width: 100vw;
+      }
+    }
+  }
+
+  #header.header--white {
+    .top-content {
+      .navigation {
+        label.menu {
+          img {
+            &.menu-button {
+              &.menu--black {
+                opacity: 0;
+              }
+              &.menu--white {
+                opacity: 1;
+              }
+            }
+          }
+        }
       }
     }
   }
