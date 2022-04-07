@@ -41,10 +41,6 @@ body>main>section.primary {
   margin-bottom: 0;
 }
 
-.home main .info .inner {
-  max-width: 60vw;
-}
-
 .home main .info .inner p {
   text-align: center;
   font-weight: 400;
@@ -62,6 +58,12 @@ body>main>section.primary {
 
 .home .tickets ul li .ticket {
   margin: 0;
+}
+
+@media screen and (min-width:1140px) {
+  .home main .info .inner {
+    max-width: 60vw;
+  }
 }
 
 /***
