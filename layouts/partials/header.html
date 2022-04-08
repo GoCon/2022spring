@@ -3,8 +3,8 @@
 
 		<div class="logo-text-container">
 			<a href="{{"/" | relLangURL}}">
-				<div class="logo-text" id="logo-text" alt="logo {{ .Site.Title }}"></div>
-				<div class="logo-text--white logo--disable"  id="logo-text--white" alt="logo {{ .Site.Title }}"></div>
+				<div class="logo-text logo--black" id="logo-text" alt="logo {{ .Site.Title }}"></div>
+				<div class="logo-text logo--white logo--disable"  id="logo-text--white" alt="logo {{ .Site.Title }}"></div>
 			</a>
 		</div>
 
@@ -31,21 +31,15 @@
 				{{ end }}
 				</li>
 				{{ end }}
-			</ul>
-
-			<ul class="languages">
-				{{ range .Translations }}
 				<li>
-					<a class="lang lang-{{ .Language.LanguageName }} {{ if eq .Language $.Site.Home.Language }}active{{ end }}"
-					   title="{{ .Language.LanguageName }}"
-					   href="{{ .RelPermalink }}"
-					   role="radio"
-					   aria-label="{{ i18n "language_switch" }} {{ .Language.LanguageName }}"
-					aria-checked="{{ if eq .Language $.Site.Home.Language }}true{{ else }}false{{ end }}">
-					{{- i18n "language_switch" }} {{ .Language.LanguageName -}}
-					</a>
-				</li>
+				{{ range .Translations }}
+					{{ if eq $.Site.Home.Language.Lang "en" }}
+						<a href="{{ .RelPermalink }}">日本語</a>
+					{{ else }}
+						<a href="{{ .RelPermalink }}">English</a>
+					{{ end }}
 				{{ end }}
+				</li>
 			</ul>
 		</nav>
 		</div>

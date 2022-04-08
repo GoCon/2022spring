@@ -1,46 +1,98 @@
-header {
-  height: 128px;
-  div.top-content {
-    div.logo-text {
-      background-image: url('/2022spring/images/logos/logo_text.png');
-      width: 276px;
-      height: 48px;
-      background-repeat: no-repeat;
+@media screen and (min-width:1140px) {
+  #header {
+    height: 128px;
+
+    /* 背景のグラデーション */
+    &::before {
+      content: "";
       position: absolute;
+      z-index: 1;
+      top: 0;
       left: 0;
-      top: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity var(--animation);
+      background: linear-gradient(to bottom, var(--text-pink), rgba(255, 255, 255, 0));
     }
-    div.logo-text--white {
-      background-image: url('/2022spring/images/logos/logo_text_white.png');
-      width: 276px;
-      height: 48px;
-      background-repeat: no-repeat;
+    &.header--white {
+      &::before {
+        opacity: 1;
+      }
+    }
+
+    /* ヘッダ全体 */
+    .top-content {
       position: absolute;
+      top: 0;
       left: 0;
-      top: 0;
+      width: 100%;
+      margin: 0;
+      justify-content: space-between;
+      align-items: center;
+      max-width: none;
+      z-index: 10;
+      padding: 4px 16px;
+
+      .logo-text-container {
+        position: relative;
+        width: 233px;
+        height: 40px;
+        margin-top: 5px;
+        .logo-text {
+          position: absolute;
+          top: 0;
+          left: 0;
+          opacity: 1;
+          transition: opacity var(--animation);
+          width: 100%;
+          height: 100%;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+        .logo--black {
+          background-image: url('/2022spring/images/logos/logo_text.png');
+        }
+        .logo--white {
+          background-image: url('/2022spring/images/logos/logo_text_white.png');
+        }
+        .logo--disable {
+          opacity: 0;
+        }
+      }
     }
-    div.logo--disable {
-      display: none;
-    }
-    div.navigation {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-  }
-  nav {
-    ul.menu--white {
-      color: white;
+
+    nav {
+      ul {
+        &.menu--white {
+          color: white;
+          li.active {
+            border-bottom-color: white;
+          }
+        }
+        li {
+          opacity: 1;
+          border-radius: 0%;
+          border-bottom-width: 3px;
+          transition: border-bottom-color var(--animation);
+          &.active {
+            border-bottom-color: black;
+          }
+          a {
+            text-transform: none;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 20px;
+            padding: 9px 16px;
+            transition: color var(--animation);
+          }
+        }
+      }
     }
   }
 }
 
-header.header--white {
-  background: linear-gradient(to bottom, var(--text-pink), rgba(255, 255, 255, 0));
-}
-
-
-@media screen and (max-width:1140px) {
+@media screen and (max-width:1139px) {
   header {
     div.top-content {
       svg.icon {
