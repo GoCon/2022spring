@@ -11,7 +11,7 @@
     background-image: url('/2022spring/images/home/main-visual/desktop/background.png');
     background-position: center;
     background-size: cover;
-  
+
     .main-text {
       position: relative;
       width: 100%;
@@ -19,6 +19,7 @@
       display: flex;
       justify-content: center;
       overflow-x: hidden;
+      z-index: 1;
 
       img.main {
         position: absolute;
