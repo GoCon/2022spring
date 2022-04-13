@@ -1,7 +1,8 @@
 window.addEventListener('DOMContentLoaded', () => {
+  const section = document.querySelector('.cherry-blossom-container');
+  if (!section) return;
   const minSize = 15;
   const maxSize = 45;
-  const section = document.querySelector('.cherry-blossom-container');
 
   const createPetal = () => {
     if (window.innerWidth < 1140) return;
