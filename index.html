@@ -6,9 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
-	<meta name="Description" content="Go Conference is a half-annual conference of programming language Go.">
+	<meta name="Description" content="Go Conference is a half-annual conference of programming language Go."><meta property="og:title" content="Home" />
+<meta property="og:description" content="Go Conference is a half-annual conference of programming language Go." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://gocon.jp/2022spring/" /><meta property="og:image" content="https://gocon.jp/2022spring/images/ogp.png"/><meta property="og:site_name" content="Go Conference 2022 Spring" />
 
-	
+
 
 	<meta name="generator" content="Hugo 0.88.1" />
 	<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -40,7 +43,9 @@
 	<link href="https://gocon.jp/2022spring/index.xml" rel="feed" type="application/rss+xml" title="Go Conference 2022 Spring"/>
 	
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://gocon.jp/2022spring/theme.css" media="all">
 	<link rel="stylesheet" href="https://gocon.jp/2022spring/css/custom.css" media="all">
 
@@ -51,6 +56,7 @@
     <style>
         :root{
             --primary: #d75c7e;
+            --font-family: 'Poppins', sans-serif;
         }
     body>header nav .languages a.lang.lang-ja:before {
             content: "ja";
@@ -61,6 +67,8 @@
             color: var(--base);
     }
     </style>
+	<script src="https://gocon.jp/2022spring/header.js"></script>
+	<script src="https://gocon.jp/2022spring/sakura.js"></script>
 
 	
 	
@@ -203,28 +211,31 @@
 </svg>
 
 
-<header>
+<header id="header">
 	<div class="top-content">
 
-		<div class="logo">
+		<div class="logo-text-container">
 			<a href="https://gocon.jp/2022spring/">
-			<img src="https://gocon.jp/2022spring/images/logos/logo_text.png" alt="logo Go Conference 2022 Spring">
+				<div class="logo-text logo--black" id="logo-text" alt="logo Go Conference 2022 Spring"></div>
+				<div class="logo-text logo--white logo--disable"  id="logo-text--white" alt="logo Go Conference 2022 Spring"></div>
 			</a>
 		</div>
 
+
+		<div class="navigation">
 		<input type="checkbox" id="menu-burger" class="visually-hidden" aria-label="Menu"/>
-
-		<label for="menu-burger">
-			<svg class="icon icon-menu">
-	<use xlink:href="#menu"/>
-</svg>
-			<svg class="icon icon-close">
-	<use xlink:href="#close"/>
-</svg>
+		<div class="logo-sp-container">
+			<a href="https://gocon.jp/2022spring/">
+				<div class="logo-text logo--white" alt="logo Go Conference 2022 Spring"></div>
+			</a>
+		</div>
+		<label class="menu" for="menu-burger">
+			<img src="https://gocon.jp/2022spring/images/header/menu_black.png" class="menu-button menu--black">
+			<img src="https://gocon.jp/2022spring/images/header/menu_white.png" class="menu-button menu--white">
+			<img src="https://gocon.jp/2022spring/images/header/close_white.png" class="close-button">
 		</label>
-
 		<nav>
-			<ul class="menu">
+			<ul class="menu" id="navigation-menu">
 				<li class="active" >
 				
 				<a href="https://gocon.jp/2022spring/">Home</a>
@@ -261,21 +272,16 @@
 				
 				</li>
 				
-			</ul>
-
-			<ul class="languages">
-				
 				<li>
-					<a class="lang lang-ja "
-					   title="ja"
-					   href="https://gocon.jp/2022spring/ja/"
-					   role="radio"
-					   aria-label="[i18n] language_switch ja"
-					aria-checked="false">[i18n] language_switch ja</a>
-				</li>
 				
+					
+						<a href="https://gocon.jp/2022spring/ja/">日本語</a>
+					
+				
+				</li>
 			</ul>
 		</nav>
+		</div>
 
 	</div>
 </header>
@@ -286,28 +292,22 @@
 	
 
 
-
-
-<div class="jumbo">
-	<div class="jumbo-cover" style="background-image: url('')" aria-label="Go Conference 2022 Spring"></div>
-	<img id="jumbo-img" src="" />
-	<div id="jumbo-overlay"></div>
-	<div class="inner-wrapper">
-		
-		<img class="jumbo-logo" src="https://gocon.jp/2022spring/images/logos/logo_text.png" alt="logo Go Conference 2022 Spring">
-		
-		<div class="inner">
-			<h2 id="april-23rd-2022">April 23rd, 2022</h2>
-<h3 id="online">Online</h3>
-
+<div class="main-visual">
+	<div class="cherry-blossom-container">
+		<div class="content desktop">
+			<div class="main-text">
+				<img src="https://gocon.jp/2022spring/images/home/main-visual/desktop/main.png" class="main">
+				<img src="https://gocon.jp/2022spring/images/home/main-visual/desktop/text.png" class="text">
+			</div>
+			<img src="https://gocon.jp/2022spring/images/home/main-visual/desktop/cloud-bottom.png" class="cloud-bottom">
 		</div>
 	</div>
-	<div class="scroll-down" aria-hidden="true">
-		<svg class="icon icon-scroll-down">
-	<use xlink:href="#scroll-down"/>
-</svg>
+	<div class="content mobile">
+		<img src="https://gocon.jp/2022spring/images/home/main-visual/mobile/cloud-top.png" class="cloud-top">
+		<img src="https://gocon.jp/2022spring/images/home/main-visual/mobile/cloud-bottom.png" class="cloud-bottom">
 	</div>
 </div>
+
 
 <section class="info container primary">
 <div class="wrapper">
@@ -415,8 +415,10 @@
 
 
 <section class="partners-group partner-platinum">
-<h3 class="fancy">
-<span>platinum&#34;Go&#34;ld</span>
+<h3 class="fancy-custom">
+<div class="partner-category">
+	<div class="category-name">platinum&#34;Go&#34;ld</div>
+</div>
 </h3>
 <ul>
 	
@@ -435,8 +437,10 @@
 </section>
 
 <section class="partners-group partner-gold">
-<h3 class="fancy">
-<span>&#34;Go&#34;ld</span>
+<h3 class="fancy-custom">
+<div class="partner-category">
+	<div class="category-name">&#34;Go&#34;ld</div>
+</div>
 </h3>
 <ul>
 	
@@ -455,8 +459,10 @@
 </section>
 
 <section class="partners-group partner-silver">
-<h3 class="fancy">
-<span>Silver</span>
+<h3 class="fancy-custom">
+<div class="partner-category">
+	<div class="category-name">Silver</div>
+</div>
 </h3>
 <ul>
 	
@@ -529,8 +535,10 @@
 </section>
 
 <section class="partners-group partner-bronze">
-<h3 class="fancy">
-<span>Bronze</span>
+<h3 class="fancy-custom">
+<div class="partner-category">
+	<div class="category-name">Bronze</div>
+</div>
 </h3>
 <ul>
 	
@@ -745,6 +753,7 @@ If you have any questions about the Sponsorship Plan, please contact us using th
 			
 			<img src="https://gocon.jp/2022spring/images/logos/logo.png" alt="Go Conference 2022 Spring">
 			
+			<div class="gopher-license">Gopherの原著作者は<a href="http://reneefrench.blogspot.com/">Renée French</a>さんです。 Original Creator of "Gopher" is <a href="http://reneefrench.blogspot.com/">Renée French</a>.</div>
 			<div>Go Conference</div>
 		</div>
 

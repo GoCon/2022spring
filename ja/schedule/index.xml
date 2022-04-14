@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>タイムスケジュール on Go Conference 2022 Spring</title>
+    <title>Schedule on Go Conference 2022 Spring</title>
     <link>https://gocon.jp/2022spring/ja/schedule/</link>
-    <description>Recent content in タイムスケジュール on Go Conference 2022 Spring</description>
+    <description>Recent content in Schedule on Go Conference 2022 Spring</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://gocon.jp/2022spring/ja/schedule/index.xml" rel="self" type="application/rss+xml" />
   </channel>

@@ -6,9 +6,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
-	<meta name="Description" content="Go Conference is a half-annual conference of programming language Go.">
+	<meta name="Description" content="Go Conference is a half-annual conference of programming language Go."><meta property="og:title" content="" />
+<meta property="og:description" content="仕事でも趣味でも Go 書いてる組込ソフトエンジニア。ここ最近は TinyGo プロジェクトの中の人として活動しています。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gocon.jp/2022spring/speakers/sago35tk/" /><meta property="og:image" content="https://gocon.jp/2022spring/images/ogp.png"/><meta property="article:section" content="speakers" />
 
-	
+<meta property="og:site_name" content="Go Conference 2022 Spring" />
+
+
 
 	<meta name="generator" content="Hugo 0.88.1" />
 	<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
@@ -37,7 +42,9 @@
 
 	
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://gocon.jp/2022spring/theme.css" media="all">
 	<link rel="stylesheet" href="https://gocon.jp/2022spring/css/custom.css" media="all">
 
@@ -48,6 +55,7 @@
     <style>
         :root{
             --primary: #d75c7e;
+            --font-family: 'Poppins', sans-serif;
         }
     body>header nav .languages a.lang.lang-ja:before {
             content: "ja";
@@ -58,6 +66,8 @@
             color: var(--base);
     }
     </style>
+	<script src="https://gocon.jp/2022spring/header.js"></script>
+	<script src="https://gocon.jp/2022spring/sakura.js"></script>
 
 	
 	
@@ -200,28 +210,31 @@
 </svg>
 
 
-<header>
+<header id="header">
 	<div class="top-content">
 
-		<div class="logo">
+		<div class="logo-text-container">
 			<a href="https://gocon.jp/2022spring/">
-			<img src="https://gocon.jp/2022spring/images/logos/logo_text.png" alt="logo Go Conference 2022 Spring">
+				<div class="logo-text logo--black" id="logo-text" alt="logo Go Conference 2022 Spring"></div>
+				<div class="logo-text logo--white logo--disable"  id="logo-text--white" alt="logo Go Conference 2022 Spring"></div>
 			</a>
 		</div>
 
+
+		<div class="navigation">
 		<input type="checkbox" id="menu-burger" class="visually-hidden" aria-label="Menu"/>
-
-		<label for="menu-burger">
-			<svg class="icon icon-menu">
-	<use xlink:href="#menu"/>
-</svg>
-			<svg class="icon icon-close">
-	<use xlink:href="#close"/>
-</svg>
+		<div class="logo-sp-container">
+			<a href="https://gocon.jp/2022spring/">
+				<div class="logo-text logo--white" alt="logo Go Conference 2022 Spring"></div>
+			</a>
+		</div>
+		<label class="menu" for="menu-burger">
+			<img src="https://gocon.jp/2022spring/images/header/menu_black.png" class="menu-button menu--black">
+			<img src="https://gocon.jp/2022spring/images/header/menu_white.png" class="menu-button menu--white">
+			<img src="https://gocon.jp/2022spring/images/header/close_white.png" class="close-button">
 		</label>
-
 		<nav>
-			<ul class="menu">
+			<ul class="menu" id="navigation-menu">
 				<li class="" >
 				
 				<a href="https://gocon.jp/2022spring/">Home</a>
@@ -258,12 +271,12 @@
 				
 				</li>
 				
-			</ul>
-
-			<ul class="languages">
+				<li>
 				
+				</li>
 			</ul>
 		</nav>
+		</div>
 
 	</div>
 </header>
@@ -443,6 +456,7 @@
 			
 			<img src="https://gocon.jp/2022spring/images/logos/logo.png" alt="Go Conference 2022 Spring">
 			
+			<div class="gopher-license">Gopherの原著作者は<a href="http://reneefrench.blogspot.com/">Renée French</a>さんです。 Original Creator of "Gopher" is <a href="http://reneefrench.blogspot.com/">Renée French</a>.</div>
 			<div>Go Conference</div>
 		</div>
 
