@@ -14,7 +14,7 @@ googleAnalytics = "UA-127197700-1"
     title = "Go Conference 2022 Spring"
     date = "2022-04-23"
     description = "Go Conference is a half-annual conference of programming language Go."
-    images = ["/images/social-share.jpg"]
+    images = ["/2022spring/images/ogp.png"]
     email = "info@gocon.jp"
     keywords = "golang, gocon"
     copyright = "Go Conference"
@@ -38,7 +38,7 @@ googleAnalytics = "UA-127197700-1"
     languageName = "en"
 
 [languages.ja]
-    weight = 2 
+    weight = 2
     languageName = "ja"
 
 [languages.ja.params]

@@ -5,10 +5,10 @@ menu:
     weight: 20
 ---
 
-{{% hero %}}
+{{% title %}}
 
 
-{{% /hero %}}
+{{% /title %}}
 
 <!-- Partners list -->
 

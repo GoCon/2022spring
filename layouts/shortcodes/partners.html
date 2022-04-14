@@ -7,8 +7,12 @@
 {{ $site := .Site }}
 {{ range (split (.Get "categories") ",") }}
 <section class="partners-group partner-{{ . }}">
-<h3 class="fancy">
-<span>{{- i18n (print "partner_category_" .) -}}</span>
+<h3 class="fancy-custom">
+<div class="partner-category">
+	<div class="category-name">
+		{{- i18n (print "partner_category_" .) -}}
+	</div>
+</div>
 </h3>
 <ul>
 	{{ $partners := where $site.AllPages "Params.category" . }}

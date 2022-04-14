@@ -1,5 +1,27 @@
+html {
+  background-color: #fff;
+}
+
+body {
+  margin: 0;
+}
+
+body header {
+  color: #000;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+/***
+ * home
+ */
+
 .jumbo .inner-wrapper .inner {
-    color: #000;
+  color: #000;
 }
 
 .jumbo #jumbo-overlay.show {
@@ -9,6 +31,52 @@
 .jumbo .scroll-down {
   color: #000;
 }
+
+body>main>section.primary {
+  background-color: var(--text-pink);
+}
+
+.home main>section h2 {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.home main .info .inner p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.home ul {
+  margin: 0;
+}
+
+.home .tickets ul li .ticket {
+  margin: 0;
+}
+
+@media screen and (min-width:1140px) {
+  .home main .info .inner {
+    max-width: 60vw;
+  }
+}
+
+/***
+ * each pages
+ */
+
+body.page {
+  margin-top: 40px;
+}
+
+/***
+ * partners
+ */
 
 .partners-group.partner-platinum ul li {
   height: var(--partner-platinum-height);

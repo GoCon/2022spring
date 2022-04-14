@@ -1,10 +1,10 @@
 ---
-title: スタッフ
+title: Staffs
 menu:
   main:
     weight: 100
 
 draft: false
 ---
-{{% hero %}}
-{{% /hero %}}
+{{% title %}}
+{{% /title %}}
