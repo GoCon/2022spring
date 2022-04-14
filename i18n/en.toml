@@ -97,3 +97,10 @@ other = "Bronze"
 
 [partner_category_green]
 other = "Green"
+
+############
+# Speakers #
+############
+
+[partner_speakers]
+other = "Partner Session Speakers"

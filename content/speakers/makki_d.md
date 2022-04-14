@@ -4,6 +4,7 @@ id: makki_d
 name: Daisuke Makiuchi (MakKi, makki_d)
 company: KLab Inc.
 photoURL: /images/speakers/makki_d.jpg
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/makki_d

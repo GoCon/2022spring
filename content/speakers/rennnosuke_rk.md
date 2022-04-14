@@ -4,6 +4,7 @@ id: rennnosuke_rk
 name: Ren Kanai
 company: Eureka.inc
 photoURL: /images/speakers/rennnosuke_rk.png
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/rennnosuke_rk

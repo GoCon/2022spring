@@ -4,6 +4,7 @@ id: sago35tk
 name: sago35
 company: ""
 photoURL: /images/speakers/sago35tk.png
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/sago35tk

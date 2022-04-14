@@ -107,7 +107,16 @@ a10-s,A10-S,testingパッケージを使ったWebアプリケーションテス�
 私がtestingパッケージを使って行なっている様々なレベルのテストについて紹介します。"
 b13-s,B13-S,Go で始める将棋AI,mururururu,conference,Short Session (20 minutes),short_session,Intermediate,mururururu,,false,,,"近年、将棋AIの実力は人間を凌駕するようになりました。
 このセッションでは将棋AIのベースとなるアルゴリズムや将棋ソフトの実装で用いられるプロトコルなどを紹介し、私の実装をベースにそれらを Go で実装する方法を紹介します。"
-a1-c,A1-C,株式会社ビットキー / Bitkey Inc.,bitkey,conference,Sponsor Session,sponsor_session,,,bitkey,false,,,
-a2-c,A2-C,株式会社ヤプリ,yappli,conference,Sponsor Session,sponsor_session,,,yappli,false,,,
+a1-c,A1-C,go/ast を使って Cognitive Complexity 計測ツールを作ってみる,bitkey,conference,Sponsor Session,sponsor_session,Beginner,norinoriki0,bitkey,false,,,"Cognitive Complexity (認知的複雑度) というのは、プログラムの複雑さを測る指標の一つです。以前から使われてきた Cyclomatic Complexity (循環的複雑度) と比べて、人間の理解の難しさにフォーカスしたものであるという特徴があります。
+
+今回の発表では、Go の標準ライブラリである、抽象構文木(AST)を扱うためのライブラリ(go/ast) を使って、どのように Cognitive Complexity の計測ツールを実装できるかについてお話します。静的解析ツールを作るときや go/ast を使うにあたって知っておいたほうが良い情報などについても触れる予定です。go/ast をまだ使ったことがない人が「ちょっと静的解析ツール作ってみような」と思えるようなお話ができればと思っています。"
+a2-c,A2-C,創業以来のPHPシステムを約2年かけてGoに移行した経験談,yappli,conference,Sponsor Session,sponsor_session,All,yosuke_moriya,yappli,false,,,"Yappliは2013年創業の、ノーコードでアプリを作成できるプラットフォームです。  
+当初サーバーサイドはフレームワークを使わない生のPHPで実装されており、重複コードが多い・テストコードがない・依存が複雑といった様々な問題を抱えていました。  
+これを一新すべく、2018年より約2年をかけて主要な40弱の機能をGoに移行することに成功しました。  
+本発表では、この移行の際に経験した様々な苦悩とそれを乗り越えた話についてお話しします。"
 a5-c,A5-C,株式会社バニッシュ・スタンダード,v-standard,conference,Sponsor Session,sponsor_session,,,v-standard,false,,,
-a6-c,A6-C,クラスター株式会社,cluster,conference,Sponsor Session,sponsor_session,,,cluster,false,,,
+a6-c,A6-C,メタバースを支える技術 ～UGCに溢れる3D空間のリアルタイム同期を支えるGo〜,cluster,conference,Sponsor Session,sponsor_session,All,thara,cluster,false,,,"「メタバース」を実現するためには主にオンラインゲームで培われた3D空間のリアルタイム同期技術だけでなく、アバターやワールドなどのUGC、そしてワールドの中から別のワールドを創るといったメタバースならではの要件があります。
+
+メタバースプラットフォーム「cluster 」では、これらの技術要件のバックエンド領域を一般的なWeb APIサーバーの他、リアルタイム通信サーバー・UGCパイプライン等が担っており、そのいずれもGoで開発されています。
+
+このセッションでは、上記に挙げた要素技術の概略とそれらをいかにGoが支えているかについてお話しします。"

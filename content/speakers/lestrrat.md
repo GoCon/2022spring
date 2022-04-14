@@ -4,6 +4,7 @@ id: lestrrat
 name: Daisuke Maki
 company: Mercari Inc
 photoURL: /images/speakers/lestrrat.jpg
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/lestrrat

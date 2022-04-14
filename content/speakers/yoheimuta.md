@@ -4,6 +4,7 @@ id: yoheimuta
 name: yoheimuta
 company: パラレル株式会社
 photoURL: /images/speakers/yoheimuta.jpg
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/yoheimuta

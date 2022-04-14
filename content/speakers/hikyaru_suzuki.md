@@ -4,6 +4,7 @@ id: hikyaru_suzuki
 name: 鈴木 光
 company: 株式会社QualiArts
 photoURL: /images/speakers/hikyaru_suzuki.png
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/hikyaru_suzuki

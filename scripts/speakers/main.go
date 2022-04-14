@@ -15,15 +15,17 @@ import (
 const GitHubURLPrefix = "https://github.com/"
 
 type Speaker struct {
-	Key      string `csv:"key"`
-	ID       string `csv:"id"`
-	Name     string `csv:"name"`
-	Company  string `csv:"company"`
-	Twitter  string `csv:"twitter" yaml:"-"`
-	Site     string `csv:"site" yaml:"-"`
-	PhotoURL string `yaml:"photoURL"`
-	Bio      string `csv:"bio" yaml:"-"`
-	Socials  []Social
+	Key          string `csv:"key"`
+	ID           string `csv:"id"`
+	Name         string `csv:"name"`
+	Company      string `csv:"company"`
+	Twitter      string `csv:"twitter" yaml:"-"`
+	Site         string `csv:"site" yaml:"-"`
+	PhotoURL     string `yaml:"photoURL"`
+	Bio          string `csv:"bio" yaml:"-"`
+	RawIsPartner string `csv:"is_partner" yaml:"-"`
+	Partner      bool   `yaml:"partner"`
+	Socials      []Social
 }
 
 type Social struct {
@@ -70,6 +72,9 @@ func createSpeaker(ss []*Speaker) {
 				Link: s.Site,
 				Name: s.Site,
 			})
+		}
+		if s.RawIsPartner == "true" {
+			s.Partner = true
 		}
 
 		s.PhotoURL = fmt.Sprintf("/images/speakers/%s", photoURLMap[s.Key])

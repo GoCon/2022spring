@@ -100,3 +100,10 @@ other = "ブロンズ"
 
 [partner_category_green]
 other = "グリーン"
+
+############
+# Speakers #
+############
+
+[partner_speakers]
+other = "スポンサーセッションスピーカー"

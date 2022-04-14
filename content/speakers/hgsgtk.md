@@ -4,6 +4,7 @@ id: hgsgtk
 name: Kazuki Higashiguchi
 company: Autify, Inc.
 photoURL: /images/speakers/hgsgtk.jpg
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/hgsgtk

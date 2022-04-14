@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+{{ .Content }}
+
+{{ $speakers := .RegularPages }}
+{{ $partnerSpeakers := where $speakers "Params.partner" true }}
+
+<section>
+	<ul class="speakers shuffle">
+		{{ range ($speakers | symdiff $partnerSpeakers) }}
+		<li>{{ partial "speaker.html" . }}</li>
+		{{ end }}
+	</ul>
+</section>
+
+<h2>{{ i18n "partner_speakers" }}</h2>
+
+<section>
+	<ul class="speakers shuffle">
+		{{ range $partnerSpeakers }}
+		<li>{{ partial "speaker.html" . }}</li>
+		{{ end }}
+	</ul>
+</section>
+
+{{ end }}

@@ -4,6 +4,7 @@ id: ryushi
 name: taichi
 company: 電通国際情報サービス
 photoURL: /images/speakers/ryushi.jpg
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/ryushi
