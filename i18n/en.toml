@@ -40,6 +40,9 @@ other = "Come join us at Go Conference 2022 Spring!! #gocon"
 [twitter_share_label]
 other = "Share on Twitter"
 
+[twitter_share_url]
+other = "https://gocon.jp/2022spring/"
+
 [footer_follow_blog]
 other = "Follow our"
 

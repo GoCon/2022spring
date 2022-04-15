@@ -5,11 +5,9 @@
 			<div class="share">
 				<header>{{ i18n "footer_share" }}</header>
 				<ul class="social-list">
-					{{ range .Site.Data.footer.share }}
 					<li>
-						{{ $url := .URL | relLangURL }}
-						{{ partial "social-sharer.html" (dict "context" . "url" $url "name" .name) }}
-						{{ end }}
+						{{ partial "social-sharer.html" (dict "context" . "url" (i18n "twitter_share_url") "name" "twitter") }}
+					</li>
 				</ul>
 			</div>
 			<div class="follow">
