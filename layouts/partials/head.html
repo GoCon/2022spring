@@ -6,7 +6,7 @@
 	<meta name="MobileOptimized" content="320">
 	<meta name="Description" content="{{ .Site.Params.description }}">
 
-	{{- template "_internal/opengraph.html" . -}}
+	{{- partial "opengraph.html" . -}}
 	{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
 	{{/* NOTE: These Hugo Internal Templates can be found starting at
 	https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
