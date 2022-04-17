@@ -1,0 +1,54 @@
+<header id="header">
+	<div class="top-content">
+
+		<div class="logo-text-container">
+			<a href="{{"/" | relLangURL}}">
+				<div class="logo-text logo--black" id="logo-text" alt="logo {{ .Site.Title }}"></div>
+				<div class="logo-text logo--white logo--disable"  id="logo-text--white" alt="logo {{ .Site.Title }}"></div>
+			</a>
+		</div>
+
+
+		<div class="navigation">
+		<input type="checkbox" id="menu-burger" class="visually-hidden" aria-label="Menu"/>
+		<div class="logo-sp-container">
+			<a href="{{"/" | relLangURL}}">
+				<div class="logo-text logo--white" alt="logo {{ .Site.Title }}"></div>
+			</a>
+		</div>
+		<label class="menu" for="menu-burger">
+			<img src="/images/header/menu_black.png" class="menu-button menu--black">
+			<img src="/images/header/menu_white.png" class="menu-button menu--white">
+			<img src="/images/header/close_white.png" class="close-button">
+		</label>
+		<nav>
+			<ul class="menu" id="navigation-menu">
+				{{- $currentPage := . -}}
+				{{ range .Site.Menus.main }}
+				<li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" >
+				{{ if (hasPrefix .URL "http") }}
+				<a class="external" rel="noreferrer" target="_blank" href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
+				{{ else if (isset .Page.Params "icon") }}
+				<a href="{{ .URL | relLangURL }}" class="link-icon" title="{{ .Name }}">
+						{{ partial "icon.html" .Page.Params.icon }}
+				</a>
+				{{ else }}
+				<a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+				{{ end }}
+				</li>
+				{{ end }}
+				<li>
+				{{ range .Translations }}
+					{{ if eq $.Site.Home.Language.Lang "en" }}
+						<a href="{{ .RelPermalink }}">日本語</a>
+					{{ else }}
+						<a href="{{ .RelPermalink }}">English</a>
+					{{ end }}
+				{{ end }}
+				</li>
+			</ul>
+		</nav>
+		</div>
+
+	</div>
+</header>

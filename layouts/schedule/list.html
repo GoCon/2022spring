@@ -133,6 +133,7 @@ function checkLinks() {
         .forEach(function(lnk) {
             lnk.classList.toggle('active', lnk.getAttribute('href') === currentDay);
         });
+		window.scrollTo(0, 0);
 }
 window.addEventListener("load", checkLinks, false);
 window.addEventListener("hashchange", checkLinks, false);

@@ -1,14 +1,14 @@
 ---
-title: スポンサー
+title: Partners
 menu:
   main:
     weight: 20
 ---
 
-{{% hero %}}
+{{% title %}}
 
 
-{{% /hero %}}
+{{% /title %}}
 
 <!-- Partners list -->
 

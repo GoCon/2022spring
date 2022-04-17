@@ -1,0 +1,45 @@
+div.title {
+  background-color: var(--bg-gray);
+  height: 284px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  div.wrapper {
+    height: 175px;
+    width: 560px;
+    background-image: url('/2022spring/images/title/desktop.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      transform: translateY(20px);
+    }
+  }
+  div.gopher {
+    width: 87px;
+    height: 131px;
+    background-repeat: no-repeat;
+		background-image: url('/2022spring/images/title/gopher.png');
+    position: absolute;
+    transform: translate(165px, 120px);
+  }
+}
+
+@media screen and (max-width:560px) {
+  div.title {
+    height: 180px;
+    div.wrapper {
+      height: 102px;
+      width: 327px;
+      background-image: url('/2022spring/images/title/mobile.png');
+    }
+    div.gopher {
+      display: none;
+    }
+  }
+}

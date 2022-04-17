@@ -1,5 +1,5 @@
 ---
-title: セッション
+title: Sessions
 menu:
   main:
     weight: 30
@@ -8,5 +8,5 @@ talkType: "nop"
 draft: false
 ---
 
-{{% hero %}}
-{{% /hero %}}
+{{% title %}}
+{{% /title %}}

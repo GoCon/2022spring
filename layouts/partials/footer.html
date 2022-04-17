@@ -5,11 +5,9 @@
 			<div class="share">
 				<header>{{ i18n "footer_share" }}</header>
 				<ul class="social-list">
-					{{ range .Site.Data.footer.share }}
 					<li>
-						{{ $url := .URL | relLangURL }}
-						{{ partial "social-sharer.html" (dict "context" . "url" $url "name" .name) }}
-						{{ end }}
+						{{ partial "social-sharer.html" (dict "context" . "url" (i18n "twitter_share_url") "name" "twitter") }}
+					</li>
 				</ul>
 			</div>
 			<div class="follow">
@@ -75,6 +73,7 @@
 			{{ if .Site.Params.logos.footer }}
 			<img src="{{ .Site.Params.logos.footer }}" alt="{{ .Site.Title }}">
 			{{ end }}
+			<div class="gopher-license">Gopherの原著作者は<a href="http://reneefrench.blogspot.com/">Renée French</a>さんです。 Original Creator of "Gopher" is <a href="http://reneefrench.blogspot.com/">Renée French</a>.</div>
 			<div>{{ emojify .Site.Params.copyright }}</div>
 		</div>
 
