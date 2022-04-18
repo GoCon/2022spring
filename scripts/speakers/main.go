@@ -20,6 +20,7 @@ type Speaker struct {
 	Name         string `csv:"name"`
 	Company      string `csv:"company"`
 	Twitter      string `csv:"twitter" yaml:"-"`
+	GitHub       string `csv:"github" yaml:"-"`
 	Site         string `csv:"site" yaml:"-"`
 	PhotoURL     string `yaml:"photoURL"`
 	Bio          string `csv:"bio" yaml:"-"`
@@ -64,6 +65,13 @@ func createSpeaker(ss []*Speaker) {
 				Icon: "twitter",
 				Link: fmt.Sprintf("https://twitter.com/%s", s.Twitter),
 				Name: s.Twitter,
+			})
+		}
+		if s.GitHub != "" {
+			s.Socials = append(s.Socials, Social{
+				Icon: "github",
+				Link: fmt.Sprintf("https:/github.com/%s", s.GitHub),
+				Name: s.GitHub,
 			})
 		}
 		if s.Site != "" {

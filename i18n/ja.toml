@@ -105,6 +105,13 @@ other = "ブロンズ"
 other = "グリーン"
 
 ############
+# Sessions #
+############
+
+[partner_sessions]
+other = "スポンサーセッション"
+
+############
 # Speakers #
 ############
 

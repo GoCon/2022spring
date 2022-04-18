@@ -1,6 +1,6 @@
 ---
 key: a1-c
-title: go/ast を使って Cognitive Complexity 計測ツールを作ってみる
+title: 人間の直感に対応させた複雑度<Cognitive Complexity>の計測ツールをgo/astで実装してみよう
 id: bitkey
 format: conference
 talkType: sponsor_session
