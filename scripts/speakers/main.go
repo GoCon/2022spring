@@ -90,11 +90,16 @@ func createSpeaker(ss []*Speaker) {
 		if err != nil {
 			panic(err)
 		}
-		f, err := os.OpenFile(filepath.Join(dirPath, fmt.Sprintf("%s.md", s.Key)), os.O_WRONLY|os.O_CREATE|os.O_TRUNC, os.ModePerm)
+		fileEn, err := os.OpenFile(filepath.Join(dirPath, fmt.Sprintf("%s.md", s.Key)), os.O_WRONLY|os.O_CREATE|os.O_TRUNC, os.ModePerm)
 		if err != nil {
 			panic(err)
 		}
-		defer f.Close()
+		defer fileEn.Close()
+		fileJa, err := os.OpenFile(filepath.Join(dirPath, fmt.Sprintf("%s.ja.md", s.Key)), os.O_WRONLY|os.O_CREATE|os.O_TRUNC, os.ModePerm)
+		if err != nil {
+			panic(err)
+		}
+		defer fileJa.Close()
 
 		out, err := yaml.Marshal(s)
 		if err != nil {
@@ -104,8 +109,12 @@ func createSpeaker(ss []*Speaker) {
 %s---
 %s`, string(out), s.Bio)
 		rd := strings.NewReader(body)
-
-		_, err = io.Copy(f, rd)
+		_, err = io.Copy(fileEn, rd)
+		if err != nil {
+			panic(err)
+		}
+		rd = strings.NewReader(body)
+		_, err = io.Copy(fileJa, rd)
 		if err != nil {
 			panic(err)
 		}
