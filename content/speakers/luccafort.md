@@ -4,6 +4,7 @@ id: luccafort
 name: luccafort
 company: Money Forward, Inc.
 photoURL: /images/speakers/luccafort.jpg
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/luccafort

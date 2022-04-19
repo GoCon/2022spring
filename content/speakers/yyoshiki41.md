@@ -4,6 +4,7 @@ id: yyoshiki41
 name: Yoshiki Nakagawa
 company: LayerX Inc.
 photoURL: /images/speakers/yyoshiki41.jpg
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/yyoshiki41

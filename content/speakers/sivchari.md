@@ -4,6 +4,7 @@ id: sivchari
 name: sivchari
 company: ""
 photoURL: /images/speakers/sivchari.jpg
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/sivchari

@@ -4,6 +4,7 @@ id: kazuhisa_takei
 name: Kazuhisa TAKEI
 company: Rytr. Inc.
 photoURL: /images/speakers/kazuhisa_takei.jpg
+partner: false
 socials:
 - icon: link
   link: https://mmap.dev/

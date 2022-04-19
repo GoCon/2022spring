@@ -4,6 +4,7 @@ id: rytswd
 name: Ryota Sawada
 company: UPSIDER
 photoURL: /images/speakers/rytswd.jpg
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/rytswd

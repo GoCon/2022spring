@@ -4,6 +4,7 @@ id: __syumai
 name: syumai
 company: BaseMachina, Inc.
 photoURL: /images/speakers/__syumai.jpg
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/__syumai

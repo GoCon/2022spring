@@ -4,6 +4,7 @@ id: uji_rb
 name: uji
 company: Money Forward, Inc.
 photoURL: /images/speakers/uji_rb.png
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/uji_rb

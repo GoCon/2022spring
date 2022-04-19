@@ -4,6 +4,7 @@ id: yuji_shimada
 name: Yuji Shimada
 company: 株式会社QualiArts
 photoURL: /images/speakers/yuji_shimada.jpg
+partner: false
 socials: []
 ---
 バックエンドエンジニアとしてモバイルゲームの開発に携わっています。

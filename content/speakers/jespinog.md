@@ -4,6 +4,7 @@ id: jespinog
 name: Jesús Espino
 company: Mattermost Inc.
 photoURL: /images/speakers/jespinog.jpg
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/jespinog

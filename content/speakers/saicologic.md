@@ -4,6 +4,7 @@ id: saicologic
 name: Satoru Mikami
 company: 株式会社Voicy
 photoURL: /images/speakers/saicologic.jpg
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/saicologic

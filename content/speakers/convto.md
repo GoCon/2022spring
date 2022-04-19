@@ -4,6 +4,7 @@ id: convto
 name: convto
 company: 株式会社Kyash
 photoURL: /images/speakers/convto.jpg
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/convto

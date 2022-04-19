@@ -2,12 +2,26 @@
 
 {{ .Content }}
 
+{{ $sessions := where .Site.AllPages ".Section" "sessions" }}
+{{ $sessions = sort $sessions ".Title" }}
+
 <section>
 	<ul class="talks">
-		{{ $sessions := where .Site.AllPages ".Section" "sessions" }}
 		{{ $types := (slice "short_session" "long_session" "lt_session" "challenge_session") }}
-		{{ range sort $sessions ".Title" }}
+		{{ range $sessions }}
 			{{ if intersect (slice .Params.talkType) $types }}
+		<li class="talk tag-{{ anchorize (delimit (.Params.tags | default (slice)) "" ) }}">{{ partial "session.html" . }}</li>
+			{{ end }}
+		{{ end }}
+	</ul>
+</section>
+
+<h2>{{ i18n "partner_sessions" }}</h2>
+
+<section>
+	<ul class="talks">
+		{{ range $sessions }}
+			{{ if eq .Params.talkType "sponsor_session" }}
 		<li class="talk tag-{{ anchorize (delimit (.Params.tags | default (slice)) "" ) }}">{{ partial "session.html" . }}</li>
 			{{ end }}
 		{{ end }}

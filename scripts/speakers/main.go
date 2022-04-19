@@ -15,15 +15,18 @@ import (
 const GitHubURLPrefix = "https://github.com/"
 
 type Speaker struct {
-	Key      string `csv:"key"`
-	ID       string `csv:"id"`
-	Name     string `csv:"name"`
-	Company  string `csv:"company"`
-	Twitter  string `csv:"twitter" yaml:"-"`
-	Site     string `csv:"site" yaml:"-"`
-	PhotoURL string `yaml:"photoURL"`
-	Bio      string `csv:"bio" yaml:"-"`
-	Socials  []Social
+	Key          string `csv:"key"`
+	ID           string `csv:"id"`
+	Name         string `csv:"name"`
+	Company      string `csv:"company"`
+	Twitter      string `csv:"twitter" yaml:"-"`
+	GitHub       string `csv:"github" yaml:"-"`
+	Site         string `csv:"site" yaml:"-"`
+	PhotoURL     string `yaml:"photoURL"`
+	Bio          string `csv:"bio" yaml:"-"`
+	RawIsPartner string `csv:"is_partner" yaml:"-"`
+	Partner      bool   `yaml:"partner"`
+	Socials      []Social
 }
 
 type Social struct {
@@ -64,12 +67,22 @@ func createSpeaker(ss []*Speaker) {
 				Name: s.Twitter,
 			})
 		}
+		if s.GitHub != "" {
+			s.Socials = append(s.Socials, Social{
+				Icon: "github",
+				Link: fmt.Sprintf("https:/github.com/%s", s.GitHub),
+				Name: s.GitHub,
+			})
+		}
 		if s.Site != "" {
 			s.Socials = append(s.Socials, Social{
 				Icon: "link",
 				Link: s.Site,
 				Name: s.Site,
 			})
+		}
+		if s.RawIsPartner == "true" {
+			s.Partner = true
 		}
 
 		s.PhotoURL = fmt.Sprintf("/images/speakers/%s", photoURLMap[s.Key])

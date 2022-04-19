@@ -4,6 +4,7 @@ id: budougumi0617
 name: Yoichiro Shimizu
 company: BASE, inc.
 photoURL: /images/speakers/budougumi0617.jpg
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/budougumi0617

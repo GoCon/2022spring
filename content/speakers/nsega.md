@@ -4,6 +4,7 @@ id: nsega
 name: Naoki Sega
 company: Mercari, Inc.
 photoURL: /images/speakers/nsega.jpg
+partner: false
 socials:
 - icon: twitter
   link: https://twitter.com/nsega

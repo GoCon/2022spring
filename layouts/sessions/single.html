@@ -43,6 +43,22 @@
 				{{ end }}
 			</ul>
 			<div class="content">{{ .Content }}</div>
+			
+			{{ if .Params.partner }}
+				{{ $partner := index (where .Site.Pages ".Params.key" .Params.partner) 0 }}
+				{{ with $partner }}
+					<div class="partners-group partner-{{ .Param "Category" }}">
+						<ul>
+							<li>
+								{{ partial "partner.html" . }}
+							</li>
+						</ul>
+					</div>
+					<div class="sponsor-notice">
+						Sponsor session from {{ .Name }}
+					</div>
+				{{ end }}
+			{{ end }}	
 		</div>
 
 	</div>
