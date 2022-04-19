@@ -420,3 +420,12 @@ footer .footer-footer {
   align-items: center; }
   footer .footer-footer .gopher-license {
     font-size: smaller; }
+
+.page.sessions .talk .detail {
+  border-bottom: none; }
+  .page.sessions .talk .detail .content {
+    min-height: 150px; }
+  .page.sessions .talk .detail .sponsor-notice {
+    text-align: center; }
+  .page.sessions .talk .detail .partners-group ul li {
+    margin: 0; }

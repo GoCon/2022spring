@@ -6,8 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
-	<meta name="Description" content="Go Conference is a half-annual conference of programming language Go."><meta property="og:title" content="Go Conference 2022 Spring  | 株式会社ビットキー / Bitkey Inc." />
-<meta property="og:description" content="" />
+	<meta name="Description" content="Go Conference is a half-annual conference of programming language Go."><meta property="og:title" content="Go Conference 2022 Spring  | 人間の直感に対応させた複雑度&lt;Cognitive Complexity&gt;の計測ツールをgo/astで実装してみよう" />
+<meta property="og:description" content="Cognitive Complexity (認知的複雑度) というのは、プログラムの複雑さを測る指標の一つです。以前から使われてきた Cyclomatic Complexity (循環的複雑度) と比べて、人間の理解の難しさにフォーカスしたものであるという特徴があります。
+今回の発表では、Go の標準ライブラリである、抽象構文木(AST)を扱うためのライブラリ(go/ast) を使って、どのように Cognitive Complexity の計測ツールを実装できるかについてお話します。静的解析ツールを作るときや go/ast を使うにあたって知っておいたほうが良い情報などについても触れる予定です。go/ast をまだ使ったことがない人が「ちょっと静的解析ツール作ってみような」と思えるようなお話ができればと思っています。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://gocon.jp/2022spring/sessions/a1-c/" /><meta property="og:image" content="https://gocon.jp/2022spring/images/ogp.png"/><meta property="article:section" content="sessions" />
 
@@ -17,7 +18,7 @@
 	<meta name="generator" content="Hugo 0.88.1" />
 	<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
-	<title>Go Conference 2022 Spring  | 株式会社ビットキー / Bitkey Inc.</title>
+	<title>Go Conference 2022 Spring  | 人間の直感に対応させた複雑度&lt;Cognitive Complexity&gt;の計測ツールをgo/astで実装してみよう</title>
 
 	
 	<link rel="apple-touch-icon" sizes="180x180" href="https://gocon.jp/2022spring/apple-touch-icon.png">
@@ -312,17 +313,48 @@
 	</div>
     
 
-	<h1 class="text">株式会社ビットキー / Bitkey Inc.</h1>
+	<h1 class="text">人間の直感に対応させた複雑度&lt;Cognitive Complexity&gt;の計測ツールをgo/astで実装してみよう</h1>
 	<span class="language "></span>
 	</header>
 
-	<div class="info"><div class="type type-sponsor_session">Sponsor Session</div> 
+	<div class="info"><div class="complexity">Beginner</div><div class="type type-sponsor_session">Sponsor Session</div> 
 
 		<div class="detail">
 			<ul class="speakers">
 				
+				<li>
+					<a class="visually-hidden" aria-hidden="true" href="https://gocon.jp/2022spring/speakers/norinoriki0">高橋典生</a>
+					<a class="speaker" href="https://gocon.jp/2022spring/speakers/norinoriki0">
+						<div class="speaker-img" style="background-image: url(https://gocon.jp/2022spring//images/speakers/norinoriki0.png);"></div>
+						<strong class="speaker-name">高橋典生</strong>
+						<span class="speaker-country"></span>
+						<div class="speaker-company">株式会社ビットキー / Bitkey Inc.</div>
+					</a>
+				</li>
+				
 			</ul>
-			<div class="content"></div>
+			<div class="content"><p>Cognitive Complexity (認知的複雑度) というのは、プログラムの複雑さを測る指標の一つです。以前から使われてきた Cyclomatic Complexity (循環的複雑度) と比べて、人間の理解の難しさにフォーカスしたものであるという特徴があります。</p>
+<p>今回の発表では、Go の標準ライブラリである、抽象構文木(AST)を扱うためのライブラリ(go/ast) を使って、どのように Cognitive Complexity の計測ツールを実装できるかについてお話します。静的解析ツールを作るときや go/ast を使うにあたって知っておいたほうが良い情報などについても触れる予定です。go/ast をまだ使ったことがない人が「ちょっと静的解析ツール作ってみような」と思えるようなお話ができればと思っています。</p>
+</div>
+			
+			
+				
+				
+					<div class="partners-group partner-platinum">
+						<ul>
+							<li>
+								<a class="partner"
+   href="https://gocon.jp/2022spring/partners/platinum/bitkey/"
+   title="株式会社ビットキー / Bitkey Inc."
+   style="background-image: url(https://gocon.jp/2022spring//images/partners/bitkey.png);">株式会社ビットキー / Bitkey Inc.</a>
+							</li>
+						</ul>
+					</div>
+					<div class="sponsor-notice">
+						Sponsor session from 株式会社ビットキー / Bitkey Inc.
+					</div>
+				
+				
 		</div>
 
 	</div>

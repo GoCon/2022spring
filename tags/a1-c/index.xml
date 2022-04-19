@@ -7,12 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="https://gocon.jp/2022spring/tags/a1-c/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>株式会社ビットキー / Bitkey Inc.</title>
+      <title>人間の直感に対応させた複雑度&lt;Cognitive Complexity&gt;の計測ツールをgo/astで実装してみよう</title>
       <link>https://gocon.jp/2022spring/sessions/a1-c/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2022spring/sessions/a1-c/</guid>
-      <description></description>
+      <description>Cognitive Complexity (認知的複雑度) というのは、プログラムの複雑さを測る指標の一つです。以前から使われてきた Cyclomatic Complexity (循環的複雑度) と比べて、人間の理解の難しさにフォーカスしたものであるという特徴があります。
+今回の発表では、Go の標準ライブラリである、抽象構文木(AST)を扱うためのライブラリ(go/ast) を使って、どのように Cognitive Complexity の計測ツールを実装できるかについてお話します。静的解析ツールを作るときや go/ast を使うにあたって知っておいたほうが良い情報などについても触れる予定です。go/ast をまだ使ったことがない人が「ちょっと静的解析ツール作ってみような」と思えるようなお話ができればと思っています。</description>
     </item>
     
   </channel>

@@ -80,6 +80,15 @@
     
     <item>
       <title></title>
+      <link>https://gocon.jp/2022spring/speakers/hideyuki_utsunomiya/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/speakers/hideyuki_utsunomiya/</guid>
+      <description>株式会社バニッシュ・スタンダードでエンジニアとして働いています。バックエンドからフロントエンドまで担当しています。今はGoを書いていますが、前職ではScalaやAngularを書いていました。</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://gocon.jp/2022spring/speakers/hikyaru_suzuki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -140,6 +149,15 @@ Currently I&amp;rsquo;m working mainly in Go and Typescript in Mattermost, and I
       
       <guid>https://gocon.jp/2022spring/speakers/mururururu/</guid>
       <description> CTO at Kanmu, Inc  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2022spring/speakers/norinoriki0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/speakers/norinoriki0/</guid>
+      <description>株式会社ビットキーで、bitkey platform の開発をしています。Kubernetes, Go, 物理学, 数学が好きです。</description>
     </item>
     
     <item>
@@ -220,6 +238,19 @@ ISIDにおけるソフトウェアの生産性と品質を両輪で向上する�
     
     <item>
       <title></title>
+      <link>https://gocon.jp/2022spring/speakers/thara/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/speakers/thara/</guid>
+      <description>愛知県在住。
+バックエンドエンジニアとして10年以上の経験があり、クラウドプラットフォーム上のスケーラブルなアーキテクチャの設計とアプリケーション開発に携わってきた。 特にモバイルゲーム開発においては、サーバーチームリードエンジニアとしてアーキテクチャ設計およびパフォーマンスチューニングを行い、DAU10万・総ダウンロード数1000万を超えるタイトルへの成長に貢献した。
+フルリモートワークでのモバイルアプリ開発を経て、現在はメタバースプラットフォームのソフトウェアエンジニアに従事、プラットフォームの中心となるエンジン領域を担当。
+ゲームを支えてきた技術がいかに他の領域を豊かにするかに関心がある他、未知の問題やステークホルダー/市場からの要求に対してフレキシブルに対応可能な開発組織の設計と構築にも興味がある。
+最近の趣味は、Swift, Rust, Goなど色々な言語のファミコンエミュレータを実装すること。</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://gocon.jp/2022spring/speakers/uji_rb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -244,6 +275,15 @@ Kyoto.goの共同運営メンバーで、たまにLTをしたりしています�
       
       <guid>https://gocon.jp/2022spring/speakers/yoheimuta/</guid>
       <description>Goは protolint などの自作ツールを通じて日常的に書いてます。Contribution 待ってます 😁 業務では Go 製の OSS に PR を送ったり、以前は自社製プロダクトにも使ってました。主にバックエンドを中心に、システムを自分たちの制御下に置くために必要な仕事を担当してます。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2022spring/speakers/yosuke_moriya/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/speakers/yosuke_moriya/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -756,15 +796,6 @@ Keyword: ast, roche, jeniffer, cobra, afero</description>
     </item>
     
     <item>
-      <title>クラスター株式会社</title>
-      <link>https://gocon.jp/2022spring/sessions/a6-c/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2022spring/sessions/a6-c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ゼロから作る Protocol Buffer のパーサーとレキサー</title>
       <link>https://gocon.jp/2022spring/sessions/b3-l/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -798,6 +829,45 @@ Keyword: ast, roche, jeniffer, cobra, afero</description>
       
       <guid>https://gocon.jp/2022spring/partners/silver/miidas/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>メタバースを支える技術 ～UGCに溢れる3D空間のリアルタイム同期を支えるGo〜</title>
+      <link>https://gocon.jp/2022spring/sessions/a6-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/sessions/a6-c/</guid>
+      <description>「メタバース」を実現するためには主にオンラインゲームで培われた3D空間のリアルタイム同期技術だけでなく、アバターやワールドなどのUGC、そしてワールドの中から別のワールドを創るといったメタバースならではの要件があります。
+メタバースプラットフォーム「cluster 」では、これらの技術要件のバックエンド領域を一般的なWeb APIサーバーの他、リアルタイム通信サーバー・UGCパイプライン等が担っており、そのいずれもGoで開発されています。
+このセッションでは、上記に挙げた要素技術の概略とそれらをいかにGoが支えているかについてお話しします。</description>
+    </item>
+    
+    <item>
+      <title>レガシーシステムをGoにリプレースした一年間の振り返り</title>
+      <link>https://gocon.jp/2022spring/sessions/a5-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/sessions/a5-c/</guid>
+      <description>既存のシステムをリプレースするにあたっての、アーキテクチャや設計について紹介します。</description>
+    </item>
+    
+    <item>
+      <title>人間の直感に対応させた複雑度&lt;Cognitive Complexity&gt;の計測ツールをgo/astで実装してみよう</title>
+      <link>https://gocon.jp/2022spring/sessions/a1-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/sessions/a1-c/</guid>
+      <description>Cognitive Complexity (認知的複雑度) というのは、プログラムの複雑さを測る指標の一つです。以前から使われてきた Cyclomatic Complexity (循環的複雑度) と比べて、人間の理解の難しさにフォーカスしたものであるという特徴があります。
+今回の発表では、Go の標準ライブラリである、抽象構文木(AST)を扱うためのライブラリ(go/ast) を使って、どのように Cognitive Complexity の計測ツールを実装できるかについてお話します。静的解析ツールを作るときや go/ast を使うにあたって知っておいたほうが良い情報などについても触れる予定です。go/ast をまだ使ったことがない人が「ちょっと静的解析ツール作ってみような」と思えるようなお話ができればと思っています。</description>
+    </item>
+    
+    <item>
+      <title>創業以来のPHPシステムが生み出した混沌をGoへの移行で乗り越えた話</title>
+      <link>https://gocon.jp/2022spring/sessions/a2-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/sessions/a2-c/</guid>
+      <description>Yappliは2013年創業の、ノーコードでアプリを作成できるプラットフォームです。 当初サーバーサイドはフレームワークを使わない生のPHPで実装されており、重複コードが多い・テストコードがない・依存が複雑といった様々な問題を抱えおり、2018年よりGoへの移行を始めました。 しかし長年のPHP運用により、DBには大量のJSONカラム・数値型または空文字列を取り得るフィールド・フォーマットの違う時刻など数々の混沌が蔓延っていました。 本発表ではこれらを乗り越えたノウハウを紹介しつつ、またPHPからGoへの移行で組織的に感じられた恩恵についても共有します。</description>
     </item>
     
     <item>
@@ -948,30 +1018,12 @@ LINQは.Net Framework 3.5で導入された、様々なコレクションに対�
     </item>
     
     <item>
-      <title>株式会社バニッシュ・スタンダード</title>
-      <link>https://gocon.jp/2022spring/sessions/a5-c/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2022spring/sessions/a5-c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>株式会社ビットキー / Bitkey Inc.</title>
       <link>https://gocon.jp/2022spring/partners/platinum/bitkey/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2022spring/partners/platinum/bitkey/</guid>
       <description>ビットキーは、ID連携・認証、権利処理のための技術「bitkey platform」をベースとし、人と「暮らし」や「仕事」の間にある分断を解消するスーパーアプリ/SaaS「homehub」「workhub」や、スマートロックbitlockシリーズなどを開発しています。 また、他社のソフト・ハードウェアとの連携も行っており、あらゆるサービスやモノを柔軟につなげることで体験のアップデートを進めています。</description>
-    </item>
-    
-    <item>
-      <title>株式会社ビットキー / Bitkey Inc.</title>
-      <link>https://gocon.jp/2022spring/sessions/a1-c/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2022spring/sessions/a1-c/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -1044,15 +1096,6 @@ LINQは.Net Framework 3.5で導入された、様々なコレクションに対�
       
       <guid>https://gocon.jp/2022spring/partners/gold/yappli/</guid>
       <description>Yappliは、アプリ開発・運用・分析をノーコード（プログラミング不要）で提供するアプリプラットフォームです。導入企業は550社を超え、店舗やEコマースなどのマーケティング支援から、社内や取引先とのコミュニケーションをモバイルで刷新する社内DX（デジタルトランスフォーメーション）、バックオフィスや学校法人の支援まで、幅広い業界の課題解決に活用されています。</description>
-    </item>
-    
-    <item>
-      <title>株式会社ヤプリ</title>
-      <link>https://gocon.jp/2022spring/sessions/a2-c/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2022spring/sessions/a2-c/</guid>
-      <description></description>
     </item>
     
     <item>

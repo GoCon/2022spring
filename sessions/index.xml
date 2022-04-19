@@ -290,21 +290,51 @@ Keyword: ast, roche, jeniffer, cobra, afero</description>
     </item>
     
     <item>
-      <title>クラスター株式会社</title>
-      <link>https://gocon.jp/2022spring/sessions/a6-c/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2022spring/sessions/a6-c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ゼロから作る Protocol Buffer のパーサーとレキサー</title>
       <link>https://gocon.jp/2022spring/sessions/b3-l/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gocon.jp/2022spring/sessions/b3-l/</guid>
       <description>インタプリタやコンパイラの基礎になる字句解析器（lexer）と構文解析器（parser）の実装はgoyaccなどのジェネレーターを使うか手書きするかの基本二択になります。goyaccに関する実践的な情報は多いですが学習カーブが伴います。私はProtocolBufferスキーマ定義ファイルのパーサーとレキサーをGoの標準パッケージだけで実装しました。ASTを標準出力するだけでなくVisitorパターンを導入すると使い勝手が増します。これらの知識は普段使う静的解析ツールのカスタマイズにも役立ちます。本セッションでは実際に動く最小構成の実装からはじめてGoでのプログラミング手法をご紹介します。</description>
+    </item>
+    
+    <item>
+      <title>メタバースを支える技術 ～UGCに溢れる3D空間のリアルタイム同期を支えるGo〜</title>
+      <link>https://gocon.jp/2022spring/sessions/a6-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/sessions/a6-c/</guid>
+      <description>「メタバース」を実現するためには主にオンラインゲームで培われた3D空間のリアルタイム同期技術だけでなく、アバターやワールドなどのUGC、そしてワールドの中から別のワールドを創るといったメタバースならではの要件があります。
+メタバースプラットフォーム「cluster 」では、これらの技術要件のバックエンド領域を一般的なWeb APIサーバーの他、リアルタイム通信サーバー・UGCパイプライン等が担っており、そのいずれもGoで開発されています。
+このセッションでは、上記に挙げた要素技術の概略とそれらをいかにGoが支えているかについてお話しします。</description>
+    </item>
+    
+    <item>
+      <title>レガシーシステムをGoにリプレースした一年間の振り返り</title>
+      <link>https://gocon.jp/2022spring/sessions/a5-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/sessions/a5-c/</guid>
+      <description>既存のシステムをリプレースするにあたっての、アーキテクチャや設計について紹介します。</description>
+    </item>
+    
+    <item>
+      <title>人間の直感に対応させた複雑度&lt;Cognitive Complexity&gt;の計測ツールをgo/astで実装してみよう</title>
+      <link>https://gocon.jp/2022spring/sessions/a1-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/sessions/a1-c/</guid>
+      <description>Cognitive Complexity (認知的複雑度) というのは、プログラムの複雑さを測る指標の一つです。以前から使われてきた Cyclomatic Complexity (循環的複雑度) と比べて、人間の理解の難しさにフォーカスしたものであるという特徴があります。
+今回の発表では、Go の標準ライブラリである、抽象構文木(AST)を扱うためのライブラリ(go/ast) を使って、どのように Cognitive Complexity の計測ツールを実装できるかについてお話します。静的解析ツールを作るときや go/ast を使うにあたって知っておいたほうが良い情報などについても触れる予定です。go/ast をまだ使ったことがない人が「ちょっと静的解析ツール作ってみような」と思えるようなお話ができればと思っています。</description>
+    </item>
+    
+    <item>
+      <title>創業以来のPHPシステムが生み出した混沌をGoへの移行で乗り越えた話</title>
+      <link>https://gocon.jp/2022spring/sessions/a2-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/sessions/a2-c/</guid>
+      <description>Yappliは2013年創業の、ノーコードでアプリを作成できるプラットフォームです。 当初サーバーサイドはフレームワークを使わない生のPHPで実装されており、重複コードが多い・テストコードがない・依存が複雑といった様々な問題を抱えおり、2018年よりGoへの移行を始めました。 しかし長年のPHP運用により、DBには大量のJSONカラム・数値型または空文字列を取り得るフィールド・フォーマットの違う時刻など数々の混沌が蔓延っていました。 本発表ではこれらを乗り越えたノウハウを紹介しつつ、またPHPからGoへの移行で組織的に感じられた恩恵についても共有します。</description>
     </item>
     
     <item>
@@ -335,33 +365,6 @@ LINQは.Net Framework 3.5で導入された、様々なコレクションに対�
       <guid>https://gocon.jp/2022spring/sessions/lt4/</guid>
       <description>GoのContextではリクエストスコープの値を伝播する事ができます。 主な利用例として認証トークンを伝搬させる手法がありますが、ゲーム開発においては他にも様々なContextの利用方法があります。
 このトークでは大規模ゲーム開発で利用しているContextの活用パターンについてお話しします。 Contextを活用することで、DBアクセス頻度を少なくしたり、レスポンスサイズを小さくする工夫ができたため、その実装手法を共有します。</description>
-    </item>
-    
-    <item>
-      <title>株式会社バニッシュ・スタンダード</title>
-      <link>https://gocon.jp/2022spring/sessions/a5-c/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2022spring/sessions/a5-c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>株式会社ビットキー / Bitkey Inc.</title>
-      <link>https://gocon.jp/2022spring/sessions/a1-c/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2022spring/sessions/a1-c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>株式会社ヤプリ</title>
-      <link>https://gocon.jp/2022spring/sessions/a2-c/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gocon.jp/2022spring/sessions/a2-c/</guid>
-      <description></description>
     </item>
     
     <item>

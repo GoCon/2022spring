@@ -80,6 +80,15 @@
     
     <item>
       <title></title>
+      <link>https://gocon.jp/2022spring/speakers/hideyuki_utsunomiya/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/speakers/hideyuki_utsunomiya/</guid>
+      <description>株式会社バニッシュ・スタンダードでエンジニアとして働いています。バックエンドからフロントエンドまで担当しています。今はGoを書いていますが、前職ではScalaやAngularを書いていました。</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://gocon.jp/2022spring/speakers/hikyaru_suzuki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -140,6 +149,15 @@ Currently I&amp;rsquo;m working mainly in Go and Typescript in Mattermost, and I
       
       <guid>https://gocon.jp/2022spring/speakers/mururururu/</guid>
       <description> CTO at Kanmu, Inc  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2022spring/speakers/norinoriki0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/speakers/norinoriki0/</guid>
+      <description>株式会社ビットキーで、bitkey platform の開発をしています。Kubernetes, Go, 物理学, 数学が好きです。</description>
     </item>
     
     <item>
@@ -220,6 +238,19 @@ ISIDにおけるソフトウェアの生産性と品質を両輪で向上する�
     
     <item>
       <title></title>
+      <link>https://gocon.jp/2022spring/speakers/thara/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/speakers/thara/</guid>
+      <description>愛知県在住。
+バックエンドエンジニアとして10年以上の経験があり、クラウドプラットフォーム上のスケーラブルなアーキテクチャの設計とアプリケーション開発に携わってきた。 特にモバイルゲーム開発においては、サーバーチームリードエンジニアとしてアーキテクチャ設計およびパフォーマンスチューニングを行い、DAU10万・総ダウンロード数1000万を超えるタイトルへの成長に貢献した。
+フルリモートワークでのモバイルアプリ開発を経て、現在はメタバースプラットフォームのソフトウェアエンジニアに従事、プラットフォームの中心となるエンジン領域を担当。
+ゲームを支えてきた技術がいかに他の領域を豊かにするかに関心がある他、未知の問題やステークホルダー/市場からの要求に対してフレキシブルに対応可能な開発組織の設計と構築にも興味がある。
+最近の趣味は、Swift, Rust, Goなど色々な言語のファミコンエミュレータを実装すること。</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://gocon.jp/2022spring/speakers/uji_rb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -244,6 +275,15 @@ Kyoto.goの共同運営メンバーで、たまにLTをしたりしています�
       
       <guid>https://gocon.jp/2022spring/speakers/yoheimuta/</guid>
       <description>Goは protolint などの自作ツールを通じて日常的に書いてます。Contribution 待ってます 😁 業務では Go 製の OSS に PR を送ったり、以前は自社製プロダクトにも使ってました。主にバックエンドを中心に、システムを自分たちの制御下に置くために必要な仕事を担当してます。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gocon.jp/2022spring/speakers/yosuke_moriya/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/speakers/yosuke_moriya/</guid>
+      <description></description>
     </item>
     
     <item>
