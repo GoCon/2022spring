@@ -213,6 +213,23 @@ body.page {
     background-color: rgba(255, 255, 255, 0);
 }
 
+.section.schedule .session>a .partner-img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    max-width: 265px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-origin: content-box;
+    margin: 0 auto;
+    text-indent:-9999px;
+}
+
+.section.schedule .session>a.officehour .partner-img {
+    margin: 0.5rem auto;
+}
+
 .section.schedule main>section.schedule .day .room.odd {
     background-color: var(--color-hero);
 }
