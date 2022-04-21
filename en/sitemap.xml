@@ -508,6 +508,18 @@
   </url><url>
     <loc>https://gocon.jp/2022spring/sessions/a3-l/</loc>
   </url><url>
+    <loc>https://gocon.jp/2022spring/remo/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2022spring/ja/remo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2022spring/remo/"
+                />
+  </url><url>
     <loc>https://gocon.jp/2022spring/partners/silver/freee/</loc>
   </url><url>
     <loc>https://gocon.jp/2022spring/partners/bronze/gnus/</loc>
@@ -623,18 +635,6 @@
                 />
   </url><url>
     <loc>https://gocon.jp/2022spring/sessions/lt2/</loc>
-  </url><url>
-    <loc>https://gocon.jp/2022spring/remo/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://gocon.jp/2022spring/ja/remo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gocon.jp/2022spring/remo/"
-                />
   </url><url>
     <loc>https://gocon.jp/2022spring/schedule/</loc>
     <xhtml:link

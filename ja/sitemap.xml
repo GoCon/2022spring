@@ -386,6 +386,18 @@
                 href="https://gocon.jp/2022spring/ja/speakers/yyoshiki41/"
                 />
   </url><url>
+    <loc>https://gocon.jp/2022spring/ja/remo/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2022spring/remo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2022spring/ja/remo/"
+                />
+  </url><url>
     <loc>https://gocon.jp/2022spring/ja/</loc>
     <xhtml:link
                 rel="alternate"
@@ -408,18 +420,6 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://gocon.jp/2022spring/ja/partners/"
-                />
-  </url><url>
-    <loc>https://gocon.jp/2022spring/ja/remo/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gocon.jp/2022spring/remo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://gocon.jp/2022spring/ja/remo/"
                 />
   </url><url>
     <loc>https://gocon.jp/2022spring/ja/schedule/</loc>
