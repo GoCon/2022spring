@@ -28,8 +28,10 @@
 
   {{ if eq .Params.format "officehour" }}
     {{ range where (where $.Site.AllPages "Params.category" "in" "platinum,gold,silver,bronze,free") "Params.key" "in" .Params.partners }}
-    <div class="partner-img" style="background-image: url({{ .Site.BaseURL }}{{ .Params.logo }});">
-      <strong class="partner-name">{{ .Params.title }}</strong>
+    <div class="partner-img-container">
+      <div class="partner-img" style="background-image: url({{ .Site.BaseURL }}{{ .Params.logo }});">
+        <strong class="partner-name">{{ .Params.title }}</strong>
+      </div>
     </div>
     {{ end }}
   {{ end }}
@@ -70,9 +72,11 @@
   </ul>
   {{ end }}
 
-  <div class="partner-img" style="background-image: url({{ .Site.BaseURL }}{{ $partner.Params.logo }});">
-    <strong class="partner-name">{{ $partner.Params.title }}</strong>
+  <div class="partner-img-container">
+    <div class="partner-img" style="background-image: url({{ .Site.BaseURL }}{{ $partner.Params.logo }});">
+      <strong class="partner-name">{{ $partner.Params.title }}</strong>
     </div>
+  </div>
 
   {{ if .Params.tags }}
     <div class="session-info">

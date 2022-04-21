@@ -97,7 +97,3 @@
       talk: b14-s
     - slot: b-break-5
       talk: break
-  - room: remo
-    slots:
-    - slot: after-party
-      talk: after-party

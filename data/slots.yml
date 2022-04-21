@@ -274,9 +274,3 @@
   row:
     start: 66
     end: 67
-- key: after-party
-  start: "18:55"
-  duration: 60
-  row:
-    start: 67
-    end: 68
