@@ -22,7 +22,7 @@ draft: false
 </div>
 
 <div class="remo remo-description">
-  <h1>Office Hour</h1>
+  <h1>Office Hours</h1>
   <p>There are booths of 20 platinum"Go"ld,"Go"ld,Silver sponsor partner companies,</p>
   <p>and various contents such as company introductions, quizzes, hands-on, etc. are prepared.</p>
   <p>Please feel free to join and enjoy yourself.</p>
