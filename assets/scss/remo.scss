@@ -1,0 +1,50 @@
+div.remo {
+    text-align: center;
+}
+
+div.remo-description {
+    background-color: var(--bg-pink);
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 1500px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:1500px) {
+  div.remo-description {
+      margin: 50px;
+  }
+}
+
+@media screen and (max-width:560px) {
+  div.remo-description {
+      margin: 50px 10px;
+  }
+}
+
+div.remo-track-a {
+    background-color: var(--bg-yellow);
+}
+
+div.remo-track-b {
+    background-color: var(--bg-blue);
+}
+
+div.remo-precaution {
+    background-color: var(--bg-gray);
+}
+
+a.remo {
+    cursor: pointer;
+}
+
+img.remo-thumbnail {
+    width: 800px;
+    max-width: 100vw;
+}
+
+img.remo-banner {
+    width: 200px;
+    max-width: 100vw;
+}
