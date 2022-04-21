@@ -1,5 +1,5 @@
 ---
-title: Remo
+title: Floor Guide
 menu:
   main:
     weight: 100
