@@ -624,6 +624,18 @@
   </url><url>
     <loc>https://gocon.jp/2022spring/sessions/lt2/</loc>
   </url><url>
+    <loc>https://gocon.jp/2022spring/remo/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2022spring/ja/remo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2022spring/remo/"
+                />
+  </url><url>
     <loc>https://gocon.jp/2022spring/schedule/</loc>
     <xhtml:link
                 rel="alternate"
