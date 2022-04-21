@@ -9,7 +9,8 @@ draft: false
 {{% title %}}
 {{% /title %}}
 
-<div class="remo">
+<div class="remo remo-top">
+  <a class="enter-remo-button" href="https://live.remo.co/e/gocon22s">Enter the venue</a>
   <a class="remo" href="https://live.remo.co/e/gocon22s" target="_blank">
     <img src="/images/remo/top.png" class="remo-thumbnail">
   </a>

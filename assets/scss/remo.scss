@@ -2,6 +2,25 @@ div.remo {
     text-align: center;
 }
 
+div.remo.remo-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    a.enter-remo-button {
+        margin-bottom: 36px;
+        display: block;
+        padding: 24px 36px;
+        background-color: var(--bg-pink);
+        font-weight: bold;
+        font-size: 24px;
+        border-radius: 10px;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+
 div.remo-description {
     background-color: var(--bg-pink);
     border-radius: 5px;
