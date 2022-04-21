@@ -103,3 +103,17 @@ other = "ブロンズ"
 
 [partner_category_green]
 other = "グリーン"
+
+############
+# Sessions #
+############
+
+[partner_sessions]
+other = "スポンサーセッション"
+
+############
+# Speakers #
+############
+
+[partner_speakers]
+other = "スポンサーセッションスピーカー"
