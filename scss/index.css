@@ -325,6 +325,12 @@ h1, h2 {
   .main-visual .content.desktop {
     display: none; } }
 
+.go-to-floor-guide {
+  font-size: 24px; }
+  .go-to-floor-guide a {
+    color: var(--primary);
+    text-decoration: underline; }
+
 .cherry-blossom-container {
   position: relative;
   height: 880px;
