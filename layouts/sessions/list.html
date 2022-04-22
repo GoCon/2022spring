@@ -2,7 +2,7 @@
 
 {{ .Content }}
 
-{{ $sessions := where .Site.AllPages ".Section" "sessions" }}
+{{ $sessions := .RegularPages }}
 {{ $sessions = sort $sessions ".Title" }}
 
 <section>
