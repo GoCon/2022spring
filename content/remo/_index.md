@@ -34,6 +34,7 @@ draft: false
   <p>Please use it book writers(not only for commercial magazines),</p>
   <p>companies who want to know that they are using Go, community and OSS promotion.</p>
   <p>If you have any questions, please come to the management booth in the office hour venue.</p>
+  <a class="open-bingo-button" href="dummy">Open the Bin"Go"</a>
 </div>
 
 <div class="remo remo-description remo-track-a">
