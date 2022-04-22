@@ -260,6 +260,19 @@ ISIDにおけるソフトウェアの生産性と品質を両輪で向上する�
     
     <item>
       <title></title>
+      <link>https://gocon.jp/2022spring/ja/speakers/wwgt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/speakers/wwgt/</guid>
+      <description>Women Who Go Tokyo は、サンフランシスコ発祥の女性とジェンダーマイノリティの人々があつまる Go 言語のコミュニティである Women Who Go の東京支部です。
+当日は、14:00 ~ 16:00にRemo内の会場にてハンズオンを行います。 会場の場所については、会場案内をご覧ください。
+ハンズオン内容の詳細はこちら
+ On the day of the event, we will have a hands-on session from 14:00 to 16:00 at Remo. Please see Floor Guide for the location.
+For more information about the hands-on, please see Details of the hands-on</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://gocon.jp/2022spring/ja/speakers/yebis0942/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -559,6 +572,18 @@ Keyword: ast, roche, jeniffer, cobra, afero</description>
       
       <guid>https://gocon.jp/2022spring/ja/sessions/b3-l/</guid>
       <description>インタプリタやコンパイラの基礎になる字句解析器（lexer）と構文解析器（parser）の実装はgoyaccなどのジェネレーターを使うか手書きするかの基本二択になります。goyaccに関する実践的な情報は多いですが学習カーブが伴います。私はProtocolBufferスキーマ定義ファイルのパーサーとレキサーをGoの標準パッケージだけで実装しました。ASTを標準出力するだけでなくVisitorパターンを導入すると使い勝手が増します。これらの知識は普段使う静的解析ツールのカスタマイズにも役立ちます。本セッションでは実際に動く最小構成の実装からはじめてGoでのプログラミング手法をご紹介します。</description>
+    </item>
+    
+    <item>
+      <title>ハンズオン〜GoとGCPで遊ぼう〜</title>
+      <link>https://gocon.jp/2022spring/ja/sessions/handson/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/sessions/handson/</guid>
+      <description>14:00 ~ 16:00にRemo内の会場にてハンズオンを行います。 会場の場所については、会場案内をご覧ください。
+ハンズオン内容の詳細はこちら
+ We will have a hands-on session from 14:00 to 16:00 at Remo. Please see Floor Guide for the location.
+For more information about the hands-on, please see Details of the hands-on</description>
     </item>
     
     <item>

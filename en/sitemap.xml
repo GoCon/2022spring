@@ -326,6 +326,18 @@
                 href="https://gocon.jp/2022spring/speakers/uji_rb/"
                 />
   </url><url>
+    <loc>https://gocon.jp/2022spring/speakers/wwgt/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2022spring/ja/speakers/wwgt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2022spring/speakers/wwgt/"
+                />
+  </url><url>
     <loc>https://gocon.jp/2022spring/speakers/yebis0942/</loc>
     <xhtml:link
                 rel="alternate"
@@ -1272,6 +1284,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://gocon.jp/2022spring/sessions/b3-l/"
+                />
+  </url><url>
+    <loc>https://gocon.jp/2022spring/sessions/handson/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://gocon.jp/2022spring/ja/sessions/handson/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gocon.jp/2022spring/sessions/handson/"
                 />
   </url><url>
     <loc>https://gocon.jp/2022spring/partners/bronze/fuller/</loc>
