@@ -39,6 +39,17 @@ icon="right" %}}
 
 
 {{% home-tickets %}}
+
+# Registered participants
+
+<div class="go-to-floor-guide">
+  Please <a href="/remo/">click here</a> to go to the floor guide.
+</div>
+
+
+{{% /home-tickets %}}
+
+{{% home-tickets %}}
 # Registration
 
 <ul>
