@@ -2,8 +2,10 @@ package main
 
 import (
 	"fmt"
+	"io"
 	"os"
 	"path/filepath"
+	"strings"
 
 	"github.com/gocarina/gocsv"
 	"gopkg.in/yaml.v2"
@@ -28,11 +30,16 @@ type Session struct {
 }
 
 func generateSession(session *Session, dirPath string) {
-	f, err := os.OpenFile(filepath.Join(dirPath, fmt.Sprintf("%s.md", session.Key)), os.O_WRONLY|os.O_CREATE|os.O_TRUNC, os.ModePerm)
+	fileEn, err := os.OpenFile(filepath.Join(dirPath, fmt.Sprintf("%s.md", session.Key)), os.O_WRONLY|os.O_CREATE|os.O_TRUNC, os.ModePerm)
 	if err != nil {
 		panic(err)
 	}
-	defer f.Close()
+	defer fileEn.Close()
+	fileJa, err := os.OpenFile(filepath.Join(dirPath, fmt.Sprintf("%s.ja.md", session.Key)), os.O_WRONLY|os.O_CREATE|os.O_TRUNC, os.ModePerm)
+	if err != nil {
+		panic(err)
+	}
+	defer fileJa.Close()
 
 	if session.Speaker != "" {
 		session.Speakers = append(session.Speakers, session.Speaker)
@@ -59,7 +66,13 @@ func generateSession(session *Session, dirPath string) {
 %s---
 %s`, string(out), session.Abstract)
 
-	_, err = f.WriteString(body)
+	rd := strings.NewReader(body)
+	_, err = io.Copy(fileEn, rd)
+	if err != nil {
+		panic(err)
+	}
+	rd = strings.NewReader(body)
+	_, err = io.Copy(fileJa, rd)
 	if err != nil {
 		panic(err)
 	}
