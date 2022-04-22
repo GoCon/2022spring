@@ -120,3 +120,14 @@ a6-c,A6-C,メタバースを支える技術 ～UGCに溢れる3D空間のリア�
 メタバースプラットフォーム「cluster 」では、これらの技術要件のバックエンド領域を一般的なWeb APIサーバーの他、リアルタイム通信サーバー・UGCパイプライン等が担っており、そのいずれもGoで開発されています。
 
 このセッションでは、上記に挙げた要素技術の概略とそれらをいかにGoが支えているかについてお話しします。"
+handson,,ハンズオン〜GoとGCPで遊ぼう〜,handson,handson,,handson,All,wwgt,,false,,,"14:00 ~ 16:00にRemo内の会場にてハンズオンを行います。
+会場の場所については、[会場案内](https://gocon.jp/2022spring/ja/remo/)をご覧ください。
+
+[ハンズオン内容の詳細はこちら](https://womenwhogotokyo.github.io/goconference2022_spring/)
+
+---
+
+We will have a hands-on session from 14:00 to 16:00 at Remo.
+Please see [Floor Guide](https://gocon.jp/2022spring/remo/) for the location.
+
+For more information about the hands-on, please see [Details of the hands-on](https://womenwhogotokyo.github.io/goconference2022_spring/)"
