@@ -53,7 +53,8 @@
   {{end}}
 </a>
 {{else}}
-{{$partner := index (where (where .Site.Pages "Params.category" "in" "platinum,gold,silver,bronze,free") ".Params.key" .Params.partner) 0}}
+
+{{$partner := index (where (where .Site.AllPages "Params.category" "in" "platinum,gold,silver,bronze,free") ".Params.key" .Params.partner) 0}}
 
 <a href="{{ .Permalink }}">
   <h4 title="{{ .Title }}">
