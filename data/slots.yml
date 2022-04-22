@@ -100,6 +100,12 @@
   row:
     start: 29
     end: 33
+- key: handson
+  start: "14:00"
+  duration: 120
+  row:
+    start: 29
+    end: 41
 - key: a8-s
   start: "14:40"
   duration: 20
@@ -274,9 +280,3 @@
   row:
     start: 66
     end: 67
-- key: after-party
-  start: "18:55"
-  duration: 60
-  row:
-    start: 67
-    end: 68

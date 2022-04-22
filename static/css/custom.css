@@ -233,6 +233,10 @@ body.page {
     background-color: var(--color-hero);
 }
 
+.section.schedule .session.format-handson {
+  background-color: #fff;
+}
+
 .session.format-organize {
     background-color: #f8eaee;
 }

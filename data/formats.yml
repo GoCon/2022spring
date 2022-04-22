@@ -14,7 +14,7 @@
   name: Sponsor Session
   id: sponsor_session
 - key: handson
-  name: Handson
+  name: Hands-on
   id: handson
 - key: challenge_session
   name: Challenge Session (20 minutes)

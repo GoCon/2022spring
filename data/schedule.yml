@@ -97,7 +97,7 @@
       talk: b14-s
     - slot: b-break-5
       talk: break
-  - room: remo
+  - room: handson
     slots:
-    - slot: after-party
-      talk: after-party
+    - slot: handson
+      talk: handson
