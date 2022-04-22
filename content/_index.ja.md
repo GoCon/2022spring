@@ -38,10 +38,23 @@ icon="right" %}}
 -->
 
 {{% home-tickets %}}
-# 参加登録
+
+# 参加登録済みの方
+
+<div class="go-to-floor-guide">
+  <a href="/ja/remo/">こちら</a>から会場案内へ進んでください
+</div>
+
+
+{{% /home-tickets %}}
+
+{{% home-tickets %}}
+
+
+# 参加登録がまだの方
 
 <ul>
-<li>{{<ticket name="セッション"
+<li>{{<ticket name="参加登録する"
            starts="2022-03-01"
            ends="2022-04-23"
            price="無料"
