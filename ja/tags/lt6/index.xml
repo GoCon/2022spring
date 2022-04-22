@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LT6 on Go Conference 2022 Spring</title>
+    <link>https://gocon.jp/2022spring/ja/tags/lt6/</link>
+    <description>Recent content in LT6 on Go Conference 2022 Spring</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://gocon.jp/2022spring/ja/tags/lt6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gopher, Chrome, Automation in 5min</title>
+      <link>https://gocon.jp/2022spring/ja/sessions/lt6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/sessions/lt6/</guid>
+      <description>Go言語コミュニティには複数のGoogle Chromeの自動化ライブラリが存在しており、いずれも活発に開発が進められてきました。
+このトークでは、
+ https://github.com/chromedp/chromedp https://github.com/mafredri/cdp https://github.com/go-rod/rod  という3つの有力なライブラリを取り上げ、それぞれのAPIデザインの違いを紹介します。それを通して、
+ 自分のニーズに合ったChrome自動化ライブラリを選ぶ指針が得られる ブラウザ自動化という広く知られたトピックを通して「Goらしい」APIデザインの理解が深まる  ということをゴールとします。</description>
+    </item>
+    
+  </channel>
+</rss>

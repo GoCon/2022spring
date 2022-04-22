@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LT1 on Go Conference 2022 Spring</title>
+    <link>https://gocon.jp/2022spring/ja/tags/lt1/</link>
+    <description>Recent content in LT1 on Go Conference 2022 Spring</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://gocon.jp/2022spring/ja/tags/lt1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Goの標準機能で簡易システムを低コストで作成するテクニック</title>
+      <link>https://gocon.jp/2022spring/ja/sessions/lt1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/sessions/lt1/</guid>
+      <description>Goによるゲーム開発のプロジェクトにて、Go標準の機能を複数活用し、実装コストの低いデバッグツール開発基盤を作成しました。 本セッションのデバッグツールとは、動作確認やデバッグのため、ユーザーのレベル操作や所持アイテムの増減等、データの状態を操作・参照するAPI群、及びwebツールを指します。 デバッグツールの拡充は、ゲームに限らず様々な分野で成果物の品質に直結しますが、ドメイン固有のロジック実装に集中するためにはより低コストで開発できることが望ましいです。 本セッションでは、低コストで開発を行えるデバッグツール基盤をどのように実現したのかを紹介します。</description>
+    </item>
+    
+  </channel>
+</rss>

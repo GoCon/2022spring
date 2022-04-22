@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>B9-S on Go Conference 2022 Spring</title>
+    <link>https://gocon.jp/2022spring/ja/tags/b9-s/</link>
+    <description>Recent content in B9-S on Go Conference 2022 Spring</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://gocon.jp/2022spring/ja/tags/b9-s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GoらしいAPIを求める旅路 並行処理編</title>
+      <link>https://gocon.jp/2022spring/ja/sessions/b9-s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/sessions/b9-s/</guid>
+      <description>Goではユーザは簡単にgoroutineを作成して使用することができます。 逆にライブラリ提供者はオブジェクトを提供した際にどのメソッドでも簡単にgoキーワードをつけて実行されることを意識しないといけません。
+このトークでは「Goらしく」そしてさらに「並行処理を意識した」APIを備えたライブラリのデザインをする際に考えることなどを紹介します。</description>
+    </item>
+    
+  </channel>
+</rss>

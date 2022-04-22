@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A6-C on Go Conference 2022 Spring</title>
+    <link>https://gocon.jp/2022spring/ja/tags/a6-c/</link>
+    <description>Recent content in A6-C on Go Conference 2022 Spring</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://gocon.jp/2022spring/ja/tags/a6-c/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>メタバースを支える技術 ～UGCに溢れる3D空間のリアルタイム同期を支えるGo〜</title>
+      <link>https://gocon.jp/2022spring/ja/sessions/a6-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/sessions/a6-c/</guid>
+      <description>「メタバース」を実現するためには主にオンラインゲームで培われた3D空間のリアルタイム同期技術だけでなく、アバターやワールドなどのUGC、そしてワールドの中から別のワールドを創るといったメタバースならではの要件があります。
+メタバースプラットフォーム「cluster 」では、これらの技術要件のバックエンド領域を一般的なWeb APIサーバーの他、リアルタイム通信サーバー・UGCパイプライン等が担っており、そのいずれもGoで開発されています。
+このセッションでは、上記に挙げた要素技術の概略とそれらをいかにGoが支えているかについてお話しします。</description>
+    </item>
+    
+  </channel>
+</rss>

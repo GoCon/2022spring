@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>B12-S on Go Conference 2022 Spring</title>
+    <link>https://gocon.jp/2022spring/ja/tags/b12-s/</link>
+    <description>Recent content in B12-S on Go Conference 2022 Spring</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://gocon.jp/2022spring/ja/tags/b12-s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IoT with TinyGo</title>
+      <link>https://gocon.jp/2022spring/ja/sessions/b12-s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/sessions/b12-s/</guid>
+      <description>昨今の組込分野では IoT というキーワードで つながるデバイス の魅力が高まっています。 つながるデバイス の場合、何らかのネットワークへの接続が必須となります。
+このセッションでは TinyGo を用いた Go 言語による IoT 対応デバイス作成例を示し、他の環境 (例えば C/C++ 相当の環境である Arduino など) との違い、長所短所について説明します。 また、 Go は分かるが組込分野は分からない、難しそう、といった人の理解が一歩進むように手助けします。
+以上により、誰でも TinyGo を使って IoT デバイスを作成出来るようになります。</description>
+    </item>
+    
+  </channel>
+</rss>

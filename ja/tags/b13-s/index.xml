@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>B13-S on Go Conference 2022 Spring</title>
+    <link>https://gocon.jp/2022spring/ja/tags/b13-s/</link>
+    <description>Recent content in B13-S on Go Conference 2022 Spring</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://gocon.jp/2022spring/ja/tags/b13-s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go で始める将棋AI</title>
+      <link>https://gocon.jp/2022spring/ja/sessions/b13-s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/sessions/b13-s/</guid>
+      <description>近年、将棋AIの実力は人間を凌駕するようになりました。 このセッションでは将棋AIのベースとなるアルゴリズムや将棋ソフトの実装で用いられるプロトコルなどを紹介し、私の実装をベースにそれらを Go で実装する方法を紹介します。</description>
+    </item>
+    
+  </channel>
+</rss>

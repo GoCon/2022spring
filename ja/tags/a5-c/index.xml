@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A5-C on Go Conference 2022 Spring</title>
+    <link>https://gocon.jp/2022spring/ja/tags/a5-c/</link>
+    <description>Recent content in A5-C on Go Conference 2022 Spring</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://gocon.jp/2022spring/ja/tags/a5-c/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>レガシーシステムをGoにリプレースした一年間の振り返り</title>
+      <link>https://gocon.jp/2022spring/ja/sessions/a5-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/sessions/a5-c/</guid>
+      <description>既存のシステムをリプレースするにあたっての、アーキテクチャや設計について紹介します。</description>
+    </item>
+    
+  </channel>
+</rss>

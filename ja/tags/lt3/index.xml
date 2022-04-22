@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LT3 on Go Conference 2022 Spring</title>
+    <link>https://gocon.jp/2022spring/ja/tags/lt3/</link>
+    <description>Recent content in LT3 on Go Conference 2022 Spring</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://gocon.jp/2022spring/ja/tags/lt3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>外部コマンドの実行を含む関数のテスト</title>
+      <link>https://gocon.jp/2022spring/ja/sessions/lt3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/sessions/lt3/</guid>
+      <description>Goではos/execが提供するCmd構造体が持つRun()メソッドを通じて簡単に外部コマンドを実行することが可能です。この処理をテスト時にモックに差し替える方法について様々なアプローチがありますが、標準パッケージ(os/exec_test.go)が実践していた方法がとても面白いと思いました。テスト実行時にテスト自身のバイナリを利用して外部コマンドの実行だけをモック化し、任意の結果を返すexec.Cmd構造体を作成する方法（トリック？）について説明し、それを応用して実際にユニットテストをしてみた話をしたいと思います。</description>
+    </item>
+    
+  </channel>
+</rss>

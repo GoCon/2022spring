@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>B3-L on Go Conference 2022 Spring</title>
+    <link>https://gocon.jp/2022spring/ja/tags/b3-l/</link>
+    <description>Recent content in B3-L on Go Conference 2022 Spring</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://gocon.jp/2022spring/ja/tags/b3-l/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ゼロから作る Protocol Buffer のパーサーとレキサー</title>
+      <link>https://gocon.jp/2022spring/ja/sessions/b3-l/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/sessions/b3-l/</guid>
+      <description>インタプリタやコンパイラの基礎になる字句解析器（lexer）と構文解析器（parser）の実装はgoyaccなどのジェネレーターを使うか手書きするかの基本二択になります。goyaccに関する実践的な情報は多いですが学習カーブが伴います。私はProtocolBufferスキーマ定義ファイルのパーサーとレキサーをGoの標準パッケージだけで実装しました。ASTを標準出力するだけでなくVisitorパターンを導入すると使い勝手が増します。これらの知識は普段使う静的解析ツールのカスタマイズにも役立ちます。本セッションでは実際に動く最小構成の実装からはじめてGoでのプログラミング手法をご紹介します。</description>
+    </item>
+    
+  </channel>
+</rss>

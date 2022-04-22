@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LT2 on Go Conference 2022 Spring</title>
+    <link>https://gocon.jp/2022spring/ja/tags/lt2/</link>
+    <description>Recent content in LT2 on Go Conference 2022 Spring</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://gocon.jp/2022spring/ja/tags/lt2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python製の姓名分割ライブラリをGoに移植した話</title>
+      <link>https://gocon.jp/2022spring/ja/sessions/lt2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/sessions/lt2/</guid>
+      <description>一般的にわかち書きでは無い日本語で姓名から「姓＋名」の分割を行うことは困難です。 しかし、Python製の姓名分割ライブラリ(https://github.com/rskmoi/namedivider-python)を用いるとある程度精度良く分割は可能です。 そこでシングルバイナリで扱えるGoのメリットを活かして、Python製の姓名分割ライブラリをGoに移植した話をします。 その際移植で工夫した点や気をつけた点をお話します。</description>
+    </item>
+    
+  </channel>
+</rss>

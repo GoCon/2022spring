@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A10-S on Go Conference 2022 Spring</title>
+    <link>https://gocon.jp/2022spring/ja/tags/a10-s/</link>
+    <description>Recent content in A10-S on Go Conference 2022 Spring</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="https://gocon.jp/2022spring/ja/tags/a10-s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>testingパッケージを使ったWebアプリケーションテスト（単体テストからE2Eテストまで）</title>
+      <link>https://gocon.jp/2022spring/ja/sessions/a10-s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gocon.jp/2022spring/ja/sessions/a10-s/</guid>
+      <description>ソフトウェアとテストは切っても切れない関係です。 いっぽう、Webアプリケーション開発においてはDBなどのミドルウェア・外部API・永続化情報の状態など様々な依存関係が存在します。 本セッションではDBや外部APIに依存するコードの単体テストからテスト中にWebサーバやDBを起動するシミュレーションテストまで、 私がtestingパッケージを使って行なっている様々なレベルのテストについて紹介します。</description>
+    </item>
+    
+  </channel>
+</rss>
