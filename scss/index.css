@@ -451,7 +451,19 @@ div.remo-description {
   padding: 20px;
   max-width: 1500px;
   margin: auto;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  div.remo-description a.open-bingo-button {
+    display: block;
+    padding: 24px 36px;
+    background-color: #ff9cbc;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 10px; }
+    div.remo-description a.open-bingo-button:hover {
+      opacity: 0.8; }
 
 @media screen and (max-width: 1500px) {
   div.remo-description {
