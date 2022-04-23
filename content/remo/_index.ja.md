@@ -31,6 +31,7 @@ draft: false
   <p>参加者が自由にホワイトボード（Miro）で情報を共有できるようになっています。</p>
   <p>商業誌に限らず本を執筆されてる方、Goを使ってる事を知ってほしい企業のみなさま、コミュニティやOSSの宣伝などにご活用ください。</p>
   <p>何か不明点等あれば、オフィスアワー会場内にある運営ブースにお越しください。</p>
+  <a class="open-bingo-button" href="https://bin.gocon.jp/">「ビンGo」を開く</a>
 </div>
 
 <div class="remo remo-description remo-track-a">
