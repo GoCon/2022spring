@@ -10,7 +10,7 @@ socials:
   link: https://twitter.com/zetta1985
   name: zetta1985
 - icon: github
-  link: https:/github.com/thara
+  link: https://github.com/thara
   name: thara
 - icon: link
   link: https://thara.dev

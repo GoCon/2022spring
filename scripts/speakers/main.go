@@ -70,7 +70,7 @@ func createSpeaker(ss []*Speaker) {
 		if s.GitHub != "" {
 			s.Socials = append(s.Socials, Social{
 				Icon: "github",
-				Link: fmt.Sprintf("https:/github.com/%s", s.GitHub),
+				Link: fmt.Sprintf("https://github.com/%s", s.GitHub),
 				Name: s.GitHub,
 			})
 		}
