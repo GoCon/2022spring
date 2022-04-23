@@ -17,8 +17,6 @@
       talk: a4-s
     - slot: a-lunch
       talk: lunch
-    - slot: b-lunch
-      talk: lunch
     - slot: a5-c
       talk: a5-c
     - slot: a6-c
@@ -73,6 +71,8 @@
       talk: b3-l
     - slot: b4-s
       talk: b4-s
+    - slot: b-lunch
+      talk: lunch
     - slot: b-break-2
       talk: break
     - slot: b7-l
