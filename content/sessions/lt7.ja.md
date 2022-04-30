@@ -11,7 +11,7 @@ speakers:
 - convto
 partner: null
 videoId: null
-presentation: null
+presentation: https://speakerdeck.com/convto/how-to-follow-go-runtime-function
 draft: false
 ---
 ある程度 Go での開発経験をつむと、 goroutine や channel の動作原理を知るために Go の runtime パッケージのソースを読みたいことがあると思います。

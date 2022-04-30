@@ -108,6 +108,9 @@ other = "Green"
 [partner_sessions]
 other = "Partner Sessions"
 
+[slides]
+other = "See the slides"
+
 ############
 # Speakers #
 ############

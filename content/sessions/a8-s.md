@@ -11,7 +11,7 @@ speakers:
 - sivchari
 partner: null
 videoId: null
-presentation: null
+presentation: https://docs.google.com/presentation/d/11jdcnZUm8pYfv6RijlvWEz8ZgK2tMfloIJyLAo-cMnI/edit#slide=id.p
 draft: false
 ---
 私たちはdatabase/sqlと好きなdatabaseのdriverをimportすることで、とても簡単にGoとdatabaseの通信をすることができるようになります。

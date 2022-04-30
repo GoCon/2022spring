@@ -11,7 +11,7 @@ speakers:
 - yyoshiki41
 partner: null
 videoId: null
-presentation: null
+presentation: https://go-talks.appspot.com/github.com/yyoshiki41/Go-Conference-2022-Spring/main.slide#1
 draft: false
 ---
 HTTP APIクライアントの実践的な実装方法を紹介します。

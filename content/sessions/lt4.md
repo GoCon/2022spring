@@ -11,7 +11,7 @@ speakers:
 - 8kka
 partner: null
 videoId: null
-presentation: null
+presentation: https://speakerdeck.com/qualiarts/da-gui-mo-gemukai-fa-niokerucontexthuo-yong-patan
 draft: false
 ---
 GoのContextではリクエストスコープの値を伝播する事ができます。

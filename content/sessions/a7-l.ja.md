@@ -11,7 +11,7 @@ speakers:
 - hikyaru_suzuki
 partner: null
 videoId: null
-presentation: null
+presentation: https://drive.google.com/file/d/1fPwrR-oUSdc42eK61Em-UzW-aprhf5zH/view
 draft: false
 ---
 Go言語には総称型が実装されていないためコードを自動生成して賄うことが多いです。

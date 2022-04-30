@@ -111,6 +111,9 @@ other = "グリーン"
 [partner_sessions]
 other = "スポンサーセッション"
 
+[slides]
+other = "スライドを見る"
+
 ############
 # Speakers #
 ############

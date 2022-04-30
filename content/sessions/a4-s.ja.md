@@ -11,7 +11,7 @@ speakers:
 - uji_rb
 partner: null
 videoId: null
-presentation: null
+presentation: https://speakerdeck.com/uji/gofalsegc-garbage-collector-nituiteli-jie-suru
 draft: false
 ---
 GoのGCの仕組みや設計思想を解説します。
