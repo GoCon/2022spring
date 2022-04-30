@@ -37,7 +37,13 @@ icon="right" %}}
 {{% /home-speakers %}}
 -->
 
+<div class="ended-notice">
 
+Go Conference 2022 Spring has been ended.
+
+</div>
+
+<!--
 {{% home-tickets %}}
 
 # Registered participants
@@ -62,6 +68,7 @@ icon="right" %}}
 </ul>
 
 {{% /home-tickets %}}
+-->
 
 {{% partners categories="platinum,gold,silver,bronze" %}}
 # Partners
