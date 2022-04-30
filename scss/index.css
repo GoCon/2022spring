@@ -506,3 +506,8 @@ img.remo-banner {
     text-align: center; }
   .page.sessions .talk .detail .partners-group ul li {
     margin: 0; }
+
+/* desktop */
+@media (min-width: 1140px) {
+  body.page main {
+    margin-top: 52px; } }
