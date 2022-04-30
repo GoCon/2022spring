@@ -37,6 +37,14 @@ icon="right" %}}
 {{% /home-speakers %}}
 -->
 
+<div class="ended-notice">
+
+Go Conference 2022 Spring は終了しました。
+
+</div>
+
+
+<!--
 {{% home-tickets %}}
 
 # 参加登録済みの方
@@ -64,6 +72,7 @@ icon="right" %}}
 
 {{% /home-tickets %}}
 
+-->
 
 {{% partners categories="platinum,gold,silver,bronze" %}}
 # スポンサー
