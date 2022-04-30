@@ -11,7 +11,7 @@ speakers:
 - awakot_56
 partner: null
 videoId: null
-presentation: null
+presentation: https://speakerdeck.com/waytkheming/gotokuberneteswoyong-itabatutikai-fa-falsesusume
 draft: false
 ---
 私の所属する会社では、多くのGoを採用する企業も同じように、APIなどのアプリケーションはほぼ全てGo言語で書かれており、Kubernetes上で管理されています。 

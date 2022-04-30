@@ -11,7 +11,7 @@ speakers:
 - glassmonekey
 partner: null
 videoId: null
-presentation: null
+presentation: https://speakerdeck.com/nagano/pythonzhi-falsexing-ming-fen-ge-raiburariwogoniyi-zhi-sitahua
 draft: false
 ---
 一般的にわかち書きでは無い日本語で姓名から「姓＋名」の分割を行うことは困難です。

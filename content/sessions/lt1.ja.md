@@ -11,7 +11,7 @@ speakers:
 - yuji_shimada
 partner: null
 videoId: null
-presentation: null
+presentation: https://speakerdeck.com/qualiarts/gofalsebiao-zhun-ji-neng-dejian-yi-sisutemuwodi-kosutodezuo-cheng-surutekunituku
 draft: false
 ---
 Goによるゲーム開発のプロジェクトにて、Go標準の機能を複数活用し、実装コストの低いデバッグツール開発基盤を作成しました。

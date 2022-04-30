@@ -11,7 +11,7 @@ speakers:
 - __syumai
 partner: null
 videoId: null
-presentation: null
+presentation: https://speakerdeck.com/syumai/goyan-yu-shi-yang-lun-du-hui-falsekai-cui-wotong-zitazhen-rifan-ri
 draft: false
 ---
 Go Language Specification輪読会と言う、Goの言語仕様を読む勉強会を1年半に渡って開催し、2021年12月についに仕様の最後まで読み終えることが出来ました。

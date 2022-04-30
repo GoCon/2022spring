@@ -11,7 +11,7 @@ speakers:
 - thara
 partner: cluster
 videoId: null
-presentation: null
+presentation: https://speakerdeck.com/clusterinc/gocon-2022-spring-sponsor-session
 draft: false
 ---
 「メタバース」を実現するためには主にオンラインゲームで培われた3D空間のリアルタイム同期技術だけでなく、アバターやワールドなどのUGC、そしてワールドの中から別のワールドを創るといったメタバースならではの要件があります。

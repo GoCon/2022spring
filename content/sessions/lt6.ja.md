@@ -11,7 +11,7 @@ speakers:
 - yebis0942
 partner: null
 videoId: null
-presentation: null
+presentation: https://docs.google.com/presentation/d/1tnYI2lJi0YO0GNGeYhM6xru5jUVOwXOeNAvuvWvoD_8/edit?usp=sharing
 draft: false
 ---
 Go言語コミュニティには複数のGoogle Chromeの自動化ライブラリが存在しており、いずれも活発に開発が進められてきました。
