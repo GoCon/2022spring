@@ -37,11 +37,19 @@ icon="right" %}}
 {{% /home-speakers %}}
 -->
 
-<div class="ended-notice">
+<section class="ended-notice">
 
 Go Conference 2022 Spring has been ended.
 
-</div>
+</section>
+
+<section class="next-conference">
+
+# Next Conference
+
+<a href="https://gocon.connpass.com/event/248757/">Go Conference 2023 Online</a>
+
+</section>
 
 <!--
 {{% home-tickets %}}
