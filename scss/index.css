@@ -333,8 +333,11 @@ h1, h2 {
 
 .ended-notice {
   text-align: center;
-  font-size: 24px;
-  margin-top: 48px; }
+  font-size: 24px; }
+
+.next-conference {
+  text-align: center;
+  font-size: 24px; }
 
 .cherry-blossom-container {
   position: relative;
