@@ -10,7 +10,7 @@ tags:
 speakers:
 - yuji_shimada
 partner: null
-videoId: null
+videoId: GZCr-Dbi0YM?start=28082
 presentation: https://speakerdeck.com/qualiarts/gofalsebiao-zhun-ji-neng-dejian-yi-sisutemuwodi-kosutodezuo-cheng-surutekunituku
 draft: false
 ---

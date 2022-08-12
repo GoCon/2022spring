@@ -10,7 +10,7 @@ tags:
 speakers:
 - jespinog
 partner: null
-videoId: null
+videoId: GZCr-Dbi0YM?start=3806
 presentation: null
 draft: false
 ---

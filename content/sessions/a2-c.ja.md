@@ -10,7 +10,7 @@ tags:
 speakers:
 - yosuke_moriya
 partner: yappli
-videoId: null
+videoId: GZCr-Dbi0YM?start=1988
 presentation: null
 draft: false
 ---

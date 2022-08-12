@@ -10,7 +10,7 @@ tags:
 speakers:
 - convto
 partner: null
-videoId: null
+videoId: GZCr-Dbi0YM?start=30164
 presentation: https://speakerdeck.com/convto/how-to-follow-go-runtime-function
 draft: false
 ---

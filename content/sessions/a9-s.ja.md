@@ -10,7 +10,7 @@ tags:
 speakers:
 - yyoshiki41
 partner: null
-videoId: null
+videoId: GZCr-Dbi0YM?start=19366
 presentation: https://go-talks.appspot.com/github.com/yyoshiki41/Go-Conference-2022-Spring/main.slide#1
 draft: false
 ---

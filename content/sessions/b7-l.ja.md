@@ -10,7 +10,7 @@ tags:
 speakers:
 - ryushi
 partner: null
-videoId: null
+videoId: mknMioJ1hMk?start=11094
 presentation: https://drive.google.com/file/d/1lsF7q74o0Akewk-5rUb9Jt9nA2MqpDDw/view
 draft: false
 ---

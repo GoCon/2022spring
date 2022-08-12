@@ -10,7 +10,7 @@ tags:
 speakers:
 - kazuhisa_takei
 partner: null
-videoId: null
+videoId: mknMioJ1hMk?start=2628
 presentation: https://docs.google.com/presentation/d/1ShLO-hWIiRVGm8ZMzUOlHFuUkWMciIjvA3h3fjfEwKo/preview#slide=id.p
 draft: false
 ---

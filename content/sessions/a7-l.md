@@ -10,7 +10,7 @@ tags:
 speakers:
 - hikyaru_suzuki
 partner: null
-videoId: null
+videoId: GZCr-Dbi0YM?start=14590
 presentation: https://drive.google.com/file/d/1fPwrR-oUSdc42eK61Em-UzW-aprhf5zH/view
 draft: false
 ---

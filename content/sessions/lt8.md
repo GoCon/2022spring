@@ -10,7 +10,7 @@ tags:
 speakers:
 - __syumai
 partner: null
-videoId: null
+videoId: GZCr-Dbi0YM?start=30474
 presentation: https://speakerdeck.com/syumai/goyan-yu-shi-yang-lun-du-hui-falsekai-cui-wotong-zitazhen-rifan-ri
 draft: false
 ---

@@ -10,7 +10,7 @@ tags:
 speakers:
 - riita10069
 partner: null
-videoId: null
+videoId: mknMioJ1hMk?start=13414
 presentation: null
 draft: false
 ---

@@ -10,7 +10,7 @@ tags:
 speakers:
 - yoheimuta
 partner: null
-videoId: null
+videoId: mknMioJ1hMk?start=310
 presentation: https://speakerdeck.com/yoheimuta/lexer-in-go-from-scratch
 draft: false
 ---
