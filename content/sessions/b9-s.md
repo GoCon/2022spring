@@ -10,7 +10,7 @@ tags:
 speakers:
 - lestrrat
 partner: null
-videoId: null
+videoId: mknMioJ1hMk?start=15894
 presentation: null
 draft: false
 ---

@@ -10,7 +10,7 @@ tags:
 speakers:
 - norinoriki0
 partner: bitkey
-videoId: null
+videoId: GZCr-Dbi0YM?start=814
 presentation: null
 draft: false
 ---

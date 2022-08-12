@@ -10,7 +10,7 @@ tags:
 speakers:
 - glassmonekey
 partner: null
-videoId: null
+videoId: GZCr-Dbi0YM?start=28535
 presentation: https://speakerdeck.com/nagano/pythonzhi-falsexing-ming-fen-ge-raiburariwogoniyi-zhi-sitahua
 draft: false
 ---

@@ -10,7 +10,7 @@ tags:
 speakers:
 - yebis0942
 partner: null
-videoId: null
+videoId: GZCr-Dbi0YM?start=29829
 presentation: https://docs.google.com/presentation/d/1tnYI2lJi0YO0GNGeYhM6xru5jUVOwXOeNAvuvWvoD_8/edit?usp=sharing
 draft: false
 ---

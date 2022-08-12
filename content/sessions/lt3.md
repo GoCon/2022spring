@@ -10,7 +10,7 @@ tags:
 speakers:
 - _pongzu
 partner: null
-videoId: null
+videoId: GZCr-Dbi0YM?start=28817
 presentation: https://speakerdeck.com/pongzu/wai-bu-komandofalseshi-xing-wohan-muguan-shu-falsetesuto
 draft: false
 ---

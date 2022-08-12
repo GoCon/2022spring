@@ -10,7 +10,7 @@ tags:
 speakers:
 - uji_rb
 partner: null
-videoId: null
+videoId: GZCr-Dbi0YM?start=6217
 presentation: https://speakerdeck.com/uji/gofalsegc-garbage-collector-nituiteli-jie-suru
 draft: false
 ---

@@ -10,7 +10,7 @@ tags:
 speakers:
 - sivchari
 partner: null
-videoId: null
+videoId: GZCr-Dbi0YM?start=17023
 presentation: https://docs.google.com/presentation/d/11jdcnZUm8pYfv6RijlvWEz8ZgK2tMfloIJyLAo-cMnI/edit#slide=id.p
 draft: false
 ---

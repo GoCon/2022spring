@@ -10,7 +10,7 @@ tags:
 speakers:
 - hideyuki_utsunomiya
 partner: v-standard
-videoId: null
+videoId: GZCr-Dbi0YM?start=11581
 presentation: null
 draft: false
 ---

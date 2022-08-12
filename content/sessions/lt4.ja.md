@@ -10,7 +10,7 @@ tags:
 speakers:
 - 8kka
 partner: null
-videoId: null
+videoId: GZCr-Dbi0YM?start=29146
 presentation: https://speakerdeck.com/qualiarts/da-gui-mo-gemukai-fa-niokerucontexthuo-yong-patan
 draft: false
 ---

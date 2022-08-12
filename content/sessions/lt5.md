@@ -10,7 +10,7 @@ tags:
 speakers:
 - awakot_56
 partner: null
-videoId: null
+videoId: GZCr-Dbi0YM?start=29518
 presentation: https://speakerdeck.com/waytkheming/gotokuberneteswoyong-itabatutikai-fa-falsesusume
 draft: false
 ---

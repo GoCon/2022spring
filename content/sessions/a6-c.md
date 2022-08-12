@@ -10,7 +10,7 @@ tags:
 speakers:
 - thara
 partner: cluster
-videoId: null
+videoId: GZCr-Dbi0YM?start=12823
 presentation: https://speakerdeck.com/clusterinc/gocon-2022-spring-sponsor-session
 draft: false
 ---
